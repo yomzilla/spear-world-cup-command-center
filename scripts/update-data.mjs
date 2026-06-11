@@ -103,7 +103,17 @@ if (topScorer && manual.goldenBoot == null) {
   if (idx >= 0) manual.goldenBoot = idx;
 }
 
-const state = { generatedAt: new Date().toISOString(), live, source, results, manual, fixtures, groups, topScorer };
+const payload = { live, source, results, manual, fixtures, groups, topScorer };
+// Only bump generatedAt when the substantive data actually changed — avoids a
+// commit (and Pages rebuild) every 15 minutes when nothing has happened.
+let generatedAt = new Date().toISOString();
+try {
+  const prev = JSON.parse(fs.readFileSync("data/state.json", "utf8"));
+  const { generatedAt: _g, ...prevRest } = prev;
+  if (JSON.stringify(prevRest) === JSON.stringify(payload)) generatedAt = prev.generatedAt;
+} catch (e) { /* no previous file */ }
+
+const state = { generatedAt, ...payload };
 fs.mkdirSync("data", { recursive: true });
 fs.writeFileSync("data/state.json", JSON.stringify(state, null, 2) + "\n");
 console.log(`Wrote data/state.json — live=${live}, source=${source}, fixtures=${fixtures.length}, groups=${groups.length}`);
