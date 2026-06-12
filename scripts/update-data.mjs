@@ -44,6 +44,13 @@ const results = Object.fromEntries(NAMES.map((n) => [n, blank()]));
 
 let live = false, source = "scaffold";
 let fixtures = [], groups = [], topScorer = null;
+let cardCache = {};   // matchId -> { h:{y,r}, a:{y,r}, home, away }
+const matchMeta = []; // { id, home, away, status, hs, as }
+
+// load previous card cache so finished matches aren't re-fetched every run
+try { cardCache = JSON.parse(fs.readFileSync("data/state.json", "utf8")).cardCache || {}; } catch (e) {}
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function api(path) {
   const r = await fetch(`https://api.football-data.org/v4/${path}`, {
@@ -59,6 +66,7 @@ if (TOKEN) {
     for (const m of data.matches || []) {
       const home = canon(m.homeTeam?.name), away = canon(m.awayTeam?.name);
       const hs = m.score?.fullTime?.home, as = m.score?.fullTime?.away;
+      matchMeta.push({ id: m.id, home, away, status: m.status, hs, as });
       fixtures.push({
         utcDate: m.utcDate, home, away, status: m.status,
         hs: hs ?? null, as: as ?? null, stage: m.stage || null, group: m.group || null,
@@ -87,6 +95,33 @@ if (TOKEN) {
       const top = (sc.scorers || [])[0];
       if (top) topScorer = { name: top.player?.name, team: canon(top.team?.name), goals: top.goals };
     } catch (e) { console.error("scorers:", e.message); }
+
+    // --- Cards (yellow/red) via per-match detail, cached + throttled ---
+    // Fetch details only for in-play matches and finished matches we haven't
+    // cached yet, capped per run to respect the free-tier rate limit (10/min).
+    const MAX_DETAIL = 8;
+    const needsFetch = matchMeta.filter(
+      (m) => m.status === "IN_PLAY" || m.status === "PAUSED" || (m.status === "FINISHED" && !cardCache[m.id])
+    ).slice(0, MAX_DETAIL);
+    for (const m of needsFetch) {
+      try {
+        const d = await api(`matches/${m.id}`);
+        const agg = { h: { y: 0, r: 0 }, a: { y: 0, r: 0 }, home: m.home, away: m.away };
+        for (const bk of d.bookings || []) {
+          const side = canon(bk.team?.name) === m.home ? agg.h : canon(bk.team?.name) === m.away ? agg.a : null;
+          if (!side) continue;
+          if (bk.card === "YELLOW") side.y++;
+          else if (bk.card === "RED" || bk.card === "YELLOW_RED") side.r++;
+        }
+        cardCache[m.id] = agg;
+      } catch (e) { console.error("match", m.id, e.message); }
+      await sleep(6500);
+    }
+    // Apply cached cards to team totals.
+    for (const c of Object.values(cardCache)) {
+      if (results[c.home]) { results[c.home].yc += c.h.y; results[c.home].rc += c.h.r; }
+      if (results[c.away]) { results[c.away].yc += c.a.y; results[c.away].rc += c.a.r; }
+    }
   } catch (e) {
     console.error("API unavailable, writing scaffold:", e.message);
   }
@@ -104,7 +139,23 @@ if (topScorer && manual.goldenBoot == null) {
   if (idx >= 0) manual.goldenBoot = idx;
 }
 
-const payload = { live, source, results, manual, fixtures, groups, topScorer };
+// Auto-fill Biggest Loss: losing team in the finished match with the largest
+// goal gap (tie broken by most goals conceded), unless the admin pinned it.
+if (manual.biggestLoss == null) {
+  let loser = null, bestGap = 0, bestConceded = -1;
+  for (const m of matchMeta) {
+    if (m.status !== "FINISHED" || m.hs == null || m.as == null || m.hs === m.as) continue;
+    const gap = Math.abs(m.hs - m.as);
+    const conceded = Math.max(m.hs, m.as);
+    if (gap > bestGap || (gap === bestGap && conceded > bestConceded)) {
+      bestGap = gap; bestConceded = conceded;
+      loser = m.hs < m.as ? m.home : m.away;
+    }
+  }
+  if (loser) { const idx = NAMES.indexOf(loser); if (idx >= 0) manual.biggestLoss = idx; }
+}
+
+const payload = { live, source, results, manual, fixtures, groups, topScorer, cardCache };
 // Only bump generatedAt when the substantive data actually changed — avoids a
 // commit (and Pages rebuild) every 15 minutes when nothing has happened.
 let generatedAt = new Date().toISOString();
