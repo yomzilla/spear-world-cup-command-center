@@ -62,6 +62,7 @@ if (TOKEN) {
       fixtures.push({
         utcDate: m.utcDate, home, away, status: m.status,
         hs: hs ?? null, as: as ?? null, stage: m.stage || null, group: m.group || null,
+        venue: m.venue || null,
       });
       if (m.status === "FINISHED" && results[home] && results[away] && hs != null && as != null) {
         results[home].gf += hs; results[home].ga += as;
