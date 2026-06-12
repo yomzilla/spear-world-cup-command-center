@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T06:19:27.442Z",
+  "generatedAt": "2026-06-12T15:34:44.016Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -437,7 +437,7 @@
     }
   },
   "manual": {
-    "biggestLoss": null,
+    "biggestLoss": 39,
     "goldenBoot": 27,
     "fastestGoal": null,
     "furthestGoal": null
@@ -557,7 +557,7 @@
       "utcDate": "2026-06-14T23:00:00Z",
       "home": "Côte d'Ivoire",
       "away": "Ecuador",
-      "status": "TIMED",
+      "status": "SCHEDULED",
       "hs": null,
       "as": null,
       "stage": "GROUP_STAGE",
@@ -1942,5 +1942,31 @@
     "name": "Julián Quiñones",
     "team": "Mexico",
     "goals": 1
+  },
+  "cardCache": {
+    "537327": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Mexico",
+      "away": "South Africa"
+    },
+    "537328": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Korea Republic",
+      "away": "Czechia"
+    }
   }
 }
