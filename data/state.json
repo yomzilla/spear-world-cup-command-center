@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T01:08:32.140Z",
+  "generatedAt": "2026-06-12T06:19:27.442Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -132,9 +132,9 @@
     "Czechia": {
       "w": 0,
       "d": 0,
-      "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 2,
       "yc": 0,
       "rc": 0
     },
@@ -238,11 +238,11 @@
       "rc": 0
     },
     "Korea Republic": {
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 2,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -458,9 +458,9 @@
       "utcDate": "2026-06-12T02:00:00Z",
       "home": "Korea Republic",
       "away": "Czechia",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 2,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
       "venue": null
@@ -1600,14 +1600,14 @@
         },
         {
           "team": "Korea Republic",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
+          "p": 1,
+          "gd": 1,
+          "pts": 3
         },
         {
           "team": "Czechia",
-          "p": 0,
-          "gd": 0,
+          "p": 1,
+          "gd": -1,
           "pts": 0
         },
         {
