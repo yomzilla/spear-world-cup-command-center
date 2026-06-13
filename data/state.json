@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T08:17:57.983Z",
+  "generatedAt": "2026-06-13T20:19:15.318Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -50,10 +50,10 @@
     },
     "Bosnia and Herzegovina": {
       "w": 0,
-      "d": 1,
+      "d": 0,
       "l": 0,
-      "gf": 1,
-      "ga": 1,
+      "gf": 0,
+      "ga": 0,
       "yc": 0,
       "rc": 0
     },
@@ -77,10 +77,10 @@
     },
     "Canada": {
       "w": 0,
-      "d": 1,
+      "d": 0,
       "l": 0,
-      "gf": 1,
-      "ga": 1,
+      "gf": 0,
+      "ga": 0,
       "yc": 0,
       "rc": 0
     },
@@ -470,8 +470,8 @@
       "home": "Canada",
       "away": "Bosnia and Herzegovina",
       "status": "FINISHED",
-      "hs": 1,
-      "as": 1,
+      "hs": null,
+      "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "venue": null
@@ -491,9 +491,9 @@
       "utcDate": "2026-06-13T19:00:00Z",
       "home": "Qatar",
       "away": "Switzerland",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "venue": null
@@ -1622,6 +1622,12 @@
       "name": "Group B",
       "rows": [
         {
+          "team": "Switzerland",
+          "p": 1,
+          "gd": 1,
+          "pts": 3
+        },
+        {
           "team": "Bosnia and Herzegovina",
           "p": 1,
           "gd": 0,
@@ -1635,14 +1641,8 @@
         },
         {
           "team": "Qatar",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "team": "Switzerland",
-          "p": 0,
-          "gd": 0,
+          "p": 1,
+          "gd": -1,
           "pts": 0
         }
       ]
@@ -1979,6 +1979,18 @@
       },
       "home": "Canada",
       "away": "Bosnia and Herzegovina"
+    },
+    "537334": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Qatar",
+      "away": "Switzerland"
     },
     "537345": {
       "h": {
