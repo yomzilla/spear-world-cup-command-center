@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T04:53:27.509Z",
+  "generatedAt": "2026-06-13T08:17:57.983Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -557,7 +557,7 @@
       "utcDate": "2026-06-14T23:00:00Z",
       "home": "Côte d'Ivoire",
       "away": "Ecuador",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "hs": null,
       "as": null,
       "stage": "GROUP_STAGE",
