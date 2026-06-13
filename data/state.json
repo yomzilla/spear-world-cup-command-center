@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T20:19:15.318Z",
+  "generatedAt": "2026-06-13T21:41:50.944Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -50,10 +50,10 @@
     },
     "Bosnia and Herzegovina": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -77,10 +77,10 @@
     },
     "Canada": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -320,10 +320,10 @@
     },
     "Qatar": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -383,10 +383,10 @@
     },
     "Switzerland": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -470,8 +470,8 @@
       "home": "Canada",
       "away": "Bosnia and Herzegovina",
       "status": "FINISHED",
-      "hs": null,
-      "as": null,
+      "hs": 1,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "venue": null
@@ -491,8 +491,8 @@
       "utcDate": "2026-06-13T19:00:00Z",
       "home": "Qatar",
       "away": "Switzerland",
-      "status": "IN_PLAY",
-      "hs": 0,
+      "status": "FINISHED",
+      "hs": 1,
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
@@ -1622,12 +1622,6 @@
       "name": "Group B",
       "rows": [
         {
-          "team": "Switzerland",
-          "p": 1,
-          "gd": 1,
-          "pts": 3
-        },
-        {
           "team": "Bosnia and Herzegovina",
           "p": 1,
           "gd": 0,
@@ -1642,8 +1636,14 @@
         {
           "team": "Qatar",
           "p": 1,
-          "gd": -1,
-          "pts": 0
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "team": "Switzerland",
+          "p": 1,
+          "gd": 0,
+          "pts": 1
         }
       ]
     },
