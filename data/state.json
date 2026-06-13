@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T21:17:24.378Z",
+  "generatedAt": "2026-06-13T04:53:27.509Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -303,9 +303,9 @@
     "Paraguay": {
       "w": 0,
       "d": 0,
-      "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 4,
       "yc": 0,
       "rc": 0
     },
@@ -409,11 +409,11 @@
       "rc": 0
     },
     "United States": {
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 4,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -437,8 +437,8 @@
     }
   },
   "manual": {
-    "biggestLoss": 39,
-    "goldenBoot": 27,
+    "biggestLoss": 33,
+    "goldenBoot": 45,
     "fastestGoal": null,
     "furthestGoal": null
   },
@@ -480,9 +480,9 @@
       "utcDate": "2026-06-13T01:00:00Z",
       "home": "United States",
       "away": "Paraguay",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 4,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
       "venue": null
@@ -557,7 +557,7 @@
       "utcDate": "2026-06-14T23:00:00Z",
       "home": "Côte d'Ivoire",
       "away": "Ecuador",
-      "status": "TIMED",
+      "status": "SCHEDULED",
       "hs": null,
       "as": null,
       "stage": "GROUP_STAGE",
@@ -1680,13 +1680,13 @@
       "name": "Group D",
       "rows": [
         {
-          "team": "Australia",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
+          "team": "United States",
+          "p": 1,
+          "gd": 3,
+          "pts": 3
         },
         {
-          "team": "Paraguay",
+          "team": "Australia",
           "p": 0,
           "gd": 0,
           "pts": 0
@@ -1698,9 +1698,9 @@
           "pts": 0
         },
         {
-          "team": "United States",
-          "p": 0,
-          "gd": 0,
+          "team": "Paraguay",
+          "p": 1,
+          "gd": -3,
           "pts": 0
         }
       ]
@@ -1939,9 +1939,9 @@
     }
   ],
   "topScorer": {
-    "name": "Julián Quiñones",
-    "team": "Mexico",
-    "goals": 1
+    "name": "Folarin Balogun",
+    "team": "United States",
+    "goals": 2
   },
   "cardCache": {
     "537327": {
@@ -1979,6 +1979,18 @@
       },
       "home": "Canada",
       "away": "Bosnia and Herzegovina"
+    },
+    "537345": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "United States",
+      "away": "Paraguay"
     }
   }
 }
