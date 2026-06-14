@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T23:52:37.801Z",
+  "generatedAt": "2026-06-14T02:42:34.741Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -50,19 +50,19 @@
     },
     "Bosnia and Herzegovina": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
     "Brazil": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -77,10 +77,10 @@
     },
     "Canada": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -257,10 +257,10 @@
     },
     "Morocco": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -470,8 +470,8 @@
       "home": "Canada",
       "away": "Bosnia and Herzegovina",
       "status": "FINISHED",
-      "hs": null,
-      "as": null,
+      "hs": 1,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "venue": null
@@ -502,7 +502,7 @@
       "utcDate": "2026-06-13T22:00:00Z",
       "home": "Brazil",
       "away": "Morocco",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 1,
       "as": 1,
       "stage": "GROUP_STAGE",
@@ -513,9 +513,9 @@
       "utcDate": "2026-06-14T01:00:00Z",
       "home": "Haiti",
       "away": "Scotland",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
       "venue": null
@@ -1651,6 +1651,12 @@
       "name": "Group C",
       "rows": [
         {
+          "team": "Scotland",
+          "p": 1,
+          "gd": 1,
+          "pts": 3
+        },
+        {
           "team": "Brazil",
           "p": 1,
           "gd": 0,
@@ -1664,14 +1670,8 @@
         },
         {
           "team": "Haiti",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "team": "Scotland",
-          "p": 0,
-          "gd": 0,
+          "p": 1,
+          "gd": -1,
           "pts": 0
         }
       ]
@@ -2003,6 +2003,18 @@
       },
       "home": "Brazil",
       "away": "Morocco"
+    },
+    "537340": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Haiti",
+      "away": "Scotland"
     },
     "537345": {
       "h": {
