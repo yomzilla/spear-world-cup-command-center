@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T20:24:10.305Z",
+  "generatedAt": "2026-06-14T21:50:19.159Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -547,8 +547,8 @@
       "home": "Netherlands",
       "away": "Japan",
       "status": "IN_PLAY",
-      "hs": 0,
-      "as": 0,
+      "hs": 2,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
       "venue": null
@@ -1738,16 +1738,10 @@
       "name": "Group F",
       "rows": [
         {
-          "team": "Japan",
-          "p": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
           "team": "Netherlands",
           "p": 1,
-          "gd": 0,
-          "pts": 1
+          "gd": 1,
+          "pts": 3
         },
         {
           "team": "Sweden",
@@ -1759,6 +1753,12 @@
           "team": "Tunisia",
           "p": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "team": "Japan",
+          "p": 1,
+          "gd": -1,
           "pts": 0
         }
       ]
