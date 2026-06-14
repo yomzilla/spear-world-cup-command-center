@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T17:49:59.723Z",
+  "generatedAt": "2026-06-14T19:01:56.906Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -536,7 +536,7 @@
       "home": "Germany",
       "away": "Curaçao",
       "status": "IN_PLAY",
-      "hs": 2,
+      "hs": 7,
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
@@ -1709,16 +1709,10 @@
       "name": "Group E",
       "rows": [
         {
-          "team": "Curaçao",
-          "p": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
           "team": "Germany",
           "p": 1,
-          "gd": 0,
-          "pts": 1
+          "gd": 6,
+          "pts": 3
         },
         {
           "team": "Ecuador",
@@ -1730,6 +1724,12 @@
           "team": "Côte d'Ivoire",
           "p": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "team": "Curaçao",
+          "p": 1,
+          "gd": -6,
           "pts": 0
         }
       ]
