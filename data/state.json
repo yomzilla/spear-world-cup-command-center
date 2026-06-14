@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T19:01:56.906Z",
+  "generatedAt": "2026-06-14T20:24:10.305Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -123,9 +123,9 @@
     "Curaçao": {
       "w": 0,
       "d": 0,
-      "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 7,
       "yc": 0,
       "rc": 0
     },
@@ -175,11 +175,11 @@
       "rc": 0
     },
     "Germany": {
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 7,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -437,7 +437,7 @@
     }
   },
   "manual": {
-    "biggestLoss": 33,
+    "biggestLoss": 13,
     "goldenBoot": 45,
     "fastestGoal": null,
     "furthestGoal": null
@@ -535,7 +535,7 @@
       "utcDate": "2026-06-14T17:00:00Z",
       "home": "Germany",
       "away": "Curaçao",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 7,
       "as": 1,
       "stage": "GROUP_STAGE",
@@ -546,9 +546,9 @@
       "utcDate": "2026-06-14T20:00:00Z",
       "home": "Netherlands",
       "away": "Japan",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
       "venue": null
@@ -1739,15 +1739,15 @@
       "rows": [
         {
           "team": "Japan",
-          "p": 0,
+          "p": 1,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "team": "Netherlands",
-          "p": 0,
+          "p": 1,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "team": "Sweden",
@@ -2051,6 +2051,18 @@
       },
       "home": "Germany",
       "away": "Curaçao"
+    },
+    "537357": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Netherlands",
+      "away": "Japan"
     }
   }
 }
