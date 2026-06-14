@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T07:09:45.964Z",
+  "generatedAt": "2026-06-14T10:32:06.534Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1622,7 +1622,7 @@
       "name": "Group B",
       "rows": [
         {
-          "team": "Bosnia and Herzegovina",
+          "team": "Switzerland",
           "p": 1,
           "gd": 0,
           "pts": 1
@@ -1640,7 +1640,7 @@
           "pts": 1
         },
         {
-          "team": "Switzerland",
+          "team": "Bosnia and Herzegovina",
           "p": 1,
           "gd": 0,
           "pts": 1
@@ -1657,13 +1657,13 @@
           "pts": 3
         },
         {
-          "team": "Brazil",
+          "team": "Morocco",
           "p": 1,
           "gd": 0,
           "pts": 1
         },
         {
-          "team": "Morocco",
+          "team": "Brazil",
           "p": 1,
           "gd": 0,
           "pts": 1
