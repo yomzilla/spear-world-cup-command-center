@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T14:42:15.117Z",
+  "generatedAt": "2026-06-14T17:49:59.723Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -535,9 +535,9 @@
       "utcDate": "2026-06-14T17:00:00Z",
       "home": "Germany",
       "away": "Curaçao",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 2,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
       "venue": null
@@ -557,7 +557,7 @@
       "utcDate": "2026-06-14T23:00:00Z",
       "home": "Côte d'Ivoire",
       "away": "Ecuador",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "hs": null,
       "as": null,
       "stage": "GROUP_STAGE",
@@ -1710,15 +1710,15 @@
       "rows": [
         {
           "team": "Curaçao",
-          "p": 0,
+          "p": 1,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "team": "Germany",
-          "p": 0,
+          "p": 1,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "team": "Ecuador",
@@ -2039,6 +2039,18 @@
       },
       "home": "Australia",
       "away": "Türkiye"
+    },
+    "537351": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Germany",
+      "away": "Curaçao"
     }
   }
 }
