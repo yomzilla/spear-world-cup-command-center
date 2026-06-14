@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T02:42:34.741Z",
+  "generatedAt": "2026-06-14T07:09:45.964Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -22,10 +22,10 @@
       "rc": 0
     },
     "Australia": {
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 0,
+      "gf": 2,
       "ga": 0,
       "yc": 0,
       "rc": 0
@@ -195,9 +195,9 @@
     "Haiti": {
       "w": 0,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "gf": 0,
-      "ga": 0,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -337,10 +337,10 @@
       "rc": 0
     },
     "Scotland": {
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 0,
+      "gf": 1,
       "ga": 0,
       "yc": 0,
       "rc": 0
@@ -402,9 +402,9 @@
     "Türkiye": {
       "w": 0,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "gf": 0,
-      "ga": 0,
+      "ga": 2,
       "yc": 0,
       "rc": 0
     },
@@ -513,7 +513,7 @@
       "utcDate": "2026-06-14T01:00:00Z",
       "home": "Haiti",
       "away": "Scotland",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 0,
       "as": 1,
       "stage": "GROUP_STAGE",
@@ -524,9 +524,9 @@
       "utcDate": "2026-06-14T04:00:00Z",
       "home": "Australia",
       "away": "Türkiye",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 2,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
       "venue": null
@@ -1687,14 +1687,14 @@
         },
         {
           "team": "Australia",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
+          "p": 1,
+          "gd": 2,
+          "pts": 3
         },
         {
           "team": "Türkiye",
-          "p": 0,
-          "gd": 0,
+          "p": 1,
+          "gd": -2,
           "pts": 0
         },
         {
@@ -2027,6 +2027,18 @@
       },
       "home": "United States",
       "away": "Paraguay"
+    },
+    "537346": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Australia",
+      "away": "Türkiye"
     }
   }
 }
