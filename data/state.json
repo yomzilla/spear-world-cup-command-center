@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T20:04:35.710Z",
+  "generatedAt": "2026-06-15T22:26:21.197Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -41,10 +41,10 @@
     },
     "Belgium": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -149,10 +149,10 @@
     },
     "Egypt": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -590,8 +590,8 @@
       "utcDate": "2026-06-15T19:00:00Z",
       "home": "Belgium",
       "away": "Egypt",
-      "status": "PAUSED",
-      "hs": 0,
+      "status": "FINISHED",
+      "hs": 1,
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
@@ -601,9 +601,9 @@
       "utcDate": "2026-06-15T22:00:00Z",
       "home": "Saudi Arabia",
       "away": "Uruguay",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
       "venue": null
@@ -1767,10 +1767,16 @@
       "name": "Group G",
       "rows": [
         {
+          "team": "Belgium",
+          "p": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
           "team": "Egypt",
           "p": 1,
-          "gd": 1,
-          "pts": 3
+          "gd": 0,
+          "pts": 1
         },
         {
           "team": "IR Iran",
@@ -1783,12 +1789,6 @@
           "p": 0,
           "gd": 0,
           "pts": 0
-        },
-        {
-          "team": "Belgium",
-          "p": 1,
-          "gd": -1,
-          "pts": 0
         }
       ]
     },
@@ -1796,7 +1796,13 @@
       "name": "Group H",
       "rows": [
         {
-          "team": "Cape Verde Islands",
+          "team": "Saudi Arabia",
+          "p": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "team": "Uruguay",
           "p": 1,
           "gd": 0,
           "pts": 1
@@ -1808,16 +1814,10 @@
           "pts": 1
         },
         {
-          "team": "Saudi Arabia",
-          "p": 0,
+          "team": "Cape Verde Islands",
+          "p": 1,
           "gd": 0,
-          "pts": 0
-        },
-        {
-          "team": "Uruguay",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
+          "pts": 1
         }
       ]
     },
@@ -2111,6 +2111,18 @@
       },
       "home": "Spain",
       "away": "Cape Verde Islands"
+    },
+    "537370": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Saudi Arabia",
+      "away": "Uruguay"
     }
   }
 }
