@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T16:30:16.420Z",
+  "generatedAt": "2026-06-15T20:04:35.710Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -579,7 +579,7 @@
       "utcDate": "2026-06-15T16:00:00Z",
       "home": "Spain",
       "away": "Cape Verde Islands",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 0,
       "as": 0,
       "stage": "GROUP_STAGE",
@@ -590,9 +590,9 @@
       "utcDate": "2026-06-15T19:00:00Z",
       "home": "Belgium",
       "away": "Egypt",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "PAUSED",
+      "hs": 0,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
       "venue": null
@@ -1768,15 +1768,9 @@
       "rows": [
         {
           "team": "Egypt",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "team": "Belgium",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
+          "p": 1,
+          "gd": 1,
+          "pts": 3
         },
         {
           "team": "IR Iran",
@@ -1788,6 +1782,12 @@
           "team": "New Zealand",
           "p": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "team": "Belgium",
+          "p": 1,
+          "gd": -1,
           "pts": 0
         }
       ]
@@ -2087,6 +2087,18 @@
       },
       "home": "Sweden",
       "away": "Tunisia"
+    },
+    "537363": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Belgium",
+      "away": "Egypt"
     },
     "537369": {
       "h": {
