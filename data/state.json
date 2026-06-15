@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T11:32:00.285Z",
+  "generatedAt": "2026-06-15T16:30:16.420Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -579,9 +579,9 @@
       "utcDate": "2026-06-15T16:00:00Z",
       "home": "Spain",
       "away": "Cape Verde Islands",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
       "venue": null
@@ -1797,18 +1797,18 @@
       "rows": [
         {
           "team": "Cape Verde Islands",
-          "p": 0,
+          "p": 1,
           "gd": 0,
-          "pts": 0
-        },
-        {
-          "team": "Saudi Arabia",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "team": "Spain",
+          "p": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "team": "Saudi Arabia",
           "p": 0,
           "gd": 0,
           "pts": 0
@@ -2087,6 +2087,18 @@
       },
       "home": "Sweden",
       "away": "Tunisia"
+    },
+    "537369": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Spain",
+      "away": "Cape Verde Islands"
     }
   }
 }
