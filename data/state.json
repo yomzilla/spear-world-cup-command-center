@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T05:28:49.535Z",
+  "generatedAt": "2026-06-15T11:32:00.285Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -103,10 +103,10 @@
       "rc": 0
     },
     "Côte d'Ivoire": {
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 0,
+      "gf": 1,
       "ga": 0,
       "yc": 0,
       "rc": 0
@@ -141,9 +141,9 @@
     "Ecuador": {
       "w": 0,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "gf": 0,
-      "ga": 0,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -557,7 +557,7 @@
       "utcDate": "2026-06-14T23:00:00Z",
       "home": "Côte d'Ivoire",
       "away": "Ecuador",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 1,
       "as": 0,
       "stage": "GROUP_STAGE",
