@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T22:56:22.014Z",
+  "generatedAt": "2026-06-15T00:11:54.806Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -557,7 +557,7 @@
       "utcDate": "2026-06-14T23:00:00Z",
       "home": "Côte d'Ivoire",
       "away": "Ecuador",
-      "status": "TIMED",
+      "status": "SCHEDULED",
       "hs": null,
       "as": null,
       "stage": "GROUP_STAGE",
@@ -1716,15 +1716,15 @@
         },
         {
           "team": "Ecuador",
-          "p": 0,
+          "p": 1,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "team": "Côte d'Ivoire",
-          "p": 0,
+          "p": 1,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "team": "Curaçao",
