@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T22:26:21.197Z",
+  "generatedAt": "2026-06-16T00:12:03.828Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -329,10 +329,10 @@
     },
     "Saudi Arabia": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -419,10 +419,10 @@
     },
     "Uruguay": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -601,9 +601,9 @@
       "utcDate": "2026-06-15T22:00:00Z",
       "home": "Saudi Arabia",
       "away": "Uruguay",
-      "status": "IN_PLAY",
-      "hs": 0,
-      "as": 0,
+      "status": "FINISHED",
+      "hs": 1,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
       "venue": null
