@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T05:34:56.113Z",
+  "generatedAt": "2026-06-16T10:29:34.102Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1767,13 +1767,13 @@
       "name": "Group G",
       "rows": [
         {
-          "team": "IR Iran",
+          "team": "New Zealand",
           "p": 1,
           "gd": 0,
           "pts": 1
         },
         {
-          "team": "New Zealand",
+          "team": "IR Iran",
           "p": 1,
           "gd": 0,
           "pts": 1
@@ -1796,13 +1796,13 @@
       "name": "Group H",
       "rows": [
         {
-          "team": "Saudi Arabia",
+          "team": "Uruguay",
           "p": 1,
           "gd": 0,
           "pts": 1
         },
         {
-          "team": "Uruguay",
+          "team": "Saudi Arabia",
           "p": 1,
           "gd": 0,
           "pts": 1
