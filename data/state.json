@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T00:12:03.828Z",
+  "generatedAt": "2026-06-16T05:34:56.113Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -203,10 +203,10 @@
     },
     "IR Iran": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 2,
+      "ga": 2,
       "yc": 0,
       "rc": 0
     },
@@ -275,10 +275,10 @@
     },
     "New Zealand": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 2,
+      "ga": 2,
       "yc": 0,
       "rc": 0
     },
@@ -612,9 +612,9 @@
       "utcDate": "2026-06-16T01:00:00Z",
       "home": "IR Iran",
       "away": "New Zealand",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 2,
+      "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
       "venue": null
@@ -1767,6 +1767,18 @@
       "name": "Group G",
       "rows": [
         {
+          "team": "IR Iran",
+          "p": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "team": "New Zealand",
+          "p": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
           "team": "Belgium",
           "p": 1,
           "gd": 0,
@@ -1777,18 +1789,6 @@
           "p": 1,
           "gd": 0,
           "pts": 1
-        },
-        {
-          "team": "IR Iran",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "team": "New Zealand",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
         }
       ]
     },
@@ -2099,6 +2099,18 @@
       },
       "home": "Belgium",
       "away": "Egypt"
+    },
+    "537364": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "IR Iran",
+      "away": "New Zealand"
     },
     "537369": {
       "h": {
