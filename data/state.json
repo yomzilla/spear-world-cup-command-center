@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T19:04:51.174Z",
+  "generatedAt": "2026-06-16T21:46:14.998Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -166,11 +166,11 @@
       "rc": 0
     },
     "France": {
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 3,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -348,9 +348,9 @@
     "Senegal": {
       "w": 0,
       "d": 0,
-      "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 3,
       "yc": 0,
       "rc": 0
     },
@@ -623,9 +623,9 @@
       "utcDate": "2026-06-16T19:00:00Z",
       "home": "France",
       "away": "Senegal",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 3,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
       "venue": null
@@ -1827,14 +1827,8 @@
         {
           "team": "France",
           "p": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "team": "Senegal",
-          "p": 1,
-          "gd": 0,
-          "pts": 1
+          "gd": 2,
+          "pts": 3
         },
         {
           "team": "Iraq",
@@ -1846,6 +1840,12 @@
           "team": "Norway",
           "p": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "team": "Senegal",
+          "p": 1,
+          "gd": -2,
           "pts": 0
         }
       ]
@@ -2135,6 +2135,18 @@
       },
       "home": "Saudi Arabia",
       "away": "Uruguay"
+    },
+    "537391": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "France",
+      "away": "Senegal"
     }
   }
 }
