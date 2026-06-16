@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T10:29:34.102Z",
+  "generatedAt": "2026-06-16T19:04:51.174Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1826,9 +1826,15 @@
       "rows": [
         {
           "team": "France",
-          "p": 0,
+          "p": 1,
           "gd": 0,
-          "pts": 0
+          "pts": 1
+        },
+        {
+          "team": "Senegal",
+          "p": 1,
+          "gd": 0,
+          "pts": 1
         },
         {
           "team": "Iraq",
@@ -1838,12 +1844,6 @@
         },
         {
           "team": "Norway",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "team": "Senegal",
           "p": 0,
           "gd": 0,
           "pts": 0
