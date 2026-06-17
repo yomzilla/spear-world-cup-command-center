@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T21:48:30.341Z",
+  "generatedAt": "2026-06-17T23:11:34.987Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -114,9 +114,9 @@
     "Croatia": {
       "w": 0,
       "d": 0,
-      "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "l": 1,
+      "gf": 2,
+      "ga": 4,
       "yc": 0,
       "rc": 0
     },
@@ -157,11 +157,11 @@
       "rc": 0
     },
     "England": {
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 4,
+      "ga": 2,
       "yc": 0,
       "rc": 0
     },
@@ -678,8 +678,8 @@
       "utcDate": "2026-06-17T20:00:00Z",
       "home": "England",
       "away": "Croatia",
-      "status": "IN_PLAY",
-      "hs": 3,
+      "status": "FINISHED",
+      "hs": 4,
       "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
@@ -689,9 +689,9 @@
       "utcDate": "2026-06-17T23:00:00Z",
       "home": "Ghana",
       "away": "Panama",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
       "venue": null
@@ -1914,25 +1914,25 @@
         {
           "team": "England",
           "p": 1,
-          "gd": 1,
+          "gd": 2,
           "pts": 3
         },
         {
           "team": "Ghana",
-          "p": 0,
+          "p": 1,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "team": "Panama",
-          "p": 0,
+          "p": 1,
           "gd": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "team": "Croatia",
           "p": 1,
-          "gd": -1,
+          "gd": -2,
           "pts": 0
         }
       ]
@@ -2207,6 +2207,18 @@
       },
       "home": "England",
       "away": "Croatia"
+    },
+    "537410": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Ghana",
+      "away": "Panama"
     }
   }
 }
