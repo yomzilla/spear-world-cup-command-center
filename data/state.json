@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T06:52:40.867Z",
+  "generatedAt": "2026-06-17T17:37:34.018Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -667,9 +667,9 @@
       "utcDate": "2026-06-17T17:00:00Z",
       "home": "Portugal",
       "away": "Congo DR",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 1,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
       "venue": null
@@ -1883,10 +1883,10 @@
       "name": "Group K",
       "rows": [
         {
-          "team": "Congo DR",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
+          "team": "Portugal",
+          "p": 1,
+          "gd": 1,
+          "pts": 3
         },
         {
           "team": "Colombia",
@@ -1895,15 +1895,15 @@
           "pts": 0
         },
         {
-          "team": "Portugal",
+          "team": "Uzbekistan",
           "p": 0,
           "gd": 0,
           "pts": 0
         },
         {
-          "team": "Uzbekistan",
-          "p": 0,
-          "gd": 0,
+          "team": "Congo DR",
+          "p": 1,
+          "gd": -1,
           "pts": 0
         }
       ]
@@ -2183,6 +2183,18 @@
       },
       "home": "Austria",
       "away": "Jordan"
+    },
+    "537403": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Portugal",
+      "away": "Congo DR"
     }
   }
 }
