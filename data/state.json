@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-17T01:43:12.911Z",
+  "generatedAt": "2026-06-17T06:52:40.867Z",
   "live": true,
   "source": "football-data.org",
   "results": {
     "Algeria": {
       "w": 0,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "gf": 0,
-      "ga": 0,
+      "ga": 3,
       "yc": 0,
       "rc": 0
     },
     "Argentina": {
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 0,
+      "gf": 3,
       "ga": 0,
       "yc": 0,
       "rc": 0
@@ -31,11 +31,11 @@
       "rc": 0
     },
     "Austria": {
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 3,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -50,10 +50,10 @@
     },
     "Bosnia and Herzegovina": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -77,10 +77,10 @@
     },
     "Canada": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -231,9 +231,9 @@
     "Jordan": {
       "w": 0,
       "d": 0,
-      "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 3,
       "yc": 0,
       "rc": 0
     },
@@ -438,7 +438,7 @@
   },
   "manual": {
     "biggestLoss": 13,
-    "goldenBoot": 45,
+    "goldenBoot": 1,
     "fastestGoal": null,
     "furthestGoal": null
   },
@@ -470,8 +470,8 @@
       "home": "Canada",
       "away": "Bosnia and Herzegovina",
       "status": "FINISHED",
-      "hs": null,
-      "as": null,
+      "hs": 1,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "venue": null
@@ -645,8 +645,8 @@
       "utcDate": "2026-06-17T01:00:00Z",
       "home": "Argentina",
       "away": "Algeria",
-      "status": "IN_PLAY",
-      "hs": 1,
+      "status": "FINISHED",
+      "hs": 3,
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
@@ -656,9 +656,9 @@
       "utcDate": "2026-06-17T04:00:00Z",
       "home": "Austria",
       "away": "Jordan",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 3,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
       "venue": null
@@ -1856,25 +1856,25 @@
         {
           "team": "Argentina",
           "p": 1,
-          "gd": 1,
+          "gd": 3,
+          "pts": 3
+        },
+        {
+          "team": "Austria",
+          "p": 1,
+          "gd": 2,
           "pts": 3
         },
         {
           "team": "Jordan",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
-          "team": "Austria",
-          "p": 0,
-          "gd": 0,
+          "p": 1,
+          "gd": -2,
           "pts": 0
         },
         {
           "team": "Algeria",
           "p": 1,
-          "gd": -1,
+          "gd": -3,
           "pts": 0
         }
       ]
@@ -1939,9 +1939,9 @@
     }
   ],
   "topScorer": {
-    "name": "Folarin Balogun",
-    "team": "United States",
-    "goals": 2
+    "name": "Lionel Messi",
+    "team": "Argentina",
+    "goals": 3
   },
   "cardCache": {
     "537327": {
@@ -2171,6 +2171,18 @@
       },
       "home": "Argentina",
       "away": "Algeria"
+    },
+    "537398": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Austria",
+      "away": "Jordan"
     }
   }
 }
