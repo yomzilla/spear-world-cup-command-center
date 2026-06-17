@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T19:49:32.765Z",
+  "generatedAt": "2026-06-17T21:48:30.341Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -678,9 +678,9 @@
       "utcDate": "2026-06-17T20:00:00Z",
       "home": "England",
       "away": "Croatia",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 3,
+      "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
       "venue": null
@@ -1913,9 +1913,9 @@
       "rows": [
         {
           "team": "England",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
+          "p": 1,
+          "gd": 1,
+          "pts": 3
         },
         {
           "team": "Ghana",
@@ -1924,15 +1924,15 @@
           "pts": 0
         },
         {
-          "team": "Croatia",
+          "team": "Panama",
           "p": 0,
           "gd": 0,
           "pts": 0
         },
         {
-          "team": "Panama",
-          "p": 0,
-          "gd": 0,
+          "team": "Croatia",
+          "p": 1,
+          "gd": -1,
           "pts": 0
         }
       ]
@@ -2195,6 +2195,18 @@
       },
       "home": "Portugal",
       "away": "Congo DR"
+    },
+    "537409": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "England",
+      "away": "Croatia"
     }
   }
 }
