@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T23:13:36.064Z",
+  "generatedAt": "2026-06-17T01:43:12.911Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -50,10 +50,10 @@
     },
     "Bosnia and Herzegovina": {
       "w": 0,
-      "d": 1,
+      "d": 0,
       "l": 0,
-      "gf": 1,
-      "ga": 1,
+      "gf": 0,
+      "ga": 0,
       "yc": 0,
       "rc": 0
     },
@@ -77,10 +77,10 @@
     },
     "Canada": {
       "w": 0,
-      "d": 1,
+      "d": 0,
       "l": 0,
-      "gf": 1,
-      "ga": 1,
+      "gf": 0,
+      "ga": 0,
       "yc": 0,
       "rc": 0
     },
@@ -213,9 +213,9 @@
     "Iraq": {
       "w": 0,
       "d": 0,
-      "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 4,
       "yc": 0,
       "rc": 0
     },
@@ -283,11 +283,11 @@
       "rc": 0
     },
     "Norway": {
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 4,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -470,8 +470,8 @@
       "home": "Canada",
       "away": "Bosnia and Herzegovina",
       "status": "FINISHED",
-      "hs": 1,
-      "as": 1,
+      "hs": null,
+      "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "venue": null
@@ -634,9 +634,9 @@
       "utcDate": "2026-06-16T22:00:00Z",
       "home": "Iraq",
       "away": "Norway",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "hs": 1,
-      "as": 2,
+      "as": 4,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
       "venue": null
@@ -645,9 +645,9 @@
       "utcDate": "2026-06-17T01:00:00Z",
       "home": "Argentina",
       "away": "Algeria",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 1,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
       "venue": null
@@ -1825,27 +1825,27 @@
       "name": "Group I",
       "rows": [
         {
+          "team": "Norway",
+          "p": 1,
+          "gd": 3,
+          "pts": 3
+        },
+        {
           "team": "France",
           "p": 1,
           "gd": 2,
           "pts": 3
         },
         {
-          "team": "Norway",
+          "team": "Senegal",
           "p": 1,
-          "gd": 1,
-          "pts": 3
+          "gd": -2,
+          "pts": 0
         },
         {
           "team": "Iraq",
           "p": 1,
-          "gd": -1,
-          "pts": 0
-        },
-        {
-          "team": "Senegal",
-          "p": 1,
-          "gd": -2,
+          "gd": -3,
           "pts": 0
         }
       ]
@@ -1854,16 +1854,10 @@
       "name": "Group J",
       "rows": [
         {
-          "team": "Algeria",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "team": "Argentina",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
+          "p": 1,
+          "gd": 1,
+          "pts": 3
         },
         {
           "team": "Jordan",
@@ -1875,6 +1869,12 @@
           "team": "Austria",
           "p": 0,
           "gd": 0,
+          "pts": 0
+        },
+        {
+          "team": "Algeria",
+          "p": 1,
+          "gd": -1,
           "pts": 0
         }
       ]
@@ -2159,6 +2159,18 @@
       },
       "home": "Iraq",
       "away": "Norway"
+    },
+    "537397": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Argentina",
+      "away": "Algeria"
     }
   }
 }
