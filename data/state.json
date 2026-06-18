@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T23:11:34.987Z",
+  "generatedAt": "2026-06-18T01:43:24.154Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -184,10 +184,10 @@
       "rc": 0
     },
     "Ghana": {
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 0,
+      "gf": 1,
       "ga": 0,
       "yc": 0,
       "rc": 0
@@ -294,9 +294,9 @@
     "Panama": {
       "w": 0,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "gf": 0,
-      "ga": 0,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -689,8 +689,8 @@
       "utcDate": "2026-06-17T23:00:00Z",
       "home": "Ghana",
       "away": "Panama",
-      "status": "IN_PLAY",
-      "hs": 0,
+      "status": "FINISHED",
+      "hs": 1,
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
@@ -1920,14 +1920,14 @@
         {
           "team": "Ghana",
           "p": 1,
-          "gd": 0,
-          "pts": 1
+          "gd": 1,
+          "pts": 3
         },
         {
           "team": "Panama",
           "p": 1,
-          "gd": 0,
-          "pts": 1
+          "gd": -1,
+          "pts": 0
         },
         {
           "team": "Croatia",
