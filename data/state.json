@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T19:50:34.855Z",
+  "generatedAt": "2026-06-18T21:53:59.267Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -51,9 +51,9 @@
     "Bosnia and Herzegovina": {
       "w": 0,
       "d": 1,
-      "l": 0,
-      "gf": 1,
-      "ga": 1,
+      "l": 1,
+      "gf": 2,
+      "ga": 5,
       "yc": 0,
       "rc": 0
     },
@@ -382,11 +382,11 @@
       "rc": 0
     },
     "Switzerland": {
-      "w": 0,
+      "w": 1,
       "d": 1,
       "l": 0,
-      "gf": 1,
-      "ga": 1,
+      "gf": 5,
+      "ga": 2,
       "yc": 0,
       "rc": 0
     },
@@ -722,9 +722,9 @@
       "utcDate": "2026-06-18T19:00:00Z",
       "home": "Switzerland",
       "away": "Bosnia and Herzegovina",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 4,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "venue": null
@@ -1624,19 +1624,19 @@
         {
           "team": "Switzerland",
           "p": 2,
-          "gd": 0,
-          "pts": 2
-        },
-        {
-          "team": "Bosnia and Herzegovina",
-          "p": 2,
-          "gd": 0,
-          "pts": 2
+          "gd": 3,
+          "pts": 4
         },
         {
           "team": "Canada",
           "p": 1,
           "gd": 0,
+          "pts": 1
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "p": 2,
+          "gd": -3,
           "pts": 1
         },
         {
@@ -2003,6 +2003,18 @@
       },
       "home": "Qatar",
       "away": "Switzerland"
+    },
+    "537335": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Switzerland",
+      "away": "Bosnia and Herzegovina"
     },
     "537339": {
       "h": {
