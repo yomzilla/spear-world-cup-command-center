@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T01:43:24.154Z",
+  "generatedAt": "2026-06-18T06:30:35.558Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -85,11 +85,11 @@
       "rc": 0
     },
     "Colombia": {
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 3,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -429,9 +429,9 @@
     "Uzbekistan": {
       "w": 0,
       "d": 0,
-      "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 3,
       "yc": 0,
       "rc": 0
     }
@@ -700,9 +700,9 @@
       "utcDate": "2026-06-18T02:00:00Z",
       "home": "Uzbekistan",
       "away": "Colombia",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 1,
+      "as": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
       "venue": null
@@ -1883,6 +1883,12 @@
       "name": "Group K",
       "rows": [
         {
+          "team": "Colombia",
+          "p": 1,
+          "gd": 2,
+          "pts": 3
+        },
+        {
           "team": "Congo DR",
           "p": 1,
           "gd": 0,
@@ -1895,15 +1901,9 @@
           "pts": 1
         },
         {
-          "team": "Colombia",
-          "p": 0,
-          "gd": 0,
-          "pts": 0
-        },
-        {
           "team": "Uzbekistan",
-          "p": 0,
-          "gd": 0,
+          "p": 1,
+          "gd": -2,
           "pts": 0
         }
       ]
@@ -2195,6 +2195,18 @@
       },
       "home": "Portugal",
       "away": "Congo DR"
+    },
+    "537404": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Uzbekistan",
+      "away": "Colombia"
     },
     "537409": {
       "h": {
