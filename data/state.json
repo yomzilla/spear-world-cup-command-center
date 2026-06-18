@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T17:31:28.971Z",
+  "generatedAt": "2026-06-18T19:50:34.855Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -131,10 +131,10 @@
     },
     "Czechia": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 1,
-      "gf": 1,
-      "ga": 2,
+      "gf": 2,
+      "ga": 3,
       "yc": 0,
       "rc": 0
     },
@@ -356,10 +356,10 @@
     },
     "South Africa": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 1,
-      "gf": 0,
-      "ga": 2,
+      "gf": 1,
+      "ga": 3,
       "yc": 0,
       "rc": 0
     },
@@ -711,9 +711,9 @@
       "utcDate": "2026-06-18T16:00:00Z",
       "home": "Czechia",
       "away": "South Africa",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 1,
-      "as": 0,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
       "venue": null
@@ -1607,14 +1607,14 @@
         {
           "team": "Czechia",
           "p": 2,
-          "gd": 0,
-          "pts": 3
+          "gd": -1,
+          "pts": 1
         },
         {
           "team": "South Africa",
           "p": 2,
-          "gd": -3,
-          "pts": 0
+          "gd": -2,
+          "pts": 1
         }
       ]
     },
@@ -1623,9 +1623,15 @@
       "rows": [
         {
           "team": "Switzerland",
-          "p": 1,
+          "p": 2,
           "gd": 0,
-          "pts": 1
+          "pts": 2
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "p": 2,
+          "gd": 0,
+          "pts": 2
         },
         {
           "team": "Canada",
@@ -1635,12 +1641,6 @@
         },
         {
           "team": "Qatar",
-          "p": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "team": "Bosnia and Herzegovina",
           "p": 1,
           "gd": 0,
           "pts": 1
