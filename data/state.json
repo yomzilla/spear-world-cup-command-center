@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T21:53:59.267Z",
+  "generatedAt": "2026-06-18T23:41:26.286Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -733,9 +733,9 @@
       "utcDate": "2026-06-18T22:00:00Z",
       "home": "Canada",
       "away": "Qatar",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 4,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "venue": null
@@ -1622,16 +1622,16 @@
       "name": "Group B",
       "rows": [
         {
+          "team": "Canada",
+          "p": 2,
+          "gd": 4,
+          "pts": 4
+        },
+        {
           "team": "Switzerland",
           "p": 2,
           "gd": 3,
           "pts": 4
-        },
-        {
-          "team": "Canada",
-          "p": 1,
-          "gd": 0,
-          "pts": 1
         },
         {
           "team": "Bosnia and Herzegovina",
@@ -1641,8 +1641,8 @@
         },
         {
           "team": "Qatar",
-          "p": 1,
-          "gd": 0,
+          "p": 2,
+          "gd": -4,
           "pts": 1
         }
       ]
@@ -2015,6 +2015,18 @@
       },
       "home": "Switzerland",
       "away": "Bosnia and Herzegovina"
+    },
+    "537336": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Canada",
+      "away": "Qatar"
     },
     "537339": {
       "h": {
