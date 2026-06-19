@@ -46,6 +46,7 @@ let live = false, source = "scaffold";
 let fixtures = [], groups = [], topScorer = null;
 let cardCache = {};   // matchId -> { h:{y,r}, a:{y,r}, home, away }
 const matchMeta = []; // { id, home, away, status, hs, as }
+let goalEvents = [];  // { team, minute, matchId }
 
 // load previous card cache so finished matches aren't re-fetched every run
 try { cardCache = JSON.parse(fs.readFileSync("data/state.json", "utf8")).cardCache || {}; } catch (e) {}
@@ -114,6 +115,15 @@ if (TOKEN) {
           else if (bk.card === "RED" || bk.card === "YELLOW_RED") side.r++;
         }
         cardCache[m.id] = agg;
+        
+        // Extract goal events with timing
+        for (const goal of d.goals || []) {
+          const team = canon(goal.team?.name);
+          const minute = goal.minute;
+          if (team && minute != null && NAMES.includes(team)) {
+            goalEvents.push({ team, minute, matchId: m.id });
+          }
+        }
       } catch (e) { console.error("match", m.id, e.message); }
       await sleep(6500);
     }
@@ -130,7 +140,7 @@ if (TOKEN) {
 }
 
 // Admin-controlled manual prize picks (team indices or null).
-let manual = { biggestLoss: null, goldenBoot: null, fastestGoal: null, furthestGoal: null };
+let manual = { biggestLoss: null, goldenBoot: null, fastestGoal: null, furthestGoal: null, dirtiestTeam: null };
 try { manual = { ...manual, ...JSON.parse(fs.readFileSync("config/manual.json", "utf8")) }; } catch (e) {}
 
 // Auto-fill Golden Boot from the live top scorer if the admin hasn't pinned one.
@@ -153,6 +163,39 @@ if (manual.biggestLoss == null) {
     }
   }
   if (loser) { const idx = NAMES.indexOf(loser); if (idx >= 0) manual.biggestLoss = idx; }
+}
+
+// Auto-fill Fastest Goal: team that scored earliest (lowest minute) unless admin pinned it.
+if (manual.fastestGoal == null && goalEvents.length > 0) {
+  const sorted = [...goalEvents].sort((a, b) => a.minute - b.minute);
+  const fastest = sorted[0];
+  const idx = NAMES.indexOf(fastest.team);
+  if (idx >= 0) manual.fastestGoal = idx;
+}
+
+// Auto-fill Furthest Goal: team that scored latest (highest minute) unless admin pinned it.
+if (manual.furthestGoal == null && goalEvents.length > 0) {
+  const sorted = [...goalEvents].sort((a, b) => b.minute - a.minute);
+  const furthest = sorted[0];
+  const idx = NAMES.indexOf(furthest.team);
+  if (idx >= 0) manual.furthestGoal = idx;
+}
+
+// Auto-fill Dirtiest Team: team with most card points (Y=1, R=3), tie-broken by most reds.
+if (manual.dirtiestTeam == null) {
+  let dirtiest = null, bestCardPts = 0, bestReds = -1;
+  for (const teamName of NAMES) {
+    const r = results[teamName];
+    const cardPts = r.yc + r.rc * 3;
+    if (cardPts > bestCardPts || (cardPts === bestCardPts && r.rc > bestReds)) {
+      bestCardPts = cardPts; bestReds = r.rc;
+      dirtiest = teamName;
+    }
+  }
+  if (dirtiest && bestCardPts > 0) {
+    const idx = NAMES.indexOf(dirtiest);
+    if (idx >= 0) manual.dirtiestTeam = idx;
+  }
 }
 
 const payload = { live, source, results, manual, fixtures, groups, topScorer, cardCache };
