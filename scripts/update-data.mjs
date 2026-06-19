@@ -45,11 +45,15 @@ const results = Object.fromEntries(NAMES.map((n) => [n, blank()]));
 let live = false, source = "scaffold";
 let fixtures = [], groups = [], topScorer = null;
 let cardCache = {};   // matchId -> { h:{y,r}, a:{y,r}, home, away }
+let goalCache = {};   // matchId -> [{ team, minute }]
 const matchMeta = []; // { id, home, away, status, hs, as }
-let goalEvents = [];  // { team, minute, matchId }
 
-// load previous card cache so finished matches aren't re-fetched every run
-try { cardCache = JSON.parse(fs.readFileSync("data/state.json", "utf8")).cardCache || {}; } catch (e) {}
+// load previous caches so finished matches aren't re-fetched every run
+try {
+  const prev = JSON.parse(fs.readFileSync("data/state.json", "utf8"));
+  cardCache = prev.cardCache || {};
+  goalCache = prev.goalCache || {};
+} catch (e) {}
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -117,13 +121,15 @@ if (TOKEN) {
         cardCache[m.id] = agg;
         
         // Extract goal events with timing
+        const goals = [];
         for (const goal of d.goals || []) {
           const team = canon(goal.team?.name);
           const minute = goal.minute;
           if (team && minute != null && NAMES.includes(team)) {
-            goalEvents.push({ team, minute, matchId: m.id });
+            goals.push({ team, minute });
           }
         }
+        goalCache[m.id] = goals;
       } catch (e) { console.error("match", m.id, e.message); }
       await sleep(6500);
     }
@@ -166,19 +172,25 @@ if (manual.biggestLoss == null) {
 }
 
 // Auto-fill Fastest Goal: team that scored earliest (lowest minute) unless admin pinned it.
-if (manual.fastestGoal == null && goalEvents.length > 0) {
-  const sorted = [...goalEvents].sort((a, b) => a.minute - b.minute);
-  const fastest = sorted[0];
-  const idx = NAMES.indexOf(fastest.team);
-  if (idx >= 0) manual.fastestGoal = idx;
+if (manual.fastestGoal == null) {
+  const allGoals = Object.values(goalCache).flat();
+  if (allGoals.length > 0) {
+    const sorted = [...allGoals].sort((a, b) => a.minute - b.minute);
+    const fastest = sorted[0];
+    const idx = NAMES.indexOf(fastest.team);
+    if (idx >= 0) manual.fastestGoal = idx;
+  }
 }
 
 // Auto-fill Furthest Goal: team that scored latest (highest minute) unless admin pinned it.
-if (manual.furthestGoal == null && goalEvents.length > 0) {
-  const sorted = [...goalEvents].sort((a, b) => b.minute - a.minute);
-  const furthest = sorted[0];
-  const idx = NAMES.indexOf(furthest.team);
-  if (idx >= 0) manual.furthestGoal = idx;
+if (manual.furthestGoal == null) {
+  const allGoals = Object.values(goalCache).flat();
+  if (allGoals.length > 0) {
+    const sorted = [...allGoals].sort((a, b) => b.minute - a.minute);
+    const furthest = sorted[0];
+    const idx = NAMES.indexOf(furthest.team);
+    if (idx >= 0) manual.furthestGoal = idx;
+  }
 }
 
 // Auto-fill Dirtiest Team: team with most card points (Y=1, R=3), tie-broken by most reds.
@@ -198,7 +210,7 @@ if (manual.dirtiestTeam == null) {
   }
 }
 
-const payload = { live, source, results, manual, fixtures, groups, topScorer, cardCache };
+const payload = { live, source, results, manual, fixtures, groups, topScorer, cardCache, goalCache };
 // Only bump generatedAt when the substantive data actually changed — avoids a
 // commit (and Pages rebuild) every 15 minutes when nothing has happened.
 let generatedAt = new Date().toISOString();
