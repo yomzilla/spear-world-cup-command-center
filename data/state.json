@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T23:41:26.286Z",
+  "generatedAt": "2026-06-19T02:32:03.879Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -76,10 +76,10 @@
       "rc": 0
     },
     "Canada": {
-      "w": 0,
+      "w": 1,
       "d": 1,
       "l": 0,
-      "gf": 1,
+      "gf": 7,
       "ga": 1,
       "yc": 0,
       "rc": 0
@@ -321,9 +321,9 @@
     "Qatar": {
       "w": 0,
       "d": 1,
-      "l": 0,
+      "l": 1,
       "gf": 1,
-      "ga": 1,
+      "ga": 7,
       "yc": 0,
       "rc": 0
     },
@@ -733,8 +733,8 @@
       "utcDate": "2026-06-18T22:00:00Z",
       "home": "Canada",
       "away": "Qatar",
-      "status": "IN_PLAY",
-      "hs": 4,
+      "status": "FINISHED",
+      "hs": 6,
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
@@ -744,9 +744,9 @@
       "utcDate": "2026-06-19T01:00:00Z",
       "home": "Mexico",
       "away": "Korea Republic",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 1,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
       "venue": null
@@ -1594,14 +1594,14 @@
       "rows": [
         {
           "team": "Mexico",
-          "p": 1,
-          "gd": 2,
-          "pts": 3
+          "p": 2,
+          "gd": 3,
+          "pts": 6
         },
         {
           "team": "Korea Republic",
-          "p": 1,
-          "gd": 1,
+          "p": 2,
+          "gd": 0,
           "pts": 3
         },
         {
@@ -1624,7 +1624,7 @@
         {
           "team": "Canada",
           "p": 2,
-          "gd": 4,
+          "gd": 6,
           "pts": 4
         },
         {
@@ -1642,7 +1642,7 @@
         {
           "team": "Qatar",
           "p": 2,
-          "gd": -4,
+          "gd": -6,
           "pts": 1
         }
       ]
@@ -1979,6 +1979,18 @@
       },
       "home": "Czechia",
       "away": "South Africa"
+    },
+    "537330": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Mexico",
+      "away": "Korea Republic"
     },
     "537333": {
       "h": {
