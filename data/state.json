@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T21:56:09.530Z",
+  "generatedAt": "2026-06-19T22:56:49.004Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -767,9 +767,9 @@
       "utcDate": "2026-06-19T22:00:00Z",
       "home": "Scotland",
       "away": "Morocco",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
       "venue": null
@@ -1652,16 +1652,16 @@
       "name": "Group C",
       "rows": [
         {
-          "team": "Scotland",
-          "p": 1,
+          "team": "Morocco",
+          "p": 2,
           "gd": 1,
-          "pts": 3
+          "pts": 4
         },
         {
-          "team": "Morocco",
-          "p": 1,
+          "team": "Scotland",
+          "p": 2,
           "gd": 0,
-          "pts": 1
+          "pts": 3
         },
         {
           "team": "Brazil",
@@ -2065,6 +2065,18 @@
       "home": "Haiti",
       "away": "Scotland"
     },
+    "537342": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Scotland",
+      "away": "Morocco"
+    },
     "537345": {
       "h": {
         "y": 0,
@@ -2305,6 +2317,7 @@
     "537336": [],
     "537339": [],
     "537340": [],
+    "537342": [],
     "537345": [],
     "537346": [],
     "537348": [],
