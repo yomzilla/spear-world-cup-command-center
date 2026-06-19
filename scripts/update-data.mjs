@@ -106,7 +106,7 @@ if (TOKEN) {
     // cached yet, capped per run to respect the free-tier rate limit (10/min).
     const MAX_DETAIL = 8;
     const needsFetch = matchMeta.filter(
-      (m) => m.status === "IN_PLAY" || m.status === "PAUSED" || (m.status === "FINISHED" && !cardCache[m.id])
+      (m) => m.status === "IN_PLAY" || m.status === "PAUSED" || (m.status === "FINISHED" && (!cardCache[m.id] || !goalCache[m.id]))
     ).slice(0, MAX_DETAIL);
     for (const m of needsFetch) {
       try {
