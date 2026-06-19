@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T16:22:19.817Z",
+  "generatedAt": "2026-06-19T16:57:51.453Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -2281,5 +2281,6 @@
       "home": "Ghana",
       "away": "Panama"
     }
-  }
+  },
+  "goalCache": {}
 }
