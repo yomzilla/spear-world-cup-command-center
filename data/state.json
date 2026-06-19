@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T02:32:03.879Z",
+  "generatedAt": "2026-06-19T08:16:51.079Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -240,17 +240,17 @@
     "Korea Republic": {
       "w": 1,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "gf": 2,
-      "ga": 1,
+      "ga": 2,
       "yc": 0,
       "rc": 0
     },
     "Mexico": {
-      "w": 1,
+      "w": 2,
       "d": 0,
       "l": 0,
-      "gf": 2,
+      "gf": 3,
       "ga": 0,
       "yc": 0,
       "rc": 0
@@ -744,7 +744,7 @@
       "utcDate": "2026-06-19T01:00:00Z",
       "home": "Mexico",
       "away": "Korea Republic",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 1,
       "as": 0,
       "stage": "GROUP_STAGE",
