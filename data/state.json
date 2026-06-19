@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T08:16:51.079Z",
+  "generatedAt": "2026-06-19T16:22:19.817Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -440,7 +440,8 @@
     "biggestLoss": 13,
     "goldenBoot": 1,
     "fastestGoal": null,
-    "furthestGoal": null
+    "furthestGoal": null,
+    "dirtiestTeam": null
   },
   "fixtures": [
     {
