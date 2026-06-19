@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T19:19:58.643Z",
+  "generatedAt": "2026-06-19T20:50:56.412Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -757,7 +757,7 @@
       "home": "United States",
       "away": "Australia",
       "status": "IN_PLAY",
-      "hs": 1,
+      "hs": 2,
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
@@ -1683,14 +1683,14 @@
         {
           "team": "United States",
           "p": 2,
-          "gd": 3,
-          "pts": 4
+          "gd": 5,
+          "pts": 6
         },
         {
           "team": "Australia",
           "p": 2,
-          "gd": 2,
-          "pts": 4
+          "gd": 0,
+          "pts": 3
         },
         {
           "team": "Türkiye",
@@ -2298,6 +2298,13 @@
     "537363": [],
     "537364": [],
     "537369": [],
-    "537370": []
+    "537370": [],
+    "537391": [],
+    "537392": [],
+    "537397": [],
+    "537403": [],
+    "537404": [],
+    "537409": [],
+    "537410": []
   }
 }
