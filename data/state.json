@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T04:41:27.230Z",
+  "generatedAt": "2026-06-20T08:13:55.684Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -301,10 +301,10 @@
       "rc": 0
     },
     "Paraguay": {
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 1,
-      "gf": 1,
+      "gf": 2,
       "ga": 4,
       "yc": 0,
       "rc": 0
@@ -402,9 +402,9 @@
     "Türkiye": {
       "w": 0,
       "d": 0,
-      "l": 1,
+      "l": 2,
       "gf": 0,
-      "ga": 2,
+      "ga": 3,
       "yc": 0,
       "rc": 0
     },
@@ -789,7 +789,7 @@
       "utcDate": "2026-06-20T03:00:00Z",
       "home": "Türkiye",
       "away": "Paraguay",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 0,
       "as": 1,
       "stage": "GROUP_STAGE",
