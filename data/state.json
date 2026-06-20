@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T22:56:49.004Z",
+  "generatedAt": "2026-06-20T00:11:09.789Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -256,10 +256,10 @@
       "rc": 0
     },
     "Morocco": {
-      "w": 0,
+      "w": 1,
       "d": 1,
       "l": 0,
-      "gf": 1,
+      "gf": 2,
       "ga": 1,
       "yc": 0,
       "rc": 0
@@ -339,9 +339,9 @@
     "Scotland": {
       "w": 1,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "gf": 1,
-      "ga": 0,
+      "ga": 1,
       "yc": 0,
       "rc": 0
     },
@@ -767,7 +767,7 @@
       "utcDate": "2026-06-19T22:00:00Z",
       "home": "Scotland",
       "away": "Morocco",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 0,
       "as": 1,
       "stage": "GROUP_STAGE",
