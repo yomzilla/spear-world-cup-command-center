@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T20:22:30.691Z",
+  "generatedAt": "2026-06-20T21:44:42.804Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -812,8 +812,8 @@
       "home": "Germany",
       "away": "Côte d'Ivoire",
       "status": "IN_PLAY",
-      "hs": 0,
-      "as": 0,
+      "hs": 1,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
       "venue": null
@@ -1710,16 +1710,16 @@
       "name": "Group E",
       "rows": [
         {
-          "team": "Germany",
-          "p": 2,
-          "gd": 6,
-          "pts": 4
-        },
-        {
           "team": "Côte d'Ivoire",
           "p": 2,
-          "gd": 1,
-          "pts": 4
+          "gd": 2,
+          "pts": 6
+        },
+        {
+          "team": "Germany",
+          "p": 2,
+          "gd": 5,
+          "pts": 3
         },
         {
           "team": "Ecuador",
