@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T19:00:29.406Z",
+  "generatedAt": "2026-06-20T20:22:30.691Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -265,11 +265,11 @@
       "rc": 0
     },
     "Netherlands": {
-      "w": 0,
+      "w": 1,
       "d": 1,
       "l": 0,
-      "gf": 2,
-      "ga": 2,
+      "gf": 7,
+      "ga": 3,
       "yc": 0,
       "rc": 0
     },
@@ -375,9 +375,9 @@
     "Sweden": {
       "w": 1,
       "d": 0,
-      "l": 0,
-      "gf": 5,
-      "ga": 1,
+      "l": 1,
+      "gf": 6,
+      "ga": 6,
       "yc": 0,
       "rc": 0
     },
@@ -800,7 +800,7 @@
       "utcDate": "2026-06-20T17:00:00Z",
       "home": "Netherlands",
       "away": "Sweden",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 5,
       "as": 1,
       "stage": "GROUP_STAGE",
@@ -811,9 +811,9 @@
       "utcDate": "2026-06-20T20:00:00Z",
       "home": "Germany",
       "away": "Côte d'Ivoire",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
       "venue": null
@@ -1711,15 +1711,15 @@
       "rows": [
         {
           "team": "Germany",
-          "p": 1,
+          "p": 2,
           "gd": 6,
-          "pts": 3
+          "pts": 4
         },
         {
           "team": "Côte d'Ivoire",
-          "p": 1,
+          "p": 2,
           "gd": 1,
-          "pts": 3
+          "pts": 4
         },
         {
           "team": "Ecuador",
@@ -2161,6 +2161,18 @@
       "home": "Côte d'Ivoire",
       "away": "Ecuador"
     },
+    "537353": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Germany",
+      "away": "Côte d'Ivoire"
+    },
     "537357": {
       "h": {
         "y": 0,
@@ -2361,6 +2373,7 @@
     "537348": [],
     "537351": [],
     "537352": [],
+    "537353": [],
     "537357": [],
     "537358": [],
     "537359": [],
