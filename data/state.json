@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T00:11:09.789Z",
+  "generatedAt": "2026-06-20T04:41:27.230Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -58,10 +58,10 @@
       "rc": 0
     },
     "Brazil": {
-      "w": 0,
+      "w": 1,
       "d": 1,
       "l": 0,
-      "gf": 1,
+      "gf": 4,
       "ga": 1,
       "yc": 0,
       "rc": 0
@@ -195,9 +195,9 @@
     "Haiti": {
       "w": 0,
       "d": 0,
-      "l": 1,
+      "l": 2,
       "gf": 0,
-      "ga": 1,
+      "ga": 4,
       "yc": 0,
       "rc": 0
     },
@@ -778,9 +778,9 @@
       "utcDate": "2026-06-20T00:30:00Z",
       "home": "Brazil",
       "away": "Haiti",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 3,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
       "venue": null
@@ -789,9 +789,9 @@
       "utcDate": "2026-06-20T03:00:00Z",
       "home": "Türkiye",
       "away": "Paraguay",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
       "venue": null
@@ -1652,6 +1652,12 @@
       "name": "Group C",
       "rows": [
         {
+          "team": "Brazil",
+          "p": 2,
+          "gd": 3,
+          "pts": 4
+        },
+        {
           "team": "Morocco",
           "p": 2,
           "gd": 1,
@@ -1664,15 +1670,9 @@
           "pts": 3
         },
         {
-          "team": "Brazil",
-          "p": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
           "team": "Haiti",
-          "p": 1,
-          "gd": -1,
+          "p": 2,
+          "gd": -4,
           "pts": 0
         }
       ]
@@ -1693,14 +1693,14 @@
           "pts": 3
         },
         {
-          "team": "Türkiye",
-          "p": 1,
+          "team": "Paraguay",
+          "p": 2,
           "gd": -2,
-          "pts": 0
+          "pts": 3
         },
         {
-          "team": "Paraguay",
-          "p": 1,
+          "team": "Türkiye",
+          "p": 2,
           "gd": -3,
           "pts": 0
         }
@@ -2065,6 +2065,18 @@
       "home": "Haiti",
       "away": "Scotland"
     },
+    "537341": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Brazil",
+      "away": "Haiti"
+    },
     "537342": {
       "h": {
         "y": 0,
@@ -2100,6 +2112,18 @@
       },
       "home": "Australia",
       "away": "Türkiye"
+    },
+    "537347": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Türkiye",
+      "away": "Paraguay"
     },
     "537348": {
       "h": {
@@ -2317,9 +2341,11 @@
     "537336": [],
     "537339": [],
     "537340": [],
+    "537341": [],
     "537342": [],
     "537345": [],
     "537346": [],
+    "537347": [],
     "537348": [],
     "537351": [],
     "537352": [],
