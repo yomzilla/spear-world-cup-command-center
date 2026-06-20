@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T08:13:55.684Z",
+  "generatedAt": "2026-06-20T17:43:30.051Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -800,9 +800,9 @@
       "utcDate": "2026-06-20T17:00:00Z",
       "home": "Netherlands",
       "away": "Sweden",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 2,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
       "venue": null
@@ -1739,19 +1739,19 @@
       "name": "Group F",
       "rows": [
         {
+          "team": "Netherlands",
+          "p": 2,
+          "gd": 2,
+          "pts": 4
+        },
+        {
           "team": "Sweden",
-          "p": 1,
-          "gd": 4,
+          "p": 2,
+          "gd": 2,
           "pts": 3
         },
         {
           "team": "Japan",
-          "p": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "team": "Netherlands",
           "p": 1,
           "gd": 0,
           "pts": 1
@@ -2185,6 +2185,18 @@
       "home": "Sweden",
       "away": "Tunisia"
     },
+    "537359": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Netherlands",
+      "away": "Sweden"
+    },
     "537363": {
       "h": {
         "y": 0,
@@ -2351,6 +2363,7 @@
     "537352": [],
     "537357": [],
     "537358": [],
+    "537359": [],
     "537363": [],
     "537364": [],
     "537369": [],
