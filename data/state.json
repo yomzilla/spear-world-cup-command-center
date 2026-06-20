@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T21:44:42.804Z",
+  "generatedAt": "2026-06-20T22:52:08.183Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -105,9 +105,9 @@
     "Côte d'Ivoire": {
       "w": 1,
       "d": 0,
-      "l": 0,
-      "gf": 1,
-      "ga": 0,
+      "l": 1,
+      "gf": 2,
+      "ga": 2,
       "yc": 0,
       "rc": 0
     },
@@ -175,11 +175,11 @@
       "rc": 0
     },
     "Germany": {
-      "w": 1,
+      "w": 2,
       "d": 0,
       "l": 0,
-      "gf": 7,
-      "ga": 1,
+      "gf": 9,
+      "ga": 2,
       "yc": 0,
       "rc": 0
     },
@@ -438,7 +438,7 @@
   },
   "manual": {
     "biggestLoss": 13,
-    "goldenBoot": 1,
+    "goldenBoot": 19,
     "fastestGoal": null,
     "furthestGoal": null,
     "dirtiestTeam": null
@@ -811,8 +811,8 @@
       "utcDate": "2026-06-20T20:00:00Z",
       "home": "Germany",
       "away": "Côte d'Ivoire",
-      "status": "IN_PLAY",
-      "hs": 1,
+      "status": "FINISHED",
+      "hs": 2,
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
@@ -1710,15 +1710,15 @@
       "name": "Group E",
       "rows": [
         {
-          "team": "Côte d'Ivoire",
+          "team": "Germany",
           "p": 2,
-          "gd": 2,
+          "gd": 7,
           "pts": 6
         },
         {
-          "team": "Germany",
+          "team": "Côte d'Ivoire",
           "p": 2,
-          "gd": 5,
+          "gd": 0,
           "pts": 3
         },
         {
@@ -1940,8 +1940,8 @@
     }
   ],
   "topScorer": {
-    "name": "Lionel Messi",
-    "team": "Argentina",
+    "name": "Deniz Undav",
+    "team": "Germany",
     "goals": 3
   },
   "cardCache": {
