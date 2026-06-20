@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T17:43:30.051Z",
+  "generatedAt": "2026-06-20T19:00:29.406Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -801,8 +801,8 @@
       "home": "Netherlands",
       "away": "Sweden",
       "status": "IN_PLAY",
-      "hs": 2,
-      "as": 0,
+      "hs": 5,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
       "venue": null
@@ -1741,13 +1741,13 @@
         {
           "team": "Netherlands",
           "p": 2,
-          "gd": 2,
+          "gd": 4,
           "pts": 4
         },
         {
           "team": "Sweden",
           "p": 2,
-          "gd": 2,
+          "gd": 0,
           "pts": 3
         },
         {
