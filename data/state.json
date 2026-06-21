@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T20:18:15.159Z",
+  "generatedAt": "2026-06-21T21:46:19.575Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -41,7 +41,7 @@
     },
     "Belgium": {
       "w": 0,
-      "d": 1,
+      "d": 2,
       "l": 0,
       "gf": 1,
       "ga": 1,
@@ -203,7 +203,7 @@
     },
     "IR Iran": {
       "w": 0,
-      "d": 1,
+      "d": 2,
       "l": 0,
       "gf": 2,
       "ga": 2,
@@ -332,7 +332,7 @@
       "d": 1,
       "l": 1,
       "gf": 1,
-      "ga": 6,
+      "ga": 5,
       "yc": 0,
       "rc": 0
     },
@@ -367,7 +367,7 @@
       "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 5,
+      "gf": 4,
       "ga": 0,
       "yc": 0,
       "rc": 0
@@ -845,7 +845,7 @@
       "home": "Spain",
       "away": "Saudi Arabia",
       "status": "FINISHED",
-      "hs": 5,
+      "hs": 4,
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
@@ -855,7 +855,7 @@
       "utcDate": "2026-06-21T19:00:00Z",
       "home": "Belgium",
       "away": "IR Iran",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 0,
       "as": 0,
       "stage": "GROUP_STAGE",
