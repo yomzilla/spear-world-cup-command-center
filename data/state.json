@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T09:01:44.873Z",
+  "generatedAt": "2026-06-21T17:06:33.236Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -844,9 +844,9 @@
       "utcDate": "2026-06-21T16:00:00Z",
       "home": "Spain",
       "away": "Saudi Arabia",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "PAUSED",
+      "hs": 3,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
       "venue": null
@@ -1797,6 +1797,12 @@
       "name": "Group H",
       "rows": [
         {
+          "team": "Spain",
+          "p": 2,
+          "gd": 3,
+          "pts": 4
+        },
+        {
           "team": "Uruguay",
           "p": 1,
           "gd": 0,
@@ -1804,14 +1810,8 @@
         },
         {
           "team": "Saudi Arabia",
-          "p": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "team": "Spain",
-          "p": 1,
-          "gd": 0,
+          "p": 2,
+          "gd": -3,
           "pts": 1
         },
         {
@@ -2281,6 +2281,18 @@
       "home": "Saudi Arabia",
       "away": "Uruguay"
     },
+    "537371": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Spain",
+      "away": "Saudi Arabia"
+    },
     "537391": {
       "h": {
         "y": 0,
@@ -2407,6 +2419,7 @@
     "537364": [],
     "537369": [],
     "537370": [],
+    "537371": [],
     "537391": [],
     "537392": [],
     "537397": [],
