@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T18:47:07.880Z",
+  "generatedAt": "2026-06-21T20:18:15.159Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -855,9 +855,9 @@
       "utcDate": "2026-06-21T19:00:00Z",
       "home": "Belgium",
       "away": "IR Iran",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
       "venue": null
@@ -1768,19 +1768,19 @@
       "name": "Group G",
       "rows": [
         {
-          "team": "New Zealand",
-          "p": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
           "team": "IR Iran",
-          "p": 1,
+          "p": 2,
           "gd": 0,
-          "pts": 1
+          "pts": 2
         },
         {
           "team": "Belgium",
+          "p": 2,
+          "gd": 0,
+          "pts": 2
+        },
+        {
+          "team": "New Zealand",
           "p": 1,
           "gd": 0,
           "pts": 1
@@ -2257,6 +2257,18 @@
       "home": "IR Iran",
       "away": "New Zealand"
     },
+    "537365": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Belgium",
+      "away": "IR Iran"
+    },
     "537369": {
       "h": {
         "y": 0,
@@ -2417,6 +2429,7 @@
     "537360": [],
     "537363": [],
     "537364": [],
+    "537365": [],
     "537369": [],
     "537370": [],
     "537371": [],
