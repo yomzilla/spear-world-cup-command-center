@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T22:52:08.183Z",
+  "generatedAt": "2026-06-21T05:08:46.608Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -122,7 +122,7 @@
     },
     "Curaçao": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 1,
       "gf": 1,
       "ga": 7,
@@ -140,7 +140,7 @@
     },
     "Ecuador": {
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 1,
       "gf": 0,
       "ga": 1,
@@ -822,9 +822,9 @@
       "utcDate": "2026-06-21T00:00:00Z",
       "home": "Ecuador",
       "away": "Curaçao",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 0,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
       "venue": null
@@ -833,9 +833,9 @@
       "utcDate": "2026-06-21T04:00:00Z",
       "home": "Tunisia",
       "away": "Japan",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "PAUSED",
+      "hs": 0,
+      "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
       "venue": null
@@ -1723,15 +1723,15 @@
         },
         {
           "team": "Ecuador",
-          "p": 1,
+          "p": 2,
           "gd": -1,
-          "pts": 0
+          "pts": 1
         },
         {
           "team": "Curaçao",
-          "p": 1,
+          "p": 2,
           "gd": -6,
-          "pts": 0
+          "pts": 1
         }
       ]
     },
@@ -1745,21 +1745,21 @@
           "pts": 4
         },
         {
+          "team": "Japan",
+          "p": 2,
+          "gd": 2,
+          "pts": 4
+        },
+        {
           "team": "Sweden",
           "p": 2,
           "gd": 0,
           "pts": 3
         },
         {
-          "team": "Japan",
-          "p": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
           "team": "Tunisia",
-          "p": 1,
-          "gd": -4,
+          "p": 2,
+          "gd": -6,
           "pts": 0
         }
       ]
@@ -2173,6 +2173,18 @@
       "home": "Germany",
       "away": "Côte d'Ivoire"
     },
+    "537354": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Ecuador",
+      "away": "Curaçao"
+    },
     "537357": {
       "h": {
         "y": 0,
@@ -2208,6 +2220,18 @@
       },
       "home": "Netherlands",
       "away": "Sweden"
+    },
+    "537360": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Tunisia",
+      "away": "Japan"
     },
     "537363": {
       "h": {
@@ -2374,9 +2398,11 @@
     "537351": [],
     "537352": [],
     "537353": [],
+    "537354": [],
     "537357": [],
     "537358": [],
     "537359": [],
+    "537360": [],
     "537363": [],
     "537364": [],
     "537369": [],
