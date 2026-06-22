@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T05:24:53.130Z",
+  "generatedAt": "2026-06-22T19:39:53.176Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -13,10 +13,10 @@
       "rc": 0
     },
     "Argentina": {
-      "w": 1,
+      "w": 2,
       "d": 0,
       "l": 0,
-      "gf": 3,
+      "gf": 5,
       "ga": 0,
       "yc": 0,
       "rc": 0
@@ -33,9 +33,9 @@
     "Austria": {
       "w": 1,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "gf": 3,
-      "ga": 1,
+      "ga": 3,
       "yc": 0,
       "rc": 0
     },
@@ -438,7 +438,7 @@
   },
   "manual": {
     "biggestLoss": 13,
-    "goldenBoot": 19,
+    "goldenBoot": 1,
     "fastestGoal": null,
     "furthestGoal": null,
     "dirtiestTeam": null
@@ -888,9 +888,9 @@
       "utcDate": "2026-06-22T17:00:00Z",
       "home": "Argentina",
       "away": "Austria",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 2,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
       "venue": null
@@ -1856,14 +1856,14 @@
       "rows": [
         {
           "team": "Argentina",
-          "p": 1,
-          "gd": 3,
-          "pts": 3
+          "p": 2,
+          "gd": 5,
+          "pts": 6
         },
         {
           "team": "Austria",
-          "p": 1,
-          "gd": 2,
+          "p": 2,
+          "gd": 0,
           "pts": 3
         },
         {
@@ -1940,9 +1940,9 @@
     }
   ],
   "topScorer": {
-    "name": "Deniz Undav",
-    "team": "Germany",
-    "goals": 3
+    "name": "Lionel Messi",
+    "team": "Argentina",
+    "goals": 5
   },
   "cardCache": {
     "537327": {
@@ -2377,6 +2377,18 @@
       "home": "Austria",
       "away": "Jordan"
     },
+    "537399": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Argentina",
+      "away": "Austria"
+    },
     "537403": {
       "h": {
         "y": 0,
@@ -2463,6 +2475,7 @@
     "537392": [],
     "537397": [],
     "537398": [],
+    "537399": [],
     "537403": [],
     "537404": [],
     "537409": [],
