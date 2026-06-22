@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T00:02:29.475Z",
+  "generatedAt": "2026-06-22T05:24:53.130Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -148,11 +148,11 @@
       "rc": 0
     },
     "Egypt": {
-      "w": 0,
+      "w": 1,
       "d": 1,
       "l": 0,
-      "gf": 1,
-      "ga": 1,
+      "gf": 4,
+      "ga": 2,
       "yc": 0,
       "rc": 0
     },
@@ -276,9 +276,9 @@
     "New Zealand": {
       "w": 0,
       "d": 1,
-      "l": 0,
-      "gf": 2,
-      "ga": 2,
+      "l": 1,
+      "gf": 3,
+      "ga": 5,
       "yc": 0,
       "rc": 0
     },
@@ -866,7 +866,7 @@
       "utcDate": "2026-06-21T22:00:00Z",
       "home": "Uruguay",
       "away": "Cape Verde Islands",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 2,
       "as": 2,
       "stage": "GROUP_STAGE",
@@ -877,9 +877,9 @@
       "utcDate": "2026-06-22T01:00:00Z",
       "home": "New Zealand",
       "away": "Egypt",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 1,
+      "as": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
       "venue": null
@@ -1768,6 +1768,12 @@
       "name": "Group G",
       "rows": [
         {
+          "team": "Egypt",
+          "p": 2,
+          "gd": 2,
+          "pts": 4
+        },
+        {
           "team": "IR Iran",
           "p": 2,
           "gd": 0,
@@ -1781,14 +1787,8 @@
         },
         {
           "team": "New Zealand",
-          "p": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "team": "Egypt",
-          "p": 1,
-          "gd": 0,
+          "p": 2,
+          "gd": -2,
           "pts": 1
         }
       ]
@@ -2269,6 +2269,18 @@
       "home": "Belgium",
       "away": "IR Iran"
     },
+    "537366": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "New Zealand",
+      "away": "Egypt"
+    },
     "537369": {
       "h": {
         "y": 0,
@@ -2442,6 +2454,7 @@
     "537363": [],
     "537364": [],
     "537365": [],
+    "537366": [],
     "537369": [],
     "537370": [],
     "537371": [],
