@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T19:39:53.176Z",
+  "generatedAt": "2026-06-22T21:48:51.600Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -899,9 +899,9 @@
       "utcDate": "2026-06-22T21:00:00Z",
       "home": "France",
       "away": "Iraq",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 1,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
       "venue": null
@@ -1826,15 +1826,15 @@
       "name": "Group I",
       "rows": [
         {
+          "team": "France",
+          "p": 2,
+          "gd": 3,
+          "pts": 6
+        },
+        {
           "team": "Norway",
           "p": 1,
           "gd": 3,
-          "pts": 3
-        },
-        {
-          "team": "France",
-          "p": 1,
-          "gd": 2,
           "pts": 3
         },
         {
@@ -1845,8 +1845,8 @@
         },
         {
           "team": "Iraq",
-          "p": 1,
-          "gd": -3,
+          "p": 2,
+          "gd": -4,
           "pts": 0
         }
       ]
@@ -2353,6 +2353,18 @@
       "home": "Iraq",
       "away": "Norway"
     },
+    "537393": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "France",
+      "away": "Iraq"
+    },
     "537397": {
       "h": {
         "y": 0,
@@ -2473,6 +2485,7 @@
     "537372": [],
     "537391": [],
     "537392": [],
+    "537393": [],
     "537397": [],
     "537398": [],
     "537399": [],
