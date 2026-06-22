@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T21:48:51.600Z",
+  "generatedAt": "2026-06-22T23:08:06.617Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -899,7 +899,7 @@
       "utcDate": "2026-06-22T21:00:00Z",
       "home": "France",
       "away": "Iraq",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "hs": 1,
       "as": 0,
       "stage": "GROUP_STAGE",
