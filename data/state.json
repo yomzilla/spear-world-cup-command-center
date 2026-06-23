@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T23:08:06.617Z",
+  "generatedAt": "2026-06-23T00:20:04.600Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -899,8 +899,8 @@
       "utcDate": "2026-06-22T21:00:00Z",
       "home": "France",
       "away": "Iraq",
-      "status": "PAUSED",
-      "hs": 1,
+      "status": "IN_PLAY",
+      "hs": 2,
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
@@ -910,9 +910,9 @@
       "utcDate": "2026-06-23T00:00:00Z",
       "home": "Norway",
       "away": "Senegal",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
       "venue": null
@@ -1833,15 +1833,15 @@
         },
         {
           "team": "Norway",
-          "p": 1,
+          "p": 2,
           "gd": 3,
-          "pts": 3
+          "pts": 4
         },
         {
           "team": "Senegal",
-          "p": 1,
+          "p": 2,
           "gd": -2,
-          "pts": 0
+          "pts": 1
         },
         {
           "team": "Iraq",
@@ -2365,6 +2365,18 @@
       "home": "France",
       "away": "Iraq"
     },
+    "537394": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Norway",
+      "away": "Senegal"
+    },
     "537397": {
       "h": {
         "y": 0,
@@ -2486,6 +2498,7 @@
     "537391": [],
     "537392": [],
     "537393": [],
+    "537394": [],
     "537397": [],
     "537398": [],
     "537399": [],
