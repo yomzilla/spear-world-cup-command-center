@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T08:08:32.718Z",
+  "generatedAt": "2026-06-23T18:26:36.889Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -932,9 +932,9 @@
       "utcDate": "2026-06-23T17:00:00Z",
       "home": "Portugal",
       "away": "Uzbekistan",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 3,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
       "venue": null
@@ -1884,6 +1884,12 @@
       "name": "Group K",
       "rows": [
         {
+          "team": "Portugal",
+          "p": 2,
+          "gd": 3,
+          "pts": 4
+        },
+        {
           "team": "Colombia",
           "p": 1,
           "gd": 2,
@@ -1896,15 +1902,9 @@
           "pts": 1
         },
         {
-          "team": "Portugal",
-          "p": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
           "team": "Uzbekistan",
-          "p": 1,
-          "gd": -2,
+          "p": 2,
+          "gd": -5,
           "pts": 0
         }
       ]
@@ -2449,6 +2449,18 @@
       "home": "Uzbekistan",
       "away": "Colombia"
     },
+    "537405": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Portugal",
+      "away": "Uzbekistan"
+    },
     "537409": {
       "h": {
         "y": 0,
@@ -2517,6 +2529,7 @@
     "537400": [],
     "537403": [],
     "537404": [],
+    "537405": [],
     "537409": [],
     "537410": []
   }
