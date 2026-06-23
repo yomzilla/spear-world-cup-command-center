@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T20:33:46.116Z",
+  "generatedAt": "2026-06-23T23:17:14.536Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -158,7 +158,7 @@
     },
     "England": {
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 0,
       "gf": 4,
       "ga": 2,
@@ -185,7 +185,7 @@
     },
     "Ghana": {
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 0,
       "gf": 1,
       "ga": 0,
@@ -943,7 +943,7 @@
       "utcDate": "2026-06-23T20:00:00Z",
       "home": "England",
       "away": "Ghana",
-      "status": "LIVE",
+      "status": "FINISHED",
       "hs": 0,
       "as": 0,
       "stage": "GROUP_STAGE",
@@ -954,9 +954,9 @@
       "utcDate": "2026-06-23T23:00:00Z",
       "home": "Panama",
       "away": "Croatia",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "LIVE",
+      "hs": 0,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
       "venue": null
@@ -1260,7 +1260,7 @@
     },
     {
       "utcDate": "2026-06-29T20:30:00Z",
-      "home": null,
+      "home": "Germany",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1304,7 +1304,7 @@
     },
     {
       "utcDate": "2026-07-01T01:00:00Z",
-      "home": null,
+      "home": "Mexico",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1337,7 +1337,7 @@
     },
     {
       "utcDate": "2026-07-02T00:00:00Z",
-      "home": null,
+      "home": "United States",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1926,15 +1926,15 @@
         },
         {
           "team": "Panama",
-          "p": 1,
+          "p": 2,
           "gd": -1,
-          "pts": 0
+          "pts": 1
         },
         {
           "team": "Croatia",
-          "p": 1,
+          "p": 2,
           "gd": -2,
-          "pts": 0
+          "pts": 1
         }
       ]
     }
@@ -2484,6 +2484,18 @@
       },
       "home": "Ghana",
       "away": "Panama"
+    },
+    "537411": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "England",
+      "away": "Ghana"
     }
   },
   "goalCache": {
@@ -2531,6 +2543,7 @@
     "537404": [],
     "537405": [],
     "537409": [],
-    "537410": []
+    "537410": [],
+    "537411": []
   }
 }
