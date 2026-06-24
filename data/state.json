@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T22:51:26.729Z",
+  "generatedAt": "2026-06-24T23:56:25.239Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -998,8 +998,8 @@
       "utcDate": "2026-06-24T22:00:00Z",
       "home": "Morocco",
       "away": "Haiti",
-      "status": "LIVE",
-      "hs": 2,
+      "status": "IN_PLAY",
+      "hs": 3,
       "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
@@ -1009,9 +1009,9 @@
       "utcDate": "2026-06-24T22:00:00Z",
       "home": "Scotland",
       "away": "Brazil",
-      "status": "LIVE",
+      "status": "PAUSED",
       "hs": 0,
-      "as": 2,
+      "as": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
       "venue": null
@@ -1654,26 +1654,26 @@
         {
           "team": "Brazil",
           "p": 3,
-          "gd": 4,
+          "gd": 6,
           "pts": 7
         },
         {
           "team": "Morocco",
           "p": 3,
-          "gd": 0,
-          "pts": 4
+          "gd": 1,
+          "pts": 5
         },
         {
           "team": "Scotland",
           "p": 3,
-          "gd": -1,
+          "gd": -3,
           "pts": 3
         },
         {
           "team": "Haiti",
           "p": 3,
-          "gd": -3,
-          "pts": 3
+          "gd": -4,
+          "pts": 1
         }
       ]
     },
@@ -2112,6 +2112,30 @@
       },
       "home": "Scotland",
       "away": "Morocco"
+    },
+    "537343": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Scotland",
+      "away": "Brazil"
+    },
+    "537344": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Morocco",
+      "away": "Haiti"
     },
     "537345": {
       "h": {
@@ -2561,6 +2585,8 @@
     "537340": [],
     "537341": [],
     "537342": [],
+    "537343": [],
+    "537344": [],
     "537345": [],
     "537346": [],
     "537347": [],
