@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:56:25.239Z",
+  "generatedAt": "2026-06-24T23:58:29.392Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -453,7 +453,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-12T02:00:00Z",
@@ -464,7 +465,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-12T19:00:00Z",
@@ -475,7 +477,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
-      "venue": null
+      "venue": null,
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-13T01:00:00Z",
@@ -486,7 +489,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-13T19:00:00Z",
@@ -497,7 +501,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
-      "venue": null
+      "venue": null,
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-13T22:00:00Z",
@@ -508,7 +513,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "venue": null
+      "venue": null,
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-14T01:00:00Z",
@@ -519,7 +525,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "venue": null
+      "venue": null,
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-14T04:00:00Z",
@@ -530,7 +537,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-14T17:00:00Z",
@@ -541,7 +549,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-14T20:00:00Z",
@@ -552,7 +561,8 @@
       "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
-      "venue": null
+      "venue": null,
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-14T23:00:00Z",
@@ -563,7 +573,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-15T02:00:00Z",
@@ -574,7 +585,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-15T16:00:00Z",
@@ -585,7 +597,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
-      "venue": null
+      "venue": null,
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-15T19:00:00Z",
@@ -596,7 +609,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
-      "venue": null
+      "venue": null,
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-15T22:00:00Z",
@@ -607,7 +621,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
-      "venue": null
+      "venue": null,
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-16T01:00:00Z",
@@ -618,7 +633,8 @@
       "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
-      "venue": null
+      "venue": null,
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-16T19:00:00Z",
@@ -629,7 +645,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-16T22:00:00Z",
@@ -640,7 +657,8 @@
       "as": 4,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "venue": null
+      "venue": null,
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-17T01:00:00Z",
@@ -651,7 +669,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-17T04:00:00Z",
@@ -662,7 +681,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-17T17:00:00Z",
@@ -673,7 +693,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
-      "venue": null
+      "venue": null,
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-17T20:00:00Z",
@@ -684,7 +705,8 @@
       "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-17T23:00:00Z",
@@ -695,7 +717,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-18T02:00:00Z",
@@ -706,7 +729,8 @@
       "as": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
-      "venue": null
+      "venue": null,
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-18T16:00:00Z",
@@ -717,7 +741,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
-      "venue": null
+      "venue": null,
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-18T19:00:00Z",
@@ -728,7 +753,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-18T22:00:00Z",
@@ -739,7 +765,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-19T01:00:00Z",
@@ -750,7 +777,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-19T19:00:00Z",
@@ -761,7 +789,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-19T22:00:00Z",
@@ -772,7 +801,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "venue": null
+      "venue": null,
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-20T00:30:00Z",
@@ -783,7 +813,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-20T03:00:00Z",
@@ -794,7 +825,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
-      "venue": null
+      "venue": null,
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-20T17:00:00Z",
@@ -805,7 +837,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-20T20:00:00Z",
@@ -816,7 +849,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-21T00:00:00Z",
@@ -827,7 +861,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
-      "venue": null
+      "venue": null,
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-21T04:00:00Z",
@@ -838,7 +873,8 @@
       "as": 4,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
-      "venue": null
+      "venue": null,
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-21T16:00:00Z",
@@ -849,7 +885,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-21T19:00:00Z",
@@ -860,7 +897,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
-      "venue": null
+      "venue": null,
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-21T22:00:00Z",
@@ -871,7 +909,8 @@
       "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
-      "venue": null
+      "venue": null,
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-22T01:00:00Z",
@@ -882,7 +921,8 @@
       "as": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
-      "venue": null
+      "venue": null,
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-22T17:00:00Z",
@@ -893,7 +933,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-22T21:00:00Z",
@@ -904,7 +945,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-23T00:00:00Z",
@@ -915,7 +957,8 @@
       "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-23T03:00:00Z",
@@ -926,7 +969,8 @@
       "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
-      "venue": null
+      "venue": null,
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-23T17:00:00Z",
@@ -937,7 +981,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-23T20:00:00Z",
@@ -948,7 +993,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
-      "venue": null
+      "venue": null,
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-23T23:00:00Z",
@@ -959,7 +1005,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
-      "venue": null
+      "venue": null,
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-24T02:00:00Z",
@@ -970,7 +1017,8 @@
       "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-24T19:00:00Z",
@@ -981,7 +1029,8 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-24T19:00:00Z",
@@ -992,18 +1041,20 @@
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-24T22:00:00Z",
       "home": "Morocco",
       "away": "Haiti",
       "status": "IN_PLAY",
-      "hs": 3,
+      "hs": 4,
       "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "venue": null
+      "venue": null,
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-24T22:00:00Z",
@@ -1014,7 +1065,8 @@
       "as": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
-      "venue": null
+      "venue": null,
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-25T01:00:00Z",
@@ -1025,7 +1077,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-25T01:00:00Z",
@@ -1036,7 +1089,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-25T20:00:00Z",
@@ -1047,7 +1101,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-25T20:00:00Z",
@@ -1058,7 +1113,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-25T23:00:00Z",
@@ -1069,7 +1125,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-25T23:00:00Z",
@@ -1080,7 +1137,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-26T02:00:00Z",
@@ -1091,7 +1149,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-26T02:00:00Z",
@@ -1102,7 +1161,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-26T19:00:00Z",
@@ -1113,7 +1173,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-26T19:00:00Z",
@@ -1124,7 +1185,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-27T00:00:00Z",
@@ -1135,7 +1197,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-27T00:00:00Z",
@@ -1146,7 +1209,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-27T03:00:00Z",
@@ -1157,7 +1221,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-27T03:00:00Z",
@@ -1168,7 +1233,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-27T21:00:00Z",
@@ -1179,7 +1245,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-27T21:00:00Z",
@@ -1190,7 +1257,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-27T23:30:00Z",
@@ -1201,7 +1269,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-27T23:30:00Z",
@@ -1212,7 +1281,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-28T02:00:00Z",
@@ -1223,7 +1293,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-28T02:00:00Z",
@@ -1234,7 +1305,8 @@
       "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-28T19:00:00Z",
@@ -1245,7 +1317,8 @@
       "as": null,
       "stage": "LAST_32",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-29T17:00:00Z",
@@ -1256,7 +1329,8 @@
       "as": null,
       "stage": "LAST_32",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-29T20:30:00Z",
@@ -1267,7 +1341,8 @@
       "as": null,
       "stage": "LAST_32",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-30T01:00:00Z",
@@ -1278,7 +1353,8 @@
       "as": null,
       "stage": "LAST_32",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-30T17:00:00Z",
@@ -1289,7 +1365,8 @@
       "as": null,
       "stage": "LAST_32",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-06-30T21:00:00Z",
@@ -1300,7 +1377,8 @@
       "as": null,
       "stage": "LAST_32",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-01T01:00:00Z",
@@ -1311,7 +1389,8 @@
       "as": null,
       "stage": "LAST_32",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-01T16:00:00Z",
@@ -1322,7 +1401,8 @@
       "as": null,
       "stage": "LAST_32",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-01T20:00:00Z",
@@ -1333,7 +1413,8 @@
       "as": null,
       "stage": "LAST_32",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-02T00:00:00Z",
@@ -1344,7 +1425,8 @@
       "as": null,
       "stage": "LAST_32",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-02T19:00:00Z",
@@ -1355,7 +1437,8 @@
       "as": null,
       "stage": "LAST_32",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-02T23:00:00Z",
@@ -1366,7 +1449,8 @@
       "as": null,
       "stage": "LAST_32",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-03T03:00:00Z",
@@ -1377,7 +1461,8 @@
       "as": null,
       "stage": "LAST_32",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-03T18:00:00Z",
@@ -1388,7 +1473,8 @@
       "as": null,
       "stage": "LAST_32",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-03T22:00:00Z",
@@ -1399,7 +1485,8 @@
       "as": null,
       "stage": "LAST_32",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-04T01:30:00Z",
@@ -1410,7 +1497,8 @@
       "as": null,
       "stage": "LAST_32",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-04T17:00:00Z",
@@ -1421,7 +1509,8 @@
       "as": null,
       "stage": "LAST_16",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-04T21:00:00Z",
@@ -1432,7 +1521,8 @@
       "as": null,
       "stage": "LAST_16",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-05T20:00:00Z",
@@ -1443,7 +1533,8 @@
       "as": null,
       "stage": "LAST_16",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-06T00:00:00Z",
@@ -1454,7 +1545,8 @@
       "as": null,
       "stage": "LAST_16",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-06T19:00:00Z",
@@ -1465,7 +1557,8 @@
       "as": null,
       "stage": "LAST_16",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-07T00:00:00Z",
@@ -1476,7 +1569,8 @@
       "as": null,
       "stage": "LAST_16",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-07T16:00:00Z",
@@ -1487,7 +1581,8 @@
       "as": null,
       "stage": "LAST_16",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-07T20:00:00Z",
@@ -1498,7 +1593,8 @@
       "as": null,
       "stage": "LAST_16",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-09T20:00:00Z",
@@ -1509,7 +1605,8 @@
       "as": null,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-10T19:00:00Z",
@@ -1520,7 +1617,8 @@
       "as": null,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-11T21:00:00Z",
@@ -1531,7 +1629,8 @@
       "as": null,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-12T01:00:00Z",
@@ -1542,7 +1641,8 @@
       "as": null,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-14T19:00:00Z",
@@ -1553,7 +1653,8 @@
       "as": null,
       "stage": "SEMI_FINALS",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-15T19:00:00Z",
@@ -1564,7 +1665,8 @@
       "as": null,
       "stage": "SEMI_FINALS",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-18T21:00:00Z",
@@ -1575,7 +1677,8 @@
       "as": null,
       "stage": "THIRD_PLACE",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     },
     {
       "utcDate": "2026-07-19T19:00:00Z",
@@ -1586,7 +1689,8 @@
       "as": null,
       "stage": "FINAL",
       "group": null,
-      "venue": null
+      "venue": null,
+      "winner": null
     }
   ],
   "groups": [
