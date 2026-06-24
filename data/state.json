@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T18:01:07.747Z",
+  "generatedAt": "2026-06-24T20:00:43.489Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -976,9 +976,9 @@
       "utcDate": "2026-06-24T19:00:00Z",
       "home": "Switzerland",
       "away": "Canada",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "PAUSED",
+      "hs": 0,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "venue": null
@@ -987,9 +987,9 @@
       "utcDate": "2026-06-24T19:00:00Z",
       "home": "Bosnia and Herzegovina",
       "away": "Qatar",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "PAUSED",
+      "hs": 2,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "venue": null
@@ -1624,26 +1624,26 @@
       "rows": [
         {
           "team": "Canada",
-          "p": 2,
+          "p": 3,
           "gd": 6,
-          "pts": 4
+          "pts": 5
         },
         {
           "team": "Switzerland",
-          "p": 2,
+          "p": 3,
           "gd": 3,
-          "pts": 4
+          "pts": 5
         },
         {
           "team": "Bosnia and Herzegovina",
-          "p": 2,
-          "gd": -3,
-          "pts": 1
+          "p": 3,
+          "gd": -2,
+          "pts": 4
         },
         {
           "team": "Qatar",
-          "p": 2,
-          "gd": -6,
+          "p": 3,
+          "gd": -7,
           "pts": 1
         }
       ]
@@ -2039,6 +2039,30 @@
         "r": 0
       },
       "home": "Canada",
+      "away": "Qatar"
+    },
+    "537337": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Switzerland",
+      "away": "Canada"
+    },
+    "537338": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Bosnia and Herzegovina",
       "away": "Qatar"
     },
     "537339": {
@@ -2531,6 +2555,8 @@
     "537334": [],
     "537335": [],
     "537336": [],
+    "537337": [],
+    "537338": [],
     "537339": [],
     "537340": [],
     "537341": [],
