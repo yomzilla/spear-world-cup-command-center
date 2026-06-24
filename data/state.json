@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T13:29:56.524Z",
+  "generatedAt": "2026-06-24T15:58:00.774Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1260,7 +1260,7 @@
     },
     {
       "utcDate": "2026-06-29T20:30:00Z",
-      "home": null,
+      "home": "Germany",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1304,7 +1304,7 @@
     },
     {
       "utcDate": "2026-07-01T01:00:00Z",
-      "home": null,
+      "home": "Mexico",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1337,7 +1337,7 @@
     },
     {
       "utcDate": "2026-07-02T00:00:00Z",
-      "home": null,
+      "home": "United States",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1392,7 +1392,7 @@
     },
     {
       "utcDate": "2026-07-03T22:00:00Z",
-      "home": null,
+      "home": "Argentina",
       "away": null,
       "status": "TIMED",
       "hs": null,
