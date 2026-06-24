@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T21:39:45.334Z",
+  "generatedAt": "2026-06-24T22:51:26.729Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -998,9 +998,9 @@
       "utcDate": "2026-06-24T22:00:00Z",
       "home": "Morocco",
       "away": "Haiti",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "LIVE",
+      "hs": 2,
+      "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
       "venue": null
@@ -1009,9 +1009,9 @@
       "utcDate": "2026-06-24T22:00:00Z",
       "home": "Scotland",
       "away": "Brazil",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "LIVE",
+      "hs": 0,
+      "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
       "venue": null
@@ -1653,27 +1653,27 @@
       "rows": [
         {
           "team": "Brazil",
-          "p": 2,
-          "gd": 3,
-          "pts": 4
+          "p": 3,
+          "gd": 4,
+          "pts": 7
         },
         {
           "team": "Morocco",
-          "p": 2,
-          "gd": 1,
+          "p": 3,
+          "gd": 0,
           "pts": 4
         },
         {
           "team": "Scotland",
-          "p": 2,
-          "gd": 0,
+          "p": 3,
+          "gd": -1,
           "pts": 3
         },
         {
           "team": "Haiti",
-          "p": 2,
-          "gd": -4,
-          "pts": 0
+          "p": 3,
+          "gd": -3,
+          "pts": 3
         }
       ]
     },
