@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T03:39:35.188Z",
+  "generatedAt": "2026-06-25T07:02:09.130Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -50,10 +50,10 @@
     },
     "Bosnia and Herzegovina": {
       "w": 1,
-      "d": 1,
+      "d": 0,
       "l": 1,
-      "gf": 5,
-      "ga": 6,
+      "gf": 4,
+      "ga": 5,
       "yc": 0,
       "rc": 0
     },
@@ -77,10 +77,10 @@
     },
     "Canada": {
       "w": 1,
-      "d": 1,
+      "d": 0,
       "l": 1,
-      "gf": 8,
-      "ga": 3,
+      "gf": 7,
+      "ga": 2,
       "yc": 0,
       "rc": 0
     },
@@ -473,12 +473,12 @@
       "home": "Canada",
       "away": "Bosnia and Herzegovina",
       "status": "FINISHED",
-      "hs": 1,
-      "as": 1,
+      "hs": null,
+      "as": null,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "venue": null,
-      "winner": "DRAW"
+      "winner": null
     },
     {
       "utcDate": "2026-06-13T01:00:00Z",
@@ -1334,7 +1334,7 @@
     },
     {
       "utcDate": "2026-06-29T20:30:00Z",
-      "home": "Germany",
+      "home": null,
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1382,7 +1382,7 @@
     },
     {
       "utcDate": "2026-07-01T01:00:00Z",
-      "home": "Mexico",
+      "home": null,
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1418,7 +1418,7 @@
     },
     {
       "utcDate": "2026-07-02T00:00:00Z",
-      "home": "United States",
+      "home": null,
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1478,7 +1478,7 @@
     },
     {
       "utcDate": "2026-07-03T22:00:00Z",
-      "home": "Argentina",
+      "home": null,
       "away": null,
       "status": "TIMED",
       "hs": null,
