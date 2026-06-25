@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T17:32:57.631Z",
+  "generatedAt": "2026-06-25T21:14:17.625Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1096,25 +1096,25 @@
       "utcDate": "2026-06-25T20:00:00Z",
       "home": "Ecuador",
       "away": "Germany",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 1,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
       "venue": null,
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-25T20:00:00Z",
       "home": "Curaçao",
       "away": "Côte d'Ivoire",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
       "venue": null,
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-25T23:00:00Z",
@@ -1334,7 +1334,7 @@
     },
     {
       "utcDate": "2026-06-29T20:30:00Z",
-      "home": null,
+      "home": "Germany",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1382,7 +1382,7 @@
     },
     {
       "utcDate": "2026-07-01T01:00:00Z",
-      "home": null,
+      "home": "Mexico",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1418,7 +1418,7 @@
     },
     {
       "utcDate": "2026-07-02T00:00:00Z",
-      "home": null,
+      "home": "United States",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1478,7 +1478,7 @@
     },
     {
       "utcDate": "2026-07-03T22:00:00Z",
-      "home": null,
+      "home": "Argentina",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1815,26 +1815,26 @@
       "rows": [
         {
           "team": "Germany",
-          "p": 2,
+          "p": 3,
           "gd": 7,
-          "pts": 6
+          "pts": 7
         },
         {
           "team": "Côte d'Ivoire",
-          "p": 2,
-          "gd": 0,
-          "pts": 3
+          "p": 3,
+          "gd": 1,
+          "pts": 6
         },
         {
           "team": "Ecuador",
-          "p": 2,
+          "p": 3,
           "gd": -1,
-          "pts": 1
+          "pts": 2
         },
         {
           "team": "Curaçao",
-          "p": 2,
-          "gd": -6,
+          "p": 3,
+          "gd": -7,
           "pts": 1
         }
       ]
@@ -2361,6 +2361,30 @@
       "home": "Ecuador",
       "away": "Curaçao"
     },
+    "537355": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Ecuador",
+      "away": "Germany"
+    },
+    "537356": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Curaçao",
+      "away": "Côte d'Ivoire"
+    },
     "537357": {
       "h": {
         "y": 0,
@@ -2725,6 +2749,8 @@
     "537352": [],
     "537353": [],
     "537354": [],
+    "537355": [],
+    "537356": [],
     "537357": [],
     "537358": [],
     "537359": [],
