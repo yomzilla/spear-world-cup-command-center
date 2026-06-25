@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:14:17.625Z",
+  "generatedAt": "2026-06-25T22:48:30.756Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -103,10 +103,10 @@
       "rc": 0
     },
     "Côte d'Ivoire": {
-      "w": 1,
+      "w": 2,
       "d": 0,
       "l": 1,
-      "gf": 2,
+      "gf": 4,
       "ga": 2,
       "yc": 0,
       "rc": 0
@@ -123,9 +123,9 @@
     "Curaçao": {
       "w": 0,
       "d": 1,
-      "l": 1,
+      "l": 2,
       "gf": 1,
-      "ga": 7,
+      "ga": 9,
       "yc": 0,
       "rc": 0
     },
@@ -139,11 +139,11 @@
       "rc": 0
     },
     "Ecuador": {
-      "w": 0,
+      "w": 1,
       "d": 1,
       "l": 1,
-      "gf": 0,
-      "ga": 1,
+      "gf": 2,
+      "ga": 2,
       "yc": 0,
       "rc": 0
     },
@@ -177,9 +177,9 @@
     "Germany": {
       "w": 2,
       "d": 0,
-      "l": 0,
-      "gf": 9,
-      "ga": 2,
+      "l": 1,
+      "gf": 10,
+      "ga": 4,
       "yc": 0,
       "rc": 0
     },
@@ -1096,21 +1096,21 @@
       "utcDate": "2026-06-25T20:00:00Z",
       "home": "Ecuador",
       "away": "Germany",
-      "status": "IN_PLAY",
-      "hs": 1,
+      "status": "FINISHED",
+      "hs": 2,
       "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
       "venue": null,
-      "winner": "DRAW"
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-25T20:00:00Z",
       "home": "Curaçao",
       "away": "Côte d'Ivoire",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 0,
-      "as": 1,
+      "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
       "venue": null,
@@ -1334,7 +1334,7 @@
     },
     {
       "utcDate": "2026-06-29T20:30:00Z",
-      "home": "Germany",
+      "home": null,
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1382,7 +1382,7 @@
     },
     {
       "utcDate": "2026-07-01T01:00:00Z",
-      "home": "Mexico",
+      "home": null,
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1418,7 +1418,7 @@
     },
     {
       "utcDate": "2026-07-02T00:00:00Z",
-      "home": "United States",
+      "home": null,
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1478,7 +1478,7 @@
     },
     {
       "utcDate": "2026-07-03T22:00:00Z",
-      "home": "Argentina",
+      "home": null,
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1816,25 +1816,25 @@
         {
           "team": "Germany",
           "p": 3,
-          "gd": 7,
-          "pts": 7
+          "gd": 6,
+          "pts": 6
         },
         {
           "team": "Côte d'Ivoire",
           "p": 3,
-          "gd": 1,
+          "gd": 2,
           "pts": 6
         },
         {
           "team": "Ecuador",
           "p": 3,
-          "gd": -1,
-          "pts": 2
+          "gd": 0,
+          "pts": 4
         },
         {
           "team": "Curaçao",
           "p": 3,
-          "gd": -7,
+          "gd": -8,
           "pts": 1
         }
       ]
