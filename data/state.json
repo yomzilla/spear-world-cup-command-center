@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T07:02:09.130Z",
+  "generatedAt": "2026-06-25T10:19:38.369Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -50,10 +50,10 @@
     },
     "Bosnia and Herzegovina": {
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 1,
-      "gf": 4,
-      "ga": 5,
+      "gf": 5,
+      "ga": 6,
       "yc": 0,
       "rc": 0
     },
@@ -77,10 +77,10 @@
     },
     "Canada": {
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 1,
-      "gf": 7,
-      "ga": 2,
+      "gf": 8,
+      "ga": 3,
       "yc": 0,
       "rc": 0
     },
@@ -473,12 +473,12 @@
       "home": "Canada",
       "away": "Bosnia and Herzegovina",
       "status": "FINISHED",
-      "hs": null,
-      "as": null,
+      "hs": 1,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "venue": null,
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-13T01:00:00Z",
