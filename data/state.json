@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T17:18:44.264Z",
+  "generatedAt": "2026-06-26T18:27:08.032Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -306,7 +306,7 @@
       "l": 1,
       "gf": 2,
       "ga": 4,
-      "yc": 7,
+      "yc": 8,
       "rc": 1
     },
     "Portugal": {
@@ -405,7 +405,7 @@
       "l": 2,
       "gf": 3,
       "ga": 5,
-      "yc": 2,
+      "yc": 3,
       "rc": 0
     },
     "United States": {
@@ -439,8 +439,8 @@
   "manual": {
     "biggestLoss": 13,
     "goldenBoot": 1,
-    "fastestGoal": null,
-    "furthestGoal": null,
+    "fastestGoal": 28,
+    "furthestGoal": 7,
     "dirtiestTeam": 39
   },
   "fixtures": [
@@ -2047,5 +2047,1668 @@
     "name": "Lionel Messi",
     "team": "Argentina",
     "goals": 5
+  },
+  "prizeInfo": {
+    "fastestGoal": {
+      "team": "Morocco",
+      "mm": "2'"
+    },
+    "furthestGoal": {
+      "team": "Cabo Verde",
+      "dist": 30.9
+    }
+  },
+  "fifaCache": {
+    "400021440": {
+      "cards": {
+        "South Africa": {
+          "y": 2,
+          "r": 0
+        },
+        "Czechia": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Czechia",
+          "min": 6,
+          "mm": "6'",
+          "dist": 12.4
+        }
+      ]
+    },
+    "400021441": {
+      "cards": {
+        "Korea Republic": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Czechia",
+          "min": 59,
+          "mm": "59'",
+          "dist": 7.4
+        },
+        {
+          "team": "Korea Republic",
+          "min": 67,
+          "mm": "67'",
+          "dist": 14
+        },
+        {
+          "team": "Korea Republic",
+          "min": 80,
+          "mm": "80'",
+          "dist": 6.6
+        }
+      ]
+    },
+    "400021442": {
+      "cards": {
+        "Korea Republic": {
+          "y": 2,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Mexico",
+          "min": 50,
+          "mm": "50'",
+          "dist": 12.2
+        }
+      ]
+    },
+    "400021443": {
+      "cards": {
+        "South Africa": {
+          "y": 2,
+          "r": 2
+        },
+        "Mexico": {
+          "y": 1,
+          "r": 1
+        }
+      },
+      "goals": [
+        {
+          "team": "Mexico",
+          "min": 9,
+          "mm": "9'",
+          "dist": 16
+        },
+        {
+          "team": "Mexico",
+          "min": 67,
+          "mm": "67'",
+          "dist": 6.5
+        }
+      ]
+    },
+    "400021444": {
+      "cards": {
+        "Mexico": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Mexico",
+          "min": 55,
+          "mm": "55'",
+          "dist": 13.8
+        },
+        {
+          "team": "Mexico",
+          "min": 61,
+          "mm": "61'",
+          "dist": 3.6
+        },
+        {
+          "team": "Mexico",
+          "min": 90.04,
+          "mm": "90'+4'",
+          "dist": 14.7
+        }
+      ]
+    },
+    "400021445": {
+      "cards": {
+        "South Africa": {
+          "y": 1,
+          "r": 0
+        },
+        "Korea Republic": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "South Africa",
+          "min": 63,
+          "mm": "63'",
+          "dist": 14.6
+        }
+      ]
+    },
+    "400021446": {
+      "cards": {
+        "Bosnia and Herzegovina": {
+          "y": 2,
+          "r": 1
+        },
+        "Switzerland": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Switzerland",
+          "min": 74,
+          "mm": "74'",
+          "dist": 11.3
+        },
+        {
+          "team": "Switzerland",
+          "min": 84,
+          "mm": "84'",
+          "dist": 14.3
+        },
+        {
+          "team": "Switzerland",
+          "min": 90,
+          "mm": "90'",
+          "dist": 10.7
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "min": 90.03,
+          "mm": "90'+3'",
+          "dist": 14.5
+        }
+      ]
+    },
+    "400021447": {
+      "cards": {
+        "Qatar": {
+          "y": 2,
+          "r": 0
+        },
+        "Switzerland": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": []
+    },
+    "400021448": {
+      "cards": {
+        "Qatar": {
+          "y": 1,
+          "r": 0
+        },
+        "Bosnia and Herzegovina": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Bosnia and Herzegovina",
+          "min": 29,
+          "mm": "29'",
+          "dist": 22.5
+        },
+        {
+          "team": "Qatar",
+          "min": 42,
+          "mm": "42'",
+          "dist": 4.9
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "min": 80,
+          "mm": "80'",
+          "dist": 10.8
+        }
+      ]
+    },
+    "400021449": {
+      "cards": {
+        "Canada": {
+          "y": 2,
+          "r": 0
+        },
+        "Bosnia and Herzegovina": {
+          "y": 3,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Bosnia and Herzegovina",
+          "min": 21,
+          "mm": "21'",
+          "dist": 2.1
+        },
+        {
+          "team": "Canada",
+          "min": 78,
+          "mm": "78'",
+          "dist": 14.3
+        }
+      ]
+    },
+    "400021450": {
+      "cards": {
+        "Canada": {
+          "y": 1,
+          "r": 0
+        },
+        "Qatar": {
+          "y": 1,
+          "r": 2
+        }
+      },
+      "goals": [
+        {
+          "team": "Canada",
+          "min": 16,
+          "mm": "16'",
+          "dist": 3.9
+        },
+        {
+          "team": "Canada",
+          "min": 29,
+          "mm": "29'",
+          "dist": 15.7
+        },
+        {
+          "team": "Canada",
+          "min": 45.03,
+          "mm": "45'+3'",
+          "dist": 1.1
+        },
+        {
+          "team": "Canada",
+          "min": 64,
+          "mm": "64'",
+          "dist": 22.1
+        },
+        {
+          "team": "Canada",
+          "min": 90.02,
+          "mm": "90'+2'",
+          "dist": 9.1
+        }
+      ]
+    },
+    "400021451": {
+      "cards": {
+        "Canada": {
+          "y": 2,
+          "r": 0
+        },
+        "Switzerland": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Switzerland",
+          "min": 46,
+          "mm": "46'",
+          "dist": 10.7
+        },
+        {
+          "team": "Switzerland",
+          "min": 57,
+          "mm": "57'",
+          "dist": 16.6
+        },
+        {
+          "team": "Canada",
+          "min": 76,
+          "mm": "76'",
+          "dist": 10.6
+        }
+      ]
+    },
+    "400021452": {
+      "cards": {
+        "Haiti": {
+          "y": 3,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Morocco",
+          "min": 39,
+          "mm": "39'",
+          "dist": 0.5
+        },
+        {
+          "team": "Haiti",
+          "min": 43,
+          "mm": "43'",
+          "dist": 24.3
+        },
+        {
+          "team": "Morocco",
+          "min": 45.01,
+          "mm": "45'+1'",
+          "dist": 15.1
+        },
+        {
+          "team": "Morocco",
+          "min": 78,
+          "mm": "78'",
+          "dist": 9.3
+        },
+        {
+          "team": "Morocco",
+          "min": 89,
+          "mm": "89'",
+          "dist": 7
+        }
+      ]
+    },
+    "400021453": {
+      "cards": {
+        "Haiti": {
+          "y": 1,
+          "r": 0
+        },
+        "Scotland": {
+          "y": 3,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Scotland",
+          "min": 28,
+          "mm": "28'",
+          "dist": 12.6
+        }
+      ]
+    },
+    "400021454": {
+      "cards": {
+        "Morocco": {
+          "y": 1,
+          "r": 0
+        },
+        "Scotland": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Morocco",
+          "min": 2,
+          "mm": "2'",
+          "dist": 13.4
+        }
+      ]
+    },
+    "400021455": {
+      "cards": {
+        "Brazil": {
+          "y": 2,
+          "r": 0
+        },
+        "Scotland": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Brazil",
+          "min": 7,
+          "mm": "7'",
+          "dist": 7.3
+        },
+        {
+          "team": "Brazil",
+          "min": 45.03,
+          "mm": "45'+3'",
+          "dist": 4
+        },
+        {
+          "team": "Brazil",
+          "min": 60,
+          "mm": "60'",
+          "dist": 12.7
+        }
+      ]
+    },
+    "400021456": {
+      "cards": {
+        "Brazil": {
+          "y": 2,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Morocco",
+          "min": 21,
+          "mm": "21'",
+          "dist": 22.1
+        },
+        {
+          "team": "Brazil",
+          "min": 32,
+          "mm": "32'",
+          "dist": 12.9
+        }
+      ]
+    },
+    "400021457": {
+      "cards": {
+        "Haiti": {
+          "y": 3,
+          "r": 0
+        },
+        "Brazil": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Brazil",
+          "min": 23,
+          "mm": "23'",
+          "dist": 6.5
+        },
+        {
+          "team": "Brazil",
+          "min": 36,
+          "mm": "36'",
+          "dist": 15.1
+        },
+        {
+          "team": "Brazil",
+          "min": 45.03,
+          "mm": "45'+3'",
+          "dist": 14.8
+        }
+      ]
+    },
+    "400021458": {
+      "cards": {
+        "Paraguay": {
+          "y": 5,
+          "r": 0
+        },
+        "United States": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "United States",
+          "min": 31,
+          "mm": "31'",
+          "dist": 11.8
+        },
+        {
+          "team": "United States",
+          "min": 45.05,
+          "mm": "45'+5'",
+          "dist": 12.4
+        },
+        {
+          "team": "Paraguay",
+          "min": 73,
+          "mm": "73'",
+          "dist": 12.2
+        },
+        {
+          "team": "United States",
+          "min": 90.08,
+          "mm": "90'+8'",
+          "dist": 17.8
+        }
+      ]
+    },
+    "400021459": {
+      "cards": {
+        "United States": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "United States",
+          "min": 3,
+          "mm": "3'",
+          "dist": 10.1
+        },
+        {
+          "team": "Türkiye",
+          "min": 10,
+          "mm": "10'",
+          "dist": 7.6
+        },
+        {
+          "team": "Türkiye",
+          "min": 31,
+          "mm": "31'"
+        },
+        {
+          "team": "United States",
+          "min": 49,
+          "mm": "49'",
+          "dist": 19.4
+        },
+        {
+          "team": "Türkiye",
+          "min": 90.08,
+          "mm": "90'+8'",
+          "dist": 3.7
+        }
+      ]
+    },
+    "400021460": {
+      "cards": {
+        "Paraguay": {
+          "y": 2,
+          "r": 1
+        },
+        "Türkiye": {
+          "y": 2,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Paraguay",
+          "min": 2,
+          "mm": "2'",
+          "dist": 24.4
+        }
+      ]
+    },
+    "400021461": {
+      "cards": {
+        "Australia": {
+          "y": 1,
+          "r": 0
+        },
+        "Paraguay": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": []
+    },
+    "400021462": {
+      "cards": {
+        "Australia": {
+          "y": 4,
+          "r": 0
+        },
+        "United States": {
+          "y": 3,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "United States",
+          "min": 43,
+          "mm": "43'",
+          "dist": 3
+        }
+      ]
+    },
+    "400021463": {
+      "cards": {
+        "Türkiye": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Australia",
+          "min": 27,
+          "mm": "27'",
+          "dist": 13.4
+        },
+        {
+          "team": "Australia",
+          "min": 75,
+          "mm": "75'",
+          "dist": 23.2
+        }
+      ]
+    },
+    "400021464": {
+      "cards": {},
+      "goals": [
+        {
+          "team": "Germany",
+          "min": 6,
+          "mm": "6'",
+          "dist": 17.2
+        },
+        {
+          "team": "Curaçao",
+          "min": 21,
+          "mm": "21'",
+          "dist": 17.5
+        },
+        {
+          "team": "Germany",
+          "min": 38,
+          "mm": "38'",
+          "dist": 5.8
+        },
+        {
+          "team": "Germany",
+          "min": 47,
+          "mm": "47'",
+          "dist": 12.2
+        },
+        {
+          "team": "Germany",
+          "min": 68,
+          "mm": "68'",
+          "dist": 12.9
+        },
+        {
+          "team": "Germany",
+          "min": 78,
+          "mm": "78'",
+          "dist": 7.2
+        },
+        {
+          "team": "Germany",
+          "min": 88,
+          "mm": "88'",
+          "dist": 15
+        }
+      ]
+    },
+    "400021465": {
+      "cards": {
+        "Ecuador": {
+          "y": 1,
+          "r": 0
+        },
+        "Curaçao": {
+          "y": 5,
+          "r": 0
+        }
+      },
+      "goals": []
+    },
+    "400021466": {
+      "cards": {
+        "Ecuador": {
+          "y": 3,
+          "r": 0
+        },
+        "Germany": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Germany",
+          "min": 2,
+          "mm": "2'",
+          "dist": 15.1
+        },
+        {
+          "team": "Ecuador",
+          "min": 9,
+          "mm": "9'",
+          "dist": 20.7
+        },
+        {
+          "team": "Ecuador",
+          "min": 77,
+          "mm": "77'",
+          "dist": 2.9
+        }
+      ]
+    },
+    "400021467": {
+      "cards": {
+        "Côte d'Ivoire": {
+          "y": 3,
+          "r": 0
+        },
+        "Ecuador": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Côte d'Ivoire",
+          "min": 90,
+          "mm": "90'",
+          "dist": 15.3
+        }
+      ]
+    },
+    "400021468": {
+      "cards": {
+        "Côte d'Ivoire": {
+          "y": 1,
+          "r": 0
+        },
+        "Curaçao": {
+          "y": 2,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Côte d'Ivoire",
+          "min": 7,
+          "mm": "7'",
+          "dist": 6.6
+        },
+        {
+          "team": "Côte d'Ivoire",
+          "min": 64,
+          "mm": "64'",
+          "dist": 14.9
+        }
+      ]
+    },
+    "400021469": {
+      "cards": {},
+      "goals": [
+        {
+          "team": "Côte d'Ivoire",
+          "min": 30,
+          "mm": "30'",
+          "dist": 8.4
+        },
+        {
+          "team": "Germany",
+          "min": 68,
+          "mm": "68'",
+          "dist": 5.8
+        },
+        {
+          "team": "Germany",
+          "min": 90.04,
+          "mm": "90'+4'",
+          "dist": 13.7
+        }
+      ]
+    },
+    "400021470": {
+      "cards": {
+        "Netherlands": {
+          "y": 3,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Netherlands",
+          "min": 50,
+          "mm": "50'",
+          "dist": 10.5
+        },
+        {
+          "team": "Japan",
+          "min": 57,
+          "mm": "57'",
+          "dist": 18.8
+        },
+        {
+          "team": "Netherlands",
+          "min": 64,
+          "mm": "64'",
+          "dist": 21.2
+        },
+        {
+          "team": "Japan",
+          "min": 88,
+          "mm": "88'",
+          "dist": 7.9
+        }
+      ]
+    },
+    "400021471": {
+      "cards": {
+        "Sweden": {
+          "y": 2,
+          "r": 0
+        },
+        "Japan": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Japan",
+          "min": 56,
+          "mm": "56'",
+          "dist": 10
+        },
+        {
+          "team": "Sweden",
+          "min": 62,
+          "mm": "62'",
+          "dist": 26
+        }
+      ]
+    },
+    "400021472": {
+      "cards": {
+        "Sweden": {
+          "y": 3,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Netherlands",
+          "min": 5,
+          "mm": "5'",
+          "dist": 5.1
+        },
+        {
+          "team": "Netherlands",
+          "min": 17,
+          "mm": "17'",
+          "dist": 20
+        },
+        {
+          "team": "Netherlands",
+          "min": 47,
+          "mm": "47'",
+          "dist": 3.7
+        },
+        {
+          "team": "Netherlands",
+          "min": 54,
+          "mm": "54'",
+          "dist": 15.6
+        },
+        {
+          "team": "Sweden",
+          "min": 59,
+          "mm": "59'",
+          "dist": 16
+        },
+        {
+          "team": "Netherlands",
+          "min": 89,
+          "mm": "89'",
+          "dist": 18.4
+        }
+      ]
+    },
+    "400021473": {
+      "cards": {},
+      "goals": [
+        {
+          "team": "Netherlands",
+          "min": 7,
+          "mm": "7'",
+          "dist": 7.9
+        },
+        {
+          "team": "Tunisia",
+          "min": 54,
+          "mm": "54'",
+          "dist": 6.4
+        },
+        {
+          "team": "Netherlands",
+          "min": 62,
+          "mm": "62'",
+          "dist": 8.8
+        }
+      ]
+    },
+    "400021474": {
+      "cards": {
+        "Tunisia": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Sweden",
+          "min": 7,
+          "mm": "7'",
+          "dist": 22.6
+        },
+        {
+          "team": "Sweden",
+          "min": 30,
+          "mm": "30'",
+          "dist": 21.3
+        },
+        {
+          "team": "Tunisia",
+          "min": 43,
+          "mm": "43'",
+          "dist": 10
+        },
+        {
+          "team": "Sweden",
+          "min": 59,
+          "mm": "59'",
+          "dist": 13.2
+        },
+        {
+          "team": "Sweden",
+          "min": 84,
+          "mm": "84'",
+          "dist": 10.9
+        },
+        {
+          "team": "Sweden",
+          "min": 90.06,
+          "mm": "90'+6'",
+          "dist": 21.9
+        }
+      ]
+    },
+    "400021475": {
+      "cards": {},
+      "goals": [
+        {
+          "team": "Japan",
+          "min": 4,
+          "mm": "4'",
+          "dist": 5.5
+        },
+        {
+          "team": "Japan",
+          "min": 31,
+          "mm": "31'",
+          "dist": 22.5
+        },
+        {
+          "team": "Japan",
+          "min": 69,
+          "mm": "69'",
+          "dist": 12.2
+        },
+        {
+          "team": "Japan",
+          "min": 83,
+          "mm": "83'",
+          "dist": 6.5
+        }
+      ]
+    },
+    "400021476": {
+      "cards": {
+        "IR Iran": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "New Zealand",
+          "min": 7,
+          "mm": "7'",
+          "dist": 9.3
+        },
+        {
+          "team": "IR Iran",
+          "min": 32,
+          "mm": "32'",
+          "dist": 7.4
+        },
+        {
+          "team": "New Zealand",
+          "min": 54,
+          "mm": "54'",
+          "dist": 13.7
+        },
+        {
+          "team": "IR Iran",
+          "min": 64,
+          "mm": "64'",
+          "dist": 8.2
+        }
+      ]
+    },
+    "400021477": {
+      "cards": {
+        "Belgium": {
+          "y": 1,
+          "r": 1
+        },
+        "IR Iran": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": []
+    },
+    "400021478": {
+      "cards": {
+        "Egypt": {
+          "y": 2,
+          "r": 0
+        },
+        "Belgium": {
+          "y": 2,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Egypt",
+          "min": 19,
+          "mm": "19'",
+          "dist": 20.9
+        }
+      ]
+    },
+    "400021480": {
+      "cards": {
+        "Egypt": {
+          "y": 1,
+          "r": 0
+        },
+        "New Zealand": {
+          "y": 2,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "New Zealand",
+          "min": 15,
+          "mm": "15'",
+          "dist": 6.4
+        },
+        {
+          "team": "Egypt",
+          "min": 58,
+          "mm": "58'",
+          "dist": 8.2
+        },
+        {
+          "team": "Egypt",
+          "min": 67,
+          "mm": "67'",
+          "dist": 14.9
+        },
+        {
+          "team": "Egypt",
+          "min": 82,
+          "mm": "82'",
+          "dist": 8.1
+        }
+      ]
+    },
+    "400021482": {
+      "cards": {
+        "Cabo Verde": {
+          "y": 1,
+          "r": 0
+        },
+        "Spain": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": []
+    },
+    "400021483": {
+      "cards": {
+        "Saudi Arabia": {
+          "y": 2,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Spain",
+          "min": 10,
+          "mm": "10'",
+          "dist": 5.5
+        },
+        {
+          "team": "Spain",
+          "min": 21,
+          "mm": "21'",
+          "dist": 8
+        },
+        {
+          "team": "Spain",
+          "min": 24,
+          "mm": "24'",
+          "dist": 4.5
+        }
+      ]
+    },
+    "400021486": {
+      "cards": {
+        "Saudi Arabia": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Saudi Arabia",
+          "min": 41,
+          "mm": "41'",
+          "dist": 2.8
+        },
+        {
+          "team": "Uruguay",
+          "min": 80,
+          "mm": "80'",
+          "dist": 10.2
+        }
+      ]
+    },
+    "400021487": {
+      "cards": {
+        "Cabo Verde": {
+          "y": 2,
+          "r": 0
+        },
+        "Uruguay": {
+          "y": 2,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Cabo Verde",
+          "min": 21,
+          "mm": "21'",
+          "dist": 30.9
+        },
+        {
+          "team": "Uruguay",
+          "min": 44,
+          "mm": "44'",
+          "dist": 2.2
+        },
+        {
+          "team": "Uruguay",
+          "min": 45.06,
+          "mm": "45'+6'",
+          "dist": 6.5
+        },
+        {
+          "team": "Cabo Verde",
+          "min": 61,
+          "mm": "61'",
+          "dist": 25.5
+        }
+      ]
+    },
+    "400021488": {
+      "cards": {
+        "Iraq": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Norway",
+          "min": 29,
+          "mm": "29'",
+          "dist": 4.4
+        },
+        {
+          "team": "Iraq",
+          "min": 39,
+          "mm": "39'",
+          "dist": 8.1
+        },
+        {
+          "team": "Norway",
+          "min": 43,
+          "mm": "43'",
+          "dist": 4.3
+        },
+        {
+          "team": "Norway",
+          "min": 76,
+          "mm": "76'",
+          "dist": 3.7
+        }
+      ]
+    },
+    "400021490": {
+      "cards": {},
+      "goals": [
+        {
+          "team": "France",
+          "min": 66,
+          "mm": "66'",
+          "dist": 11.3
+        },
+        {
+          "team": "France",
+          "min": 82,
+          "mm": "82'",
+          "dist": 14.7
+        },
+        {
+          "team": "Senegal",
+          "min": 90.05,
+          "mm": "90'+5'",
+          "dist": 15.8
+        },
+        {
+          "team": "France",
+          "min": 90.06,
+          "mm": "90'+6'",
+          "dist": 27.9
+        }
+      ]
+    },
+    "400021491": {
+      "cards": {},
+      "goals": [
+        {
+          "team": "Norway",
+          "min": 43,
+          "mm": "43'",
+          "dist": 15.4
+        },
+        {
+          "team": "Norway",
+          "min": 48,
+          "mm": "48'",
+          "dist": 13.9
+        },
+        {
+          "team": "Senegal",
+          "min": 53,
+          "mm": "53'",
+          "dist": 7.6
+        },
+        {
+          "team": "Norway",
+          "min": 58,
+          "mm": "58'",
+          "dist": 8.8
+        },
+        {
+          "team": "Senegal",
+          "min": 90.03,
+          "mm": "90'+3'",
+          "dist": 9.7
+        }
+      ]
+    },
+    "400021492": {
+      "cards": {
+        "Iraq": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "France",
+          "min": 14,
+          "mm": "14'",
+          "dist": 22.9
+        },
+        {
+          "team": "France",
+          "min": 54,
+          "mm": "54'",
+          "dist": 9.2
+        },
+        {
+          "team": "France",
+          "min": 66,
+          "mm": "66'",
+          "dist": 14.2
+        }
+      ]
+    },
+    "400021494": {
+      "cards": {
+        "Austria": {
+          "y": 2,
+          "r": 0
+        },
+        "Argentina": {
+          "y": 2,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Argentina",
+          "min": 38,
+          "mm": "38'",
+          "dist": 14.7
+        },
+        {
+          "team": "Argentina",
+          "min": 90.05,
+          "mm": "90'+5'",
+          "dist": 8.7
+        }
+      ]
+    },
+    "400021496": {
+      "cards": {},
+      "goals": [
+        {
+          "team": "Argentina",
+          "min": 17,
+          "mm": "17'",
+          "dist": 20.2
+        },
+        {
+          "team": "Argentina",
+          "min": 60,
+          "mm": "60'",
+          "dist": 8.3
+        },
+        {
+          "team": "Argentina",
+          "min": 76,
+          "mm": "76'",
+          "dist": 16.7
+        }
+      ]
+    },
+    "400021498": {
+      "cards": {
+        "Austria": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Austria",
+          "min": 20,
+          "mm": "20'",
+          "dist": 20.7
+        },
+        {
+          "team": "Jordan",
+          "min": 50,
+          "mm": "50'",
+          "dist": 17
+        }
+      ]
+    },
+    "400021499": {
+      "cards": {
+        "Algeria": {
+          "y": 1,
+          "r": 0
+        },
+        "Jordan": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Jordan",
+          "min": 36,
+          "mm": "36'",
+          "dist": 14.9
+        },
+        {
+          "team": "Algeria",
+          "min": 69,
+          "mm": "69'",
+          "dist": 7.6
+        },
+        {
+          "team": "Algeria",
+          "min": 82,
+          "mm": "82'",
+          "dist": 3.8
+        }
+      ]
+    },
+    "400021501": {
+      "cards": {
+        "Colombia": {
+          "y": 2,
+          "r": 0
+        },
+        "Congo DR": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Colombia",
+          "min": 76,
+          "mm": "76'",
+          "dist": 15.7
+        }
+      ]
+    },
+    "400021502": {
+      "cards": {
+        "Portugal": {
+          "y": 3,
+          "r": 0
+        },
+        "Congo DR": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Portugal",
+          "min": 6,
+          "mm": "6'",
+          "dist": 9.9
+        },
+        {
+          "team": "Congo DR",
+          "min": 45.05,
+          "mm": "45'+5'",
+          "dist": 6.7
+        }
+      ]
+    },
+    "400021503": {
+      "cards": {
+        "Uzbekistan": {
+          "y": 1,
+          "r": 0
+        },
+        "Portugal": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Portugal",
+          "min": 6,
+          "mm": "6'",
+          "dist": 8
+        },
+        {
+          "team": "Portugal",
+          "min": 17,
+          "mm": "17'",
+          "dist": 17.3
+        },
+        {
+          "team": "Portugal",
+          "min": 39,
+          "mm": "39'",
+          "dist": 14.1
+        },
+        {
+          "team": "Portugal",
+          "min": 87,
+          "mm": "87'",
+          "dist": 14.8
+        }
+      ]
+    },
+    "400021504": {
+      "cards": {
+        "Colombia": {
+          "y": 1,
+          "r": 0
+        },
+        "Uzbekistan": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Colombia",
+          "min": 40,
+          "mm": "40'",
+          "dist": 7.9
+        },
+        {
+          "team": "Uzbekistan",
+          "min": 60,
+          "mm": "60'",
+          "dist": 1.7
+        },
+        {
+          "team": "Colombia",
+          "min": 65,
+          "mm": "65'",
+          "dist": 16
+        },
+        {
+          "team": "Colombia",
+          "min": 90.09,
+          "mm": "90'+9'",
+          "dist": 7.6
+        }
+      ]
+    },
+    "400021506": {
+      "cards": {
+        "England": {
+          "y": 1,
+          "r": 0
+        },
+        "Ghana": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": []
+    },
+    "400021507": {
+      "cards": {},
+      "goals": [
+        {
+          "team": "Croatia",
+          "min": 36,
+          "mm": "36'",
+          "dist": 20.6
+        },
+        {
+          "team": "England",
+          "min": 42,
+          "mm": "42'",
+          "dist": 9.8
+        },
+        {
+          "team": "Croatia",
+          "min": 45.05,
+          "mm": "45'+5'",
+          "dist": 10.2
+        },
+        {
+          "team": "England",
+          "min": 47,
+          "mm": "47'",
+          "dist": 15.1
+        },
+        {
+          "team": "England",
+          "min": 85,
+          "mm": "85'",
+          "dist": 13.8
+        }
+      ]
+    },
+    "400021510": {
+      "cards": {
+        "Ghana": {
+          "y": 1,
+          "r": 0
+        },
+        "Panama": {
+          "y": 2,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Ghana",
+          "min": 90.05,
+          "mm": "90'+5'",
+          "dist": 3.8
+        }
+      ]
+    },
+    "400021511": {
+      "cards": {
+        "Panama": {
+          "y": 1,
+          "r": 0
+        },
+        "Croatia": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Croatia",
+          "min": 54,
+          "mm": "54'",
+          "dist": 5.8
+        }
+      ]
+    }
   }
 }
