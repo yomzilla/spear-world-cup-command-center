@@ -44,18 +44,7 @@ const results = Object.fromEntries(NAMES.map((n) => [n, blank()]));
 
 let live = false, source = "scaffold";
 let fixtures = [], groups = [], topScorer = null;
-let cardCache = {};   // matchId -> { h:{y,r}, a:{y,r}, home, away }
-let goalCache = {};   // matchId -> [{ team, minute }]
 const matchMeta = []; // { id, home, away, status, hs, as }
-
-// load previous caches so finished matches aren't re-fetched every run
-try {
-  const prev = JSON.parse(fs.readFileSync("data/state.json", "utf8"));
-  cardCache = prev.cardCache || {};
-  goalCache = prev.goalCache || {};
-} catch (e) {}
-
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function api(path) {
   const r = await fetch(`https://api.football-data.org/v4/${path}`, {
@@ -100,49 +89,52 @@ if (TOKEN) {
       const top = (sc.scorers || [])[0];
       if (top) topScorer = { name: top.player?.name, team: canon(top.team?.name), goals: top.goals };
     } catch (e) { console.error("scorers:", e.message); }
-
-    // --- Cards (yellow/red) via per-match detail, cached + throttled ---
-    // Fetch details only for in-play matches and finished matches we haven't
-    // cached yet, capped per run to respect the free-tier rate limit (10/min).
-    const MAX_DETAIL = 8;
-    const needsFetch = matchMeta.filter(
-      (m) => m.status === "IN_PLAY" || m.status === "PAUSED" || (m.status === "FINISHED" && (!cardCache[m.id] || !goalCache[m.id]))
-    ).slice(0, MAX_DETAIL);
-    for (const m of needsFetch) {
-      try {
-        const d = await api(`matches/${m.id}`);
-        const agg = { h: { y: 0, r: 0 }, a: { y: 0, r: 0 }, home: m.home, away: m.away };
-        for (const bk of d.bookings || []) {
-          const side = canon(bk.team?.name) === m.home ? agg.h : canon(bk.team?.name) === m.away ? agg.a : null;
-          if (!side) continue;
-          if (bk.card === "YELLOW") side.y++;
-          else if (bk.card === "RED" || bk.card === "YELLOW_RED") side.r++;
-        }
-        cardCache[m.id] = agg;
-        
-        // Extract goal events with timing
-        const goals = [];
-        for (const goal of d.goals || []) {
-          const team = canon(goal.team?.name);
-          const minute = goal.minute;
-          if (team && minute != null && NAMES.includes(team)) {
-            goals.push({ team, minute });
-          }
-        }
-        goalCache[m.id] = goals;
-      } catch (e) { console.error("match", m.id, e.message); }
-      await sleep(6500);
-    }
-    // Apply cached cards to team totals.
-    for (const c of Object.values(cardCache)) {
-      if (results[c.home]) { results[c.home].yc += c.h.y; results[c.home].rc += c.h.r; }
-      if (results[c.away]) { results[c.away].yc += c.a.y; results[c.away].rc += c.a.r; }
-    }
   } catch (e) {
     console.error("API unavailable, writing scaffold:", e.message);
   }
 } else {
   console.log("No FOOTBALL_DATA_TOKEN set — writing scaffold (all zeros).");
+}
+
+// --- Discipline (yellow/red cards) from ESPN's public stats API ---
+// The football-data free tier exposes no bookings, so per-team card totals come
+// from ESPN's core API (no token required). This populates yc/rc for every team
+// (fixing site-wide card stats) and feeds the auto-calculated Dirtiest Team prize.
+// Source of truth: espn.com/soccer/stats/_/league/FIFA.WORLD/view/discipline
+async function espnJson(u) {
+  const r = await fetch(u, { headers: { "User-Agent": "Mozilla/5.0", Accept: "application/json" } });
+  if (!r.ok) throw new Error(`ESPN ${r.status}`);
+  return r.json();
+}
+async function pool(items, n, fn) {
+  let i = 0;
+  await Promise.all(Array.from({ length: Math.min(n, items.length) }, async () => {
+    while (i < items.length) { const k = i++; try { await fn(items[k]); } catch (e) { console.error("espn:", e.message); } }
+  }));
+}
+try {
+  const ESPN_SEASON = process.env.ESPN_WC_SEASON || "2026";
+  const ESPN_BASE = `https://sports.core.api.espn.com/v2/sports/soccer/leagues/FIFA.WORLD/seasons/${ESPN_SEASON}`;
+  const list = await espnJson(`${ESPN_BASE}/teams?limit=60`);
+  const ids = (list.items || []).map((it) => (String(it.$ref).match(/teams\/(\d+)/) || [])[1]).filter(Boolean);
+  let applied = 0; const unmatched = [];
+  await pool(ids, 8, async (id) => {
+    const team = await espnJson(`${ESPN_BASE}/teams/${id}`);
+    const name = canon(team.displayName || team.name);
+    const stat = await espnJson(`${ESPN_BASE}/types/1/teams/${id}/statistics`);
+    const gen = (stat.splits?.categories || []).find((c) => c.name === "general");
+    const val = (nm) => { const s = (gen?.stats || []).find((x) => x.name === nm); return s ? Math.round(s.value) : 0; };
+    if (results[name]) {
+      results[name].yc = val("yellowCards");
+      results[name].rc = val("redCards");
+      applied++;
+    } else if (team.displayName) {
+      unmatched.push(team.displayName);
+    }
+  });
+  console.log(`ESPN discipline applied to ${applied}/${ids.length} teams${unmatched.length ? "; unmatched: " + unmatched.join(", ") : ""}`);
+} catch (e) {
+  console.error("ESPN discipline unavailable:", e.message);
 }
 
 // Admin-controlled manual prize picks (team indices or null).
@@ -171,27 +163,7 @@ if (manual.biggestLoss == null) {
   if (loser) { const idx = NAMES.indexOf(loser); if (idx >= 0) manual.biggestLoss = idx; }
 }
 
-// Auto-fill Fastest Goal: team that scored earliest (lowest minute) unless admin pinned it.
-if (manual.fastestGoal == null) {
-  const allGoals = Object.values(goalCache).flat();
-  if (allGoals.length > 0) {
-    const sorted = [...allGoals].sort((a, b) => a.minute - b.minute);
-    const fastest = sorted[0];
-    const idx = NAMES.indexOf(fastest.team);
-    if (idx >= 0) manual.fastestGoal = idx;
-  }
-}
-
-// Auto-fill Furthest Goal: team that scored latest (highest minute) unless admin pinned it.
-if (manual.furthestGoal == null) {
-  const allGoals = Object.values(goalCache).flat();
-  if (allGoals.length > 0) {
-    const sorted = [...allGoals].sort((a, b) => b.minute - a.minute);
-    const furthest = sorted[0];
-    const idx = NAMES.indexOf(furthest.team);
-    if (idx >= 0) manual.furthestGoal = idx;
-  }
-}
+// Fastest Goal & Furthest Goal: no automatic source wired yet (left as admin/null).
 
 // Auto-fill Dirtiest Team: team with most card points (Y=1, R=3), tie-broken by most reds.
 if (manual.dirtiestTeam == null) {
@@ -210,7 +182,7 @@ if (manual.dirtiestTeam == null) {
   }
 }
 
-const payload = { live, source, results, manual, fixtures, groups, topScorer, cardCache, goalCache };
+const payload = { live, source, results, manual, fixtures, groups, topScorer };
 // Only bump generatedAt when the substantive data actually changed — avoids a
 // commit (and Pages rebuild) every 15 minutes when nothing has happened.
 let generatedAt = new Date().toISOString();
