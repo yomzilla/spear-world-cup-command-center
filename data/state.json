@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T18:27:08.032Z",
+  "generatedAt": "2026-06-26T19:13:16.738Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -216,7 +216,7 @@
       "l": 2,
       "gf": 1,
       "ga": 7,
-      "yc": 2,
+      "yc": 3,
       "rc": 0
     },
     "Japan": {
@@ -288,7 +288,7 @@
       "l": 0,
       "gf": 7,
       "ga": 3,
-      "yc": 0,
+      "yc": 1,
       "rc": 0
     },
     "Panama": {
@@ -1168,25 +1168,25 @@
       "utcDate": "2026-06-26T19:00:00Z",
       "home": "Norway",
       "away": "France",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "LIVE",
+      "hs": 0,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
       "venue": null,
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-26T19:00:00Z",
       "home": "Senegal",
       "away": "Iraq",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "LIVE",
+      "hs": 1,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
       "venue": null,
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-27T00:00:00Z",
@@ -1931,27 +1931,27 @@
       "rows": [
         {
           "team": "France",
-          "p": 2,
+          "p": 3,
           "gd": 5,
-          "pts": 6
+          "pts": 7
         },
         {
           "team": "Norway",
-          "p": 2,
+          "p": 3,
           "gd": 4,
-          "pts": 6
+          "pts": 7
         },
         {
           "team": "Senegal",
-          "p": 2,
+          "p": 3,
           "gd": -3,
-          "pts": 0
+          "pts": 1
         },
         {
           "team": "Iraq",
-          "p": 2,
+          "p": 3,
           "gd": -6,
-          "pts": 0
+          "pts": 1
         }
       ]
     },
