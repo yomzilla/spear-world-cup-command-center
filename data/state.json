@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T20:56:09.977Z",
+  "generatedAt": "2026-06-26T22:14:21.513Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -166,11 +166,11 @@
       "rc": 0
     },
     "France": {
-      "w": 2,
+      "w": 3,
       "d": 0,
       "l": 0,
-      "gf": 6,
-      "ga": 1,
+      "gf": 10,
+      "ga": 2,
       "yc": 1,
       "rc": 0
     },
@@ -213,10 +213,10 @@
     "Iraq": {
       "w": 0,
       "d": 0,
-      "l": 2,
+      "l": 3,
       "gf": 1,
-      "ga": 7,
-      "yc": 3,
+      "ga": 12,
+      "yc": 4,
       "rc": 1
     },
     "Japan": {
@@ -285,9 +285,9 @@
     "Norway": {
       "w": 2,
       "d": 0,
-      "l": 0,
-      "gf": 7,
-      "ga": 3,
+      "l": 1,
+      "gf": 8,
+      "ga": 7,
       "yc": 1,
       "rc": 0
     },
@@ -346,10 +346,10 @@
       "rc": 0
     },
     "Senegal": {
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 2,
-      "gf": 3,
+      "gf": 8,
       "ga": 6,
       "yc": 2,
       "rc": 0
@@ -1168,9 +1168,9 @@
       "utcDate": "2026-06-26T19:00:00Z",
       "home": "Norway",
       "away": "France",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 1,
-      "as": 3,
+      "as": 4,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
       "venue": null,
@@ -1180,7 +1180,7 @@
       "utcDate": "2026-06-26T19:00:00Z",
       "home": "Senegal",
       "away": "Iraq",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 5,
       "as": 0,
       "stage": "GROUP_STAGE",
@@ -1932,25 +1932,25 @@
         {
           "team": "France",
           "p": 3,
-          "gd": 7,
+          "gd": 8,
           "pts": 9
         },
         {
           "team": "Norway",
           "p": 3,
-          "gd": 2,
+          "gd": 1,
           "pts": 6
         },
         {
           "team": "Senegal",
           "p": 3,
-          "gd": 0,
+          "gd": 2,
           "pts": 3
         },
         {
           "team": "Iraq",
           "p": 3,
-          "gd": -9,
+          "gd": -11,
           "pts": 0
         }
       ]
@@ -3305,6 +3305,50 @@
         }
       ]
     },
+    "400021489": {
+      "cards": {
+        "Norway": {
+          "y": 1,
+          "r": 0
+        },
+        "France": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "France",
+          "min": 7,
+          "mm": "7'",
+          "dist": 15.8
+        },
+        {
+          "team": "France",
+          "min": 20,
+          "mm": "20'",
+          "dist": 22.1
+        },
+        {
+          "team": "Norway",
+          "min": 21,
+          "mm": "21'",
+          "dist": 14.7
+        },
+        {
+          "team": "France",
+          "min": 32,
+          "mm": "32'",
+          "dist": 17.2
+        },
+        {
+          "team": "France",
+          "min": 90.04,
+          "mm": "90'+4'",
+          "dist": 9.8
+        }
+      ]
+    },
     "400021490": {
       "cards": {},
       "goals": [
@@ -3394,6 +3438,50 @@
           "min": 66,
           "mm": "66'",
           "dist": 14.2
+        }
+      ]
+    },
+    "400021493": {
+      "cards": {
+        "Iraq": {
+          "y": 2,
+          "r": 1
+        },
+        "Senegal": {
+          "y": 2,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Senegal",
+          "min": 4,
+          "mm": "4'",
+          "dist": 8.8
+        },
+        {
+          "team": "Senegal",
+          "min": 56,
+          "mm": "56'",
+          "dist": 3.5
+        },
+        {
+          "team": "Senegal",
+          "min": 59,
+          "mm": "59'",
+          "dist": 22.6
+        },
+        {
+          "team": "Senegal",
+          "min": 71,
+          "mm": "71'",
+          "dist": 15
+        },
+        {
+          "team": "Senegal",
+          "min": 82,
+          "mm": "82'",
+          "dist": 22.8
         }
       ]
     },
