@@ -45,6 +45,11 @@ const results = Object.fromEntries(NAMES.map((n) => [n, blank()]));
 let live = false, source = "scaffold";
 let fixtures = [], groups = [], topScorer = null;
 const matchMeta = []; // { id, home, away, status, hs, as }
+let fifaFastest = null, fifaFurthest = null;
+
+// Reuse previously cached FIFA match events so finished matches aren't refetched.
+let fifaCache = {}; // fifaMatchId -> { cards: {teamName:{y,r}}, goals: [{team,min,mm,dist}] }
+try { fifaCache = JSON.parse(fs.readFileSync("data/state.json", "utf8")).fifaCache || {}; } catch (e) {}
 
 async function api(path) {
   const r = await fetch(`https://api.football-data.org/v4/${path}`, {
@@ -96,45 +101,83 @@ if (TOKEN) {
   console.log("No FOOTBALL_DATA_TOKEN set — writing scaffold (all zeros).");
 }
 
-// --- Discipline (yellow/red cards) from ESPN's public stats API ---
-// The football-data free tier exposes no bookings, so per-team card totals come
-// from ESPN's core API (no token required). This populates yc/rc for every team
-// (fixing site-wide card stats) and feeds the auto-calculated Dirtiest Team prize.
-// Source of truth: espn.com/soccer/stats/_/league/FIFA.WORLD/view/discipline
-async function espnJson(u) {
+// --- Official match events from FIFA (goals + cards, with minute & position) ---
+// football-data's free tier exposes no bookings or goal detail, so the official
+// FIFA match-event API (no key required) powers per-team cards (Dirtiest Team),
+// the Fastest Goal (earliest minute) and the Furthest Goal (longest shot
+// distance) prizes. Finished matches are cached so only new/in-play matches are
+// refetched each run. Source: fifa.com FIFA World Cup 2026 (season 285023).
+async function fifaJson(u) {
   const r = await fetch(u, { headers: { "User-Agent": "Mozilla/5.0", Accept: "application/json" } });
-  if (!r.ok) throw new Error(`ESPN ${r.status}`);
+  if (!r.ok) throw new Error(`FIFA ${r.status}`);
   return r.json();
 }
 async function pool(items, n, fn) {
   let i = 0;
   await Promise.all(Array.from({ length: Math.min(n, items.length) }, async () => {
-    while (i < items.length) { const k = i++; try { await fn(items[k]); } catch (e) { console.error("espn:", e.message); } }
+    while (i < items.length) { const k = i++; try { await fn(items[k]); } catch (e) { console.error("fifa:", e.message); } }
   }));
 }
+const fifaName = (t) => canon(t?.TeamName?.[0]?.Description || t?.ShortClubName || "");
+const parseMin = (s) => { const m = /(\d+)'(?:\+(\d+))?/.exec(s || ""); return m ? (+m[1] + (m[2] ? +m[2] / 100 : 0)) : 9999; };
+// FIFA uses absolute pitch coords (0-100); the attacking goal is the near line,
+// so distance-to-goal = min(X, 100-X) laterally combined with offset from centre.
+const goalDist = (x, y) => { const dx = Math.min(x, 100 - x) / 100 * 105, dy = (y - 50) / 100 * 68; return Math.sqrt(dx * dx + dy * dy); };
+
 try {
-  const ESPN_SEASON = process.env.ESPN_WC_SEASON || "2026";
-  const ESPN_BASE = `https://sports.core.api.espn.com/v2/sports/soccer/leagues/FIFA.WORLD/seasons/${ESPN_SEASON}`;
-  const list = await espnJson(`${ESPN_BASE}/teams?limit=60`);
-  const ids = (list.items || []).map((it) => (String(it.$ref).match(/teams\/(\d+)/) || [])[1]).filter(Boolean);
-  let applied = 0; const unmatched = [];
-  await pool(ids, 8, async (id) => {
-    const team = await espnJson(`${ESPN_BASE}/teams/${id}`);
-    const name = canon(team.displayName || team.name);
-    const stat = await espnJson(`${ESPN_BASE}/types/1/teams/${id}/statistics`);
-    const gen = (stat.splits?.categories || []).find((c) => c.name === "general");
-    const val = (nm) => { const s = (gen?.stats || []).find((x) => x.name === nm); return s ? Math.round(s.value) : 0; };
-    if (results[name]) {
-      results[name].yc = val("yellowCards");
-      results[name].rc = val("redCards");
-      applied++;
-    } else if (team.displayName) {
-      unmatched.push(team.displayName);
+  const FIFA_SEASON = process.env.FIFA_SEASON || "285023";
+  const FIFA_COMP = process.env.FIFA_COMP || "17";
+  const cal = await fifaJson(`https://api.fifa.com/api/v3/calendar/matches?idSeason=${FIFA_SEASON}&count=500`);
+  const fmatches = cal.Results || [];
+  const id2name = {};
+  for (const m of fmatches) {
+    if (m.Home?.IdTeam) id2name[m.Home.IdTeam] = fifaName(m.Home);
+    if (m.Away?.IdTeam) id2name[m.Away.IdTeam] = fifaName(m.Away);
+  }
+  // MatchStatus: 0 = finished, 1 = upcoming, anything else = in-play.
+  const finished = fmatches.filter((m) => m.MatchStatus === 0);
+  const inPlay = fmatches.filter((m) => m.MatchStatus !== 0 && m.MatchStatus !== 1);
+  const extract = (tl) => {
+    const cards = {}, goals = [];
+    for (const e of (tl.Event || tl.Events || [])) {
+      const team = id2name[e.IdTeam];
+      if (!team) continue;
+      if (e.Type === 2) { (cards[team] ??= { y: 0, r: 0 }).y++; }
+      else if (e.Type === 3) { (cards[team] ??= { y: 0, r: 0 }).r++; }
+      else if (e.Type === 0) {
+        const g = { team, min: parseMin(e.MatchMinute), mm: e.MatchMinute };
+        if (e.PositionX != null && e.PositionY != null) g.dist = +goalDist(e.PositionX, e.PositionY).toFixed(1);
+        goals.push(g);
+      }
     }
-  });
-  console.log(`ESPN discipline applied to ${applied}/${ids.length} teams${unmatched.length ? "; unmatched: " + unmatched.join(", ") : ""}`);
+    return { cards, goals };
+  };
+  const tlUrl = (m) => `https://api.fifa.com/api/v3/timelines/${FIFA_COMP}/${FIFA_SEASON}/${m.IdStage}/${m.IdMatch}?language=en`;
+  // Cache finished matches permanently; always refetch in-play matches.
+  const todo = finished.filter((m) => !fifaCache[m.IdMatch]);
+  await pool(todo, 6, async (m) => { fifaCache[m.IdMatch] = extract(await fifaJson(tlUrl(m))); });
+  const liveEvents = {};
+  await pool(inPlay, 6, async (m) => { liveEvents[m.IdMatch] = extract(await fifaJson(tlUrl(m))); });
+
+  // Aggregate cards (cached finished + live) into team totals.
+  for (const n of NAMES) { results[n].yc = 0; results[n].rc = 0; }
+  const allEvents = [...Object.values(fifaCache), ...Object.values(liveEvents)];
+  for (const ev of allEvents) {
+    for (const [team, c] of Object.entries(ev.cards || {})) {
+      if (results[team]) { results[team].yc += c.y; results[team].rc += c.r; }
+    }
+  }
+  // Fastest goal (lowest minute) and furthest goal (greatest shot distance).
+  for (const ev of allEvents) {
+    for (const g of ev.goals || []) {
+      if (!fifaFastest || g.min < fifaFastest.min) fifaFastest = g;
+      if (g.dist != null && (!fifaFurthest || g.dist > fifaFurthest.dist)) fifaFurthest = g;
+    }
+  }
+  console.log(`FIFA events: ${Object.keys(fifaCache).length} finished cached, ${inPlay.length} in-play; ` +
+    `fastest=${fifaFastest?.team} ${fifaFastest?.mm}, furthest=${fifaFurthest?.team} ${fifaFurthest?.dist}m`);
 } catch (e) {
-  console.error("ESPN discipline unavailable:", e.message);
+  console.error("FIFA events unavailable:", e.message);
 }
 
 // Admin-controlled manual prize picks (team indices or null).
@@ -163,7 +206,17 @@ if (manual.biggestLoss == null) {
   if (loser) { const idx = NAMES.indexOf(loser); if (idx >= 0) manual.biggestLoss = idx; }
 }
 
-// Fastest Goal & Furthest Goal: no automatic source wired yet (left as admin/null).
+// Auto-fill Fastest Goal (earliest goal of the tournament) from FIFA events.
+if (manual.fastestGoal == null && fifaFastest) {
+  const idx = NAMES.indexOf(fifaFastest.team);
+  if (idx >= 0) manual.fastestGoal = idx;
+}
+
+// Auto-fill Furthest Goal (longest-distance goal) from FIFA events.
+if (manual.furthestGoal == null && fifaFurthest) {
+  const idx = NAMES.indexOf(fifaFurthest.team);
+  if (idx >= 0) manual.furthestGoal = idx;
+}
 
 // Auto-fill Dirtiest Team: team with most card points (Y=1, R=3), tie-broken by most reds.
 if (manual.dirtiestTeam == null) {
@@ -182,7 +235,13 @@ if (manual.dirtiestTeam == null) {
   }
 }
 
-const payload = { live, source, results, manual, fixtures, groups, topScorer };
+// Extra prize detail for the UI (goal minute / shot distance), when known.
+const prizeInfo = {
+  fastestGoal: fifaFastest ? { team: fifaFastest.team, mm: fifaFastest.mm } : null,
+  furthestGoal: fifaFurthest ? { team: fifaFurthest.team, dist: fifaFurthest.dist } : null,
+};
+
+const payload = { live, source, results, manual, fixtures, groups, topScorer, prizeInfo, fifaCache };
 // Only bump generatedAt when the substantive data actually changed — avoids a
 // commit (and Pages rebuild) every 15 minutes when nothing has happened.
 let generatedAt = new Date().toISOString();
