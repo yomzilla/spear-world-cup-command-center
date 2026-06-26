@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T04:25:18.365Z",
+  "generatedAt": "2026-06-26T08:07:27.601Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1310,8 +1310,8 @@
     },
     {
       "utcDate": "2026-06-28T19:00:00Z",
-      "home": null,
-      "away": null,
+      "home": "South Africa",
+      "away": "Canada",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1322,8 +1322,8 @@
     },
     {
       "utcDate": "2026-06-29T17:00:00Z",
-      "home": null,
-      "away": null,
+      "home": "Brazil",
+      "away": "Japan",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1346,8 +1346,8 @@
     },
     {
       "utcDate": "2026-06-30T01:00:00Z",
-      "home": null,
-      "away": null,
+      "home": "Netherlands",
+      "away": "Morocco",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1419,7 +1419,7 @@
     {
       "utcDate": "2026-07-02T00:00:00Z",
       "home": "United States",
-      "away": null,
+      "away": "Bosnia and Herzegovina",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1454,7 +1454,7 @@
     },
     {
       "utcDate": "2026-07-03T03:00:00Z",
-      "home": null,
+      "home": "Switzerland",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1466,7 +1466,7 @@
     },
     {
       "utcDate": "2026-07-03T18:00:00Z",
-      "home": null,
+      "home": "Australia",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1787,8 +1787,8 @@
         {
           "team": "United States",
           "p": 3,
-          "gd": 5,
-          "pts": 7
+          "gd": 4,
+          "pts": 6
         },
         {
           "team": "Australia",
@@ -1805,8 +1805,8 @@
         {
           "team": "Türkiye",
           "p": 3,
-          "gd": -3,
-          "pts": 1
+          "gd": -2,
+          "pts": 3
         }
       ]
     },
