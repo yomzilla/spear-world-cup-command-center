@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T22:48:30.756Z",
+  "generatedAt": "2026-06-26T00:01:04.778Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1120,25 +1120,25 @@
       "utcDate": "2026-06-25T23:00:00Z",
       "home": "Tunisia",
       "away": "Netherlands",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "PAUSED",
+      "hs": 0,
+      "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
       "venue": null,
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-25T23:00:00Z",
       "home": "Japan",
       "away": "Sweden",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "PAUSED",
+      "hs": 0,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
       "venue": null,
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-26T02:00:00Z",
@@ -1844,26 +1844,26 @@
       "rows": [
         {
           "team": "Netherlands",
-          "p": 2,
-          "gd": 4,
-          "pts": 4
+          "p": 3,
+          "gd": 6,
+          "pts": 7
         },
         {
           "team": "Japan",
-          "p": 2,
+          "p": 3,
           "gd": 4,
-          "pts": 4
+          "pts": 5
         },
         {
           "team": "Sweden",
-          "p": 2,
+          "p": 3,
           "gd": 0,
-          "pts": 3
+          "pts": 4
         },
         {
           "team": "Tunisia",
-          "p": 2,
-          "gd": -8,
+          "p": 3,
+          "gd": -10,
           "pts": 0
         }
       ]
@@ -2433,6 +2433,30 @@
       "home": "Tunisia",
       "away": "Japan"
     },
+    "537361": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Tunisia",
+      "away": "Netherlands"
+    },
+    "537362": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Japan",
+      "away": "Sweden"
+    },
     "537363": {
       "h": {
         "y": 0,
@@ -2755,6 +2779,8 @@
     "537358": [],
     "537359": [],
     "537360": [],
+    "537361": [],
+    "537362": [],
     "537363": [],
     "537364": [],
     "537365": [],
