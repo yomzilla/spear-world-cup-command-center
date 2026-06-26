@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T00:01:04.778Z",
+  "generatedAt": "2026-06-26T04:25:18.365Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -23,7 +23,7 @@
     },
     "Australia": {
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 1,
       "gf": 2,
       "ga": 2,
@@ -221,10 +221,10 @@
     },
     "Japan": {
       "w": 1,
-      "d": 1,
+      "d": 2,
       "l": 0,
-      "gf": 6,
-      "ga": 2,
+      "gf": 7,
+      "ga": 3,
       "yc": 0,
       "rc": 0
     },
@@ -265,11 +265,11 @@
       "rc": 0
     },
     "Netherlands": {
-      "w": 1,
+      "w": 2,
       "d": 1,
       "l": 0,
-      "gf": 7,
-      "ga": 3,
+      "gf": 10,
+      "ga": 4,
       "yc": 0,
       "rc": 0
     },
@@ -302,7 +302,7 @@
     },
     "Paraguay": {
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 1,
       "gf": 2,
       "ga": 4,
@@ -374,10 +374,10 @@
     },
     "Sweden": {
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 1,
-      "gf": 6,
-      "ga": 6,
+      "gf": 7,
+      "ga": 7,
       "yc": 0,
       "rc": 0
     },
@@ -393,27 +393,27 @@
     "Tunisia": {
       "w": 0,
       "d": 0,
-      "l": 2,
-      "gf": 1,
-      "ga": 9,
+      "l": 3,
+      "gf": 2,
+      "ga": 12,
       "yc": 0,
       "rc": 0
     },
     "Türkiye": {
-      "w": 0,
+      "w": 1,
       "d": 0,
       "l": 2,
-      "gf": 0,
-      "ga": 3,
+      "gf": 3,
+      "ga": 5,
       "yc": 0,
       "rc": 0
     },
     "United States": {
       "w": 2,
       "d": 0,
-      "l": 0,
-      "gf": 6,
-      "ga": 1,
+      "l": 1,
+      "gf": 8,
+      "ga": 4,
       "yc": 0,
       "rc": 0
     },
@@ -1120,9 +1120,9 @@
       "utcDate": "2026-06-25T23:00:00Z",
       "home": "Tunisia",
       "away": "Netherlands",
-      "status": "PAUSED",
-      "hs": 0,
-      "as": 2,
+      "status": "FINISHED",
+      "hs": 1,
+      "as": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
       "venue": null,
@@ -1132,9 +1132,9 @@
       "utcDate": "2026-06-25T23:00:00Z",
       "home": "Japan",
       "away": "Sweden",
-      "status": "PAUSED",
-      "hs": 0,
-      "as": 0,
+      "status": "FINISHED",
+      "hs": 1,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
       "venue": null,
@@ -1144,25 +1144,25 @@
       "utcDate": "2026-06-26T02:00:00Z",
       "home": "Türkiye",
       "away": "United States",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 3,
+      "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
       "venue": null,
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-26T02:00:00Z",
       "home": "Paraguay",
       "away": "Australia",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 0,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
       "venue": null,
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-26T19:00:00Z",
@@ -1334,7 +1334,7 @@
     },
     {
       "utcDate": "2026-06-29T20:30:00Z",
-      "home": null,
+      "home": "Germany",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1382,7 +1382,7 @@
     },
     {
       "utcDate": "2026-07-01T01:00:00Z",
-      "home": null,
+      "home": "Mexico",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1418,7 +1418,7 @@
     },
     {
       "utcDate": "2026-07-02T00:00:00Z",
-      "home": null,
+      "home": "United States",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1478,7 +1478,7 @@
     },
     {
       "utcDate": "2026-07-03T22:00:00Z",
-      "home": null,
+      "home": "Argentina",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1786,27 +1786,27 @@
       "rows": [
         {
           "team": "United States",
-          "p": 2,
+          "p": 3,
           "gd": 5,
-          "pts": 6
+          "pts": 7
         },
         {
           "team": "Australia",
-          "p": 2,
+          "p": 3,
           "gd": 0,
-          "pts": 3
+          "pts": 4
         },
         {
           "team": "Paraguay",
-          "p": 2,
+          "p": 3,
           "gd": -2,
-          "pts": 3
+          "pts": 4
         },
         {
           "team": "Türkiye",
-          "p": 2,
+          "p": 3,
           "gd": -3,
-          "pts": 0
+          "pts": 1
         }
       ]
     },
@@ -2313,6 +2313,30 @@
       "home": "United States",
       "away": "Australia"
     },
+    "537349": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Türkiye",
+      "away": "United States"
+    },
+    "537350": {
+      "h": {
+        "y": 0,
+        "r": 0
+      },
+      "a": {
+        "y": 0,
+        "r": 0
+      },
+      "home": "Paraguay",
+      "away": "Australia"
+    },
     "537351": {
       "h": {
         "y": 0,
@@ -2769,6 +2793,8 @@
     "537346": [],
     "537347": [],
     "537348": [],
+    "537349": [],
+    "537350": [],
     "537351": [],
     "537352": [],
     "537353": [],
