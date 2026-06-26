@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T13:23:05.584Z",
+  "generatedAt": "2026-06-26T15:36:34.702Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1310,8 +1310,8 @@
     },
     {
       "utcDate": "2026-06-28T19:00:00Z",
-      "home": "South Africa",
-      "away": "Canada",
+      "home": null,
+      "away": null,
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1322,8 +1322,8 @@
     },
     {
       "utcDate": "2026-06-29T17:00:00Z",
-      "home": "Brazil",
-      "away": "Japan",
+      "home": null,
+      "away": null,
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1334,7 +1334,7 @@
     },
     {
       "utcDate": "2026-06-29T20:30:00Z",
-      "home": "Germany",
+      "home": null,
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1346,8 +1346,8 @@
     },
     {
       "utcDate": "2026-06-30T01:00:00Z",
-      "home": "Netherlands",
-      "away": "Morocco",
+      "home": null,
+      "away": null,
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1382,7 +1382,7 @@
     },
     {
       "utcDate": "2026-07-01T01:00:00Z",
-      "home": "Mexico",
+      "home": null,
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1418,8 +1418,8 @@
     },
     {
       "utcDate": "2026-07-02T00:00:00Z",
-      "home": "United States",
-      "away": "Bosnia and Herzegovina",
+      "home": null,
+      "away": null,
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1454,7 +1454,7 @@
     },
     {
       "utcDate": "2026-07-03T03:00:00Z",
-      "home": "Switzerland",
+      "home": null,
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1466,7 +1466,7 @@
     },
     {
       "utcDate": "2026-07-03T18:00:00Z",
-      "home": "Australia",
+      "home": null,
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1478,7 +1478,7 @@
     },
     {
       "utcDate": "2026-07-03T22:00:00Z",
-      "home": "Argentina",
+      "home": null,
       "away": null,
       "status": "TIMED",
       "hs": null,
