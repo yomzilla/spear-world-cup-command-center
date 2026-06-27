@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T10:24:23.696Z",
+  "generatedAt": "2026-06-27T11:52:39.050Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1310,8 +1310,8 @@
     },
     {
       "utcDate": "2026-06-28T19:00:00Z",
-      "home": null,
-      "away": null,
+      "home": "South Africa",
+      "away": "Canada",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1322,8 +1322,8 @@
     },
     {
       "utcDate": "2026-06-29T17:00:00Z",
-      "home": null,
-      "away": null,
+      "home": "Brazil",
+      "away": "Japan",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1334,7 +1334,7 @@
     },
     {
       "utcDate": "2026-06-29T20:30:00Z",
-      "home": null,
+      "home": "Germany",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1346,8 +1346,8 @@
     },
     {
       "utcDate": "2026-06-30T01:00:00Z",
-      "home": null,
-      "away": null,
+      "home": "Netherlands",
+      "away": "Morocco",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1358,7 +1358,7 @@
     },
     {
       "utcDate": "2026-06-30T17:00:00Z",
-      "home": null,
+      "home": "Côte d'Ivoire",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1382,7 +1382,7 @@
     },
     {
       "utcDate": "2026-07-01T01:00:00Z",
-      "home": null,
+      "home": "Mexico",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1418,8 +1418,8 @@
     },
     {
       "utcDate": "2026-07-02T00:00:00Z",
-      "home": null,
-      "away": null,
+      "home": "United States",
+      "away": "Bosnia and Herzegovina",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1454,7 +1454,7 @@
     },
     {
       "utcDate": "2026-07-03T03:00:00Z",
-      "home": null,
+      "home": "Switzerland",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1466,7 +1466,7 @@
     },
     {
       "utcDate": "2026-07-03T18:00:00Z",
-      "home": null,
+      "home": "Australia",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1478,7 +1478,7 @@
     },
     {
       "utcDate": "2026-07-03T22:00:00Z",
-      "home": null,
+      "home": "Argentina",
       "away": null,
       "status": "TIMED",
       "hs": null,
