@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T01:32:15.354Z",
+  "generatedAt": "2026-06-27T05:33:42.470Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -40,11 +40,11 @@
       "rc": 0
     },
     "Belgium": {
-      "w": 0,
+      "w": 1,
       "d": 2,
       "l": 0,
-      "gf": 1,
-      "ga": 1,
+      "gf": 6,
+      "ga": 2,
       "yc": 3,
       "rc": 1
     },
@@ -149,11 +149,11 @@
     },
     "Egypt": {
       "w": 1,
-      "d": 1,
+      "d": 2,
       "l": 0,
-      "gf": 4,
-      "ga": 2,
-      "yc": 3,
+      "gf": 5,
+      "ga": 3,
+      "yc": 6,
       "rc": 0
     },
     "England": {
@@ -203,11 +203,11 @@
     },
     "IR Iran": {
       "w": 0,
-      "d": 2,
+      "d": 3,
       "l": 0,
-      "gf": 2,
-      "ga": 2,
-      "yc": 2,
+      "gf": 3,
+      "ga": 3,
+      "yc": 6,
       "rc": 0
     },
     "Iraq": {
@@ -276,10 +276,10 @@
     "New Zealand": {
       "w": 0,
       "d": 1,
-      "l": 1,
-      "gf": 3,
-      "ga": 5,
-      "yc": 2,
+      "l": 2,
+      "gf": 4,
+      "ga": 10,
+      "yc": 4,
       "rc": 0
     },
     "Norway": {
@@ -333,7 +333,7 @@
       "l": 1,
       "gf": 1,
       "ga": 5,
-      "yc": 5,
+      "yc": 6,
       "rc": 0
     },
     "Scotland": {
@@ -364,10 +364,10 @@
       "rc": 2
     },
     "Spain": {
-      "w": 1,
+      "w": 2,
       "d": 0,
       "l": 0,
-      "gf": 4,
+      "gf": 5,
       "ga": 0,
       "yc": 2,
       "rc": 0
@@ -420,11 +420,11 @@
     "Uruguay": {
       "w": 0,
       "d": 1,
-      "l": 0,
+      "l": 1,
       "gf": 1,
-      "ga": 1,
-      "yc": 4,
-      "rc": 0
+      "ga": 2,
+      "yc": 5,
+      "rc": 1
     },
     "Uzbekistan": {
       "w": 0,
@@ -1192,7 +1192,7 @@
       "utcDate": "2026-06-27T00:00:00Z",
       "home": "Uruguay",
       "away": "Spain",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 0,
       "as": 1,
       "stage": "GROUP_STAGE",
@@ -1204,7 +1204,7 @@
       "utcDate": "2026-06-27T00:00:00Z",
       "home": "Cape Verde Islands",
       "away": "Saudi Arabia",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 0,
       "as": 0,
       "stage": "GROUP_STAGE",
@@ -1216,25 +1216,25 @@
       "utcDate": "2026-06-27T03:00:00Z",
       "home": "New Zealand",
       "away": "Belgium",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 1,
+      "as": 5,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
       "venue": null,
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-27T03:00:00Z",
       "home": "Egypt",
       "away": "IR Iran",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 1,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
       "venue": null,
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-27T21:00:00Z",
@@ -1872,27 +1872,27 @@
       "name": "Group G",
       "rows": [
         {
+          "team": "Belgium",
+          "p": 3,
+          "gd": 4,
+          "pts": 5
+        },
+        {
           "team": "Egypt",
-          "p": 2,
+          "p": 3,
           "gd": 2,
-          "pts": 4
+          "pts": 5
         },
         {
           "team": "IR Iran",
-          "p": 2,
+          "p": 3,
           "gd": 0,
-          "pts": 2
-        },
-        {
-          "team": "Belgium",
-          "p": 2,
-          "gd": 0,
-          "pts": 2
+          "pts": 3
         },
         {
           "team": "New Zealand",
-          "p": 2,
-          "gd": -2,
+          "p": 3,
+          "gd": -6,
           "pts": 1
         }
       ]
@@ -3132,6 +3132,32 @@
         }
       ]
     },
+    "400021479": {
+      "cards": {
+        "IR Iran": {
+          "y": 4,
+          "r": 0
+        },
+        "Egypt": {
+          "y": 3,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Egypt",
+          "min": 5,
+          "mm": "5'",
+          "dist": 16.3
+        },
+        {
+          "team": "IR Iran",
+          "min": 14,
+          "mm": "14'",
+          "dist": 6.7
+        }
+      ]
+    },
     "400021480": {
       "cards": {
         "Egypt": {
@@ -3167,6 +3193,52 @@
           "min": 82,
           "mm": "82'",
           "dist": 8.1
+        }
+      ]
+    },
+    "400021481": {
+      "cards": {
+        "New Zealand": {
+          "y": 2,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Belgium",
+          "min": 28,
+          "mm": "28'",
+          "dist": 2.4
+        },
+        {
+          "team": "Belgium",
+          "min": 50,
+          "mm": "50'",
+          "dist": 10.5
+        },
+        {
+          "team": "Belgium",
+          "min": 66,
+          "mm": "66'",
+          "dist": 19.3
+        },
+        {
+          "team": "New Zealand",
+          "min": 84,
+          "mm": "84'",
+          "dist": 13.9
+        },
+        {
+          "team": "Belgium",
+          "min": 86,
+          "mm": "86'",
+          "dist": 4.4
+        },
+        {
+          "team": "Belgium",
+          "min": 90.04,
+          "mm": "90'+4'",
+          "dist": 16.5
         }
       ]
     },
@@ -3210,6 +3282,39 @@
           "dist": 4.5
         }
       ]
+    },
+    "400021484": {
+      "cards": {
+        "Spain": {
+          "y": 1,
+          "r": 0
+        },
+        "Uruguay": {
+          "y": 3,
+          "r": 1
+        }
+      },
+      "goals": [
+        {
+          "team": "Spain",
+          "min": 42,
+          "mm": "42'",
+          "dist": 14.7
+        }
+      ]
+    },
+    "400021485": {
+      "cards": {
+        "Saudi Arabia": {
+          "y": 3,
+          "r": 0
+        },
+        "Cabo Verde": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": []
     },
     "400021486": {
       "cards": {
