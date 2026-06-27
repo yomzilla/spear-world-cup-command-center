@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T22:14:21.513Z",
+  "generatedAt": "2026-06-27T01:32:15.354Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -72,7 +72,7 @@
       "l": 0,
       "gf": 0,
       "ga": 0,
-      "yc": 3,
+      "yc": 4,
       "rc": 0
     },
     "Canada": {
@@ -333,7 +333,7 @@
       "l": 1,
       "gf": 1,
       "ga": 5,
-      "yc": 3,
+      "yc": 5,
       "rc": 0
     },
     "Scotland": {
@@ -369,7 +369,7 @@
       "l": 0,
       "gf": 4,
       "ga": 0,
-      "yc": 1,
+      "yc": 2,
       "rc": 0
     },
     "Sweden": {
@@ -423,7 +423,7 @@
       "l": 0,
       "gf": 1,
       "ga": 1,
-      "yc": 2,
+      "yc": 4,
       "rc": 0
     },
     "Uzbekistan": {
@@ -1192,25 +1192,25 @@
       "utcDate": "2026-06-27T00:00:00Z",
       "home": "Uruguay",
       "away": "Spain",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
       "venue": null,
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-27T00:00:00Z",
       "home": "Cape Verde Islands",
       "away": "Saudi Arabia",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
       "venue": null,
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-27T03:00:00Z",
@@ -1902,27 +1902,27 @@
       "rows": [
         {
           "team": "Spain",
-          "p": 2,
-          "gd": 4,
-          "pts": 4
-        },
-        {
-          "team": "Uruguay",
-          "p": 2,
-          "gd": 0,
-          "pts": 2
+          "p": 3,
+          "gd": 5,
+          "pts": 7
         },
         {
           "team": "Cape Verde Islands",
-          "p": 2,
+          "p": 3,
           "gd": 0,
+          "pts": 3
+        },
+        {
+          "team": "Uruguay",
+          "p": 3,
+          "gd": -1,
           "pts": 2
         },
         {
           "team": "Saudi Arabia",
-          "p": 2,
+          "p": 3,
           "gd": -4,
-          "pts": 1
+          "pts": 2
         }
       ]
     },
