@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:15:41.315Z",
+  "generatedAt": "2026-06-27T23:30:22.091Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -112,12 +112,12 @@
       "rc": 0
     },
     "Croatia": {
-      "w": 1,
+      "w": 2,
       "d": 0,
       "l": 1,
-      "gf": 3,
-      "ga": 4,
-      "yc": 1,
+      "gf": 5,
+      "ga": 5,
+      "yc": 2,
       "rc": 0
     },
     "Curaçao": {
@@ -157,12 +157,12 @@
       "rc": 0
     },
     "England": {
-      "w": 1,
+      "w": 2,
       "d": 1,
       "l": 0,
-      "gf": 4,
+      "gf": 6,
       "ga": 2,
-      "yc": 1,
+      "yc": 2,
       "rc": 0
     },
     "France": {
@@ -186,10 +186,10 @@
     "Ghana": {
       "w": 1,
       "d": 1,
-      "l": 0,
-      "gf": 1,
-      "ga": 0,
-      "yc": 2,
+      "l": 1,
+      "gf": 2,
+      "ga": 2,
+      "yc": 3,
       "rc": 0
     },
     "Haiti": {
@@ -294,10 +294,10 @@
     "Panama": {
       "w": 0,
       "d": 0,
-      "l": 2,
+      "l": 3,
       "gf": 0,
-      "ga": 2,
-      "yc": 4,
+      "ga": 4,
+      "yc": 5,
       "rc": 0
     },
     "Paraguay": {
@@ -1240,21 +1240,21 @@
       "utcDate": "2026-06-27T21:00:00Z",
       "home": "Panama",
       "away": "England",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 0,
-      "as": 0,
+      "as": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
       "venue": null,
-      "winner": "DRAW"
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-27T21:00:00Z",
       "home": "Croatia",
       "away": "Ghana",
-      "status": "IN_PLAY",
-      "hs": 1,
-      "as": 0,
+      "status": "FINISHED",
+      "hs": 2,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
       "venue": null,
@@ -1989,27 +1989,27 @@
       "rows": [
         {
           "team": "Colombia",
-          "p": 2,
+          "p": 3,
           "gd": 3,
-          "pts": 6
+          "pts": 7
         },
         {
           "team": "Portugal",
-          "p": 2,
+          "p": 3,
           "gd": 5,
-          "pts": 4
+          "pts": 5
         },
         {
           "team": "Congo DR",
-          "p": 2,
+          "p": 3,
           "gd": -1,
-          "pts": 1
+          "pts": 2
         },
         {
           "team": "Uzbekistan",
-          "p": 2,
+          "p": 3,
           "gd": -7,
-          "pts": 0
+          "pts": 1
         }
       ]
     },
@@ -2017,16 +2017,16 @@
       "name": "Group L",
       "rows": [
         {
+          "team": "England",
+          "p": 3,
+          "gd": 4,
+          "pts": 7
+        },
+        {
           "team": "Croatia",
           "p": 3,
           "gd": 0,
           "pts": 6
-        },
-        {
-          "team": "England",
-          "p": 3,
-          "gd": 2,
-          "pts": 5
         },
         {
           "team": "Ghana",
@@ -2037,8 +2037,8 @@
         {
           "team": "Panama",
           "p": 3,
-          "gd": -2,
-          "pts": 1
+          "gd": -4,
+          "pts": 0
         }
       ]
     }
@@ -3860,6 +3860,64 @@
           "min": 85,
           "mm": "85'",
           "dist": 13.8
+        }
+      ]
+    },
+    "400021508": {
+      "cards": {
+        "Panama": {
+          "y": 2,
+          "r": 0
+        },
+        "England": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "England",
+          "min": 62,
+          "mm": "62'",
+          "dist": 6.9
+        },
+        {
+          "team": "England",
+          "min": 67,
+          "mm": "67'",
+          "dist": 5.3
+        }
+      ]
+    },
+    "400021509": {
+      "cards": {
+        "Croatia": {
+          "y": 1,
+          "r": 0
+        },
+        "Ghana": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Croatia",
+          "min": 31,
+          "mm": "31'",
+          "dist": 26.8
+        },
+        {
+          "team": "Ghana",
+          "min": 73,
+          "mm": "73'",
+          "dist": 6
+        },
+        {
+          "team": "Croatia",
+          "min": 83,
+          "mm": "83'",
+          "dist": 9
         }
       ]
     },
