@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T23:30:22.091Z",
+  "generatedAt": "2026-06-28T01:36:06.867Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -86,11 +86,11 @@
     },
     "Colombia": {
       "w": 2,
-      "d": 0,
+      "d": 1,
       "l": 0,
       "gf": 4,
       "ga": 1,
-      "yc": 3,
+      "yc": 4,
       "rc": 0
     },
     "Congo DR": {
@@ -99,7 +99,7 @@
       "l": 1,
       "gf": 1,
       "ga": 2,
-      "yc": 2,
+      "yc": 5,
       "rc": 0
     },
     "Côte d'Ivoire": {
@@ -311,7 +311,7 @@
     },
     "Portugal": {
       "w": 1,
-      "d": 1,
+      "d": 2,
       "l": 0,
       "gf": 6,
       "ga": 1,
@@ -432,7 +432,7 @@
       "l": 2,
       "gf": 1,
       "ga": 8,
-      "yc": 2,
+      "yc": 4,
       "rc": 0
     }
   },
@@ -1264,25 +1264,25 @@
       "utcDate": "2026-06-27T23:30:00Z",
       "home": "Colombia",
       "away": "Portugal",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 0,
+      "as": 0,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
       "venue": null,
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-27T23:30:00Z",
       "home": "Congo DR",
       "away": "Uzbekistan",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 3,
+      "as": 1,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
       "venue": null,
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-28T02:00:00Z",
@@ -2002,14 +2002,14 @@
         {
           "team": "Congo DR",
           "p": 3,
-          "gd": -1,
-          "pts": 2
+          "gd": 1,
+          "pts": 4
         },
         {
           "team": "Uzbekistan",
           "p": 3,
-          "gd": -7,
-          "pts": 1
+          "gd": -9,
+          "pts": 0
         }
       ]
     },
@@ -3693,6 +3693,38 @@
         }
       ]
     },
+    "400021500": {
+      "cards": {
+        "Congo DR": {
+          "y": 3,
+          "r": 0
+        },
+        "Uzbekistan": {
+          "y": 2,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Uzbekistan",
+          "min": 10,
+          "mm": "10'",
+          "dist": 17.1
+        },
+        {
+          "team": "Congo DR",
+          "min": 78,
+          "mm": "78'",
+          "dist": 5.6
+        },
+        {
+          "team": "Congo DR",
+          "min": 90.01,
+          "mm": "90'+1'",
+          "dist": 22
+        }
+      ]
+    },
     "400021501": {
       "cards": {
         "Colombia": {
@@ -3814,6 +3846,15 @@
           "dist": 7.6
         }
       ]
+    },
+    "400021505": {
+      "cards": {
+        "Colombia": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": []
     },
     "400021506": {
       "cards": {
