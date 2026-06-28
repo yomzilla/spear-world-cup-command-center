@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T20:46:43.997Z",
+  "generatedAt": "2026-06-28T21:47:20.326Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -76,10 +76,10 @@
       "rc": 0
     },
     "Canada": {
-      "w": 1,
+      "w": 2,
       "d": 1,
       "l": 1,
-      "gf": 8,
+      "gf": 9,
       "ga": 3,
       "yc": 7,
       "rc": 0
@@ -357,9 +357,9 @@
     "South Africa": {
       "w": 1,
       "d": 1,
-      "l": 1,
+      "l": 2,
       "gf": 2,
-      "ga": 3,
+      "ga": 4,
       "yc": 5,
       "rc": 2
     },
@@ -1312,13 +1312,13 @@
       "utcDate": "2026-06-28T19:00:00Z",
       "home": "South Africa",
       "away": "Canada",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": "DRAW"
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-29T17:00:00Z",
@@ -4073,6 +4073,22 @@
           "min": 54,
           "mm": "54'",
           "dist": 5.8
+        }
+      ]
+    },
+    "400021518": {
+      "cards": {
+        "Canada": {
+          "y": 2,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Canada",
+          "min": 90.02,
+          "mm": "90'+2'",
+          "dist": 18.3
         }
       ]
     }
