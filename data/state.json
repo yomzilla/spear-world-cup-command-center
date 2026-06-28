@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-06-28T01:36:06.867Z",
+  "generatedAt": "2026-06-28T06:00:45.260Z",
   "live": true,
   "source": "football-data.org",
   "results": {
     "Algeria": {
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 1,
-      "gf": 2,
-      "ga": 4,
+      "gf": 5,
+      "ga": 7,
       "yc": 1,
       "rc": 0
     },
     "Argentina": {
-      "w": 2,
+      "w": 3,
       "d": 0,
       "l": 0,
-      "gf": 5,
-      "ga": 0,
+      "gf": 8,
+      "ga": 1,
       "yc": 2,
       "rc": 0
     },
@@ -32,11 +32,11 @@
     },
     "Austria": {
       "w": 1,
-      "d": 0,
+      "d": 1,
       "l": 1,
-      "gf": 3,
-      "ga": 3,
-      "yc": 3,
+      "gf": 6,
+      "ga": 6,
+      "yc": 4,
       "rc": 0
     },
     "Belgium": {
@@ -94,11 +94,11 @@
       "rc": 0
     },
     "Congo DR": {
-      "w": 0,
+      "w": 1,
       "d": 1,
       "l": 1,
-      "gf": 1,
-      "ga": 2,
+      "gf": 4,
+      "ga": 3,
       "yc": 5,
       "rc": 0
     },
@@ -231,10 +231,10 @@
     "Jordan": {
       "w": 0,
       "d": 0,
-      "l": 2,
-      "gf": 2,
-      "ga": 5,
-      "yc": 1,
+      "l": 3,
+      "gf": 3,
+      "ga": 8,
+      "yc": 4,
       "rc": 0
     },
     "Korea Republic": {
@@ -429,9 +429,9 @@
     "Uzbekistan": {
       "w": 0,
       "d": 0,
-      "l": 2,
-      "gf": 1,
-      "ga": 8,
+      "l": 3,
+      "gf": 2,
+      "ga": 11,
       "yc": 4,
       "rc": 0
     }
@@ -1276,7 +1276,7 @@
       "utcDate": "2026-06-27T23:30:00Z",
       "home": "Congo DR",
       "away": "Uzbekistan",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 3,
       "as": 1,
       "stage": "GROUP_STAGE",
@@ -1288,31 +1288,31 @@
       "utcDate": "2026-06-28T02:00:00Z",
       "home": "Jordan",
       "away": "Argentina",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 1,
+      "as": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
       "venue": null,
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-28T02:00:00Z",
       "home": "Algeria",
       "away": "Austria",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 3,
+      "as": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
       "venue": null,
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-28T19:00:00Z",
       "home": "South Africa",
       "away": "Canada",
-      "status": "TIMED",
+      "status": "2026-06-29 19:00:00Z",
       "hs": null,
       "as": null,
       "stage": "LAST_32",
@@ -1960,26 +1960,26 @@
       "rows": [
         {
           "team": "Argentina",
-          "p": 2,
-          "gd": 5,
-          "pts": 6
+          "p": 3,
+          "gd": 7,
+          "pts": 9
         },
         {
           "team": "Austria",
-          "p": 2,
+          "p": 3,
           "gd": 0,
-          "pts": 3
+          "pts": 4
         },
         {
           "team": "Algeria",
-          "p": 2,
+          "p": 3,
           "gd": -2,
-          "pts": 3
+          "pts": 4
         },
         {
           "team": "Jordan",
-          "p": 2,
-          "gd": -3,
+          "p": 3,
+          "gd": -5,
           "pts": 0
         }
       ]
@@ -2046,7 +2046,7 @@
   "topScorer": {
     "name": "Lionel Messi",
     "team": "Argentina",
-    "goals": 5
+    "goals": 6
   },
   "prizeInfo": {
     "fastestGoal": {
@@ -3616,6 +3616,34 @@
         }
       ]
     },
+    "400021495": {
+      "cards": {
+        "Jordan": {
+          "y": 3,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Argentina",
+          "min": 19,
+          "mm": "19'",
+          "dist": 18.8
+        },
+        {
+          "team": "Jordan",
+          "min": 55,
+          "mm": "55'",
+          "dist": 7.2
+        },
+        {
+          "team": "Argentina",
+          "min": 80,
+          "mm": "80'",
+          "dist": 24
+        }
+      ]
+    },
     "400021496": {
       "cards": {},
       "goals": [
@@ -3636,6 +3664,52 @@
           "min": 76,
           "mm": "76'",
           "dist": 16.7
+        }
+      ]
+    },
+    "400021497": {
+      "cards": {
+        "Austria": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Austria",
+          "min": 28,
+          "mm": "28'",
+          "dist": 7.7
+        },
+        {
+          "team": "Algeria",
+          "min": 45,
+          "mm": "45'",
+          "dist": 10.8
+        },
+        {
+          "team": "Austria",
+          "min": 55,
+          "mm": "55'",
+          "dist": 17
+        },
+        {
+          "team": "Algeria",
+          "min": 60,
+          "mm": "60'",
+          "dist": 10.7
+        },
+        {
+          "team": "Algeria",
+          "min": 90.03,
+          "mm": "90'+3'",
+          "dist": 11.5
+        },
+        {
+          "team": "Austria",
+          "min": 90.06,
+          "mm": "90'+6'",
+          "dist": 6.4
         }
       ]
     },
