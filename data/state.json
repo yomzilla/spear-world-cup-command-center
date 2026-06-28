@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T06:00:45.260Z",
+  "generatedAt": "2026-06-28T09:26:47.072Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1312,7 +1312,7 @@
       "utcDate": "2026-06-28T19:00:00Z",
       "home": "South Africa",
       "away": "Canada",
-      "status": "2026-06-29 19:00:00Z",
+      "status": "TIMED",
       "hs": null,
       "as": null,
       "stage": "LAST_32",
@@ -1335,7 +1335,7 @@
     {
       "utcDate": "2026-06-29T20:30:00Z",
       "home": "Germany",
-      "away": null,
+      "away": "Paraguay",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1359,7 +1359,7 @@
     {
       "utcDate": "2026-06-30T17:00:00Z",
       "home": "Côte d'Ivoire",
-      "away": null,
+      "away": "Norway",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1370,8 +1370,8 @@
     },
     {
       "utcDate": "2026-06-30T21:00:00Z",
-      "home": null,
-      "away": null,
+      "home": "France",
+      "away": "Sweden",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1383,7 +1383,7 @@
     {
       "utcDate": "2026-07-01T01:00:00Z",
       "home": "Mexico",
-      "away": null,
+      "away": "Ecuador",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1394,8 +1394,8 @@
     },
     {
       "utcDate": "2026-07-01T16:00:00Z",
-      "home": null,
-      "away": null,
+      "home": "England",
+      "away": "Congo DR",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1406,8 +1406,8 @@
     },
     {
       "utcDate": "2026-07-01T20:00:00Z",
-      "home": null,
-      "away": null,
+      "home": "Belgium",
+      "away": "Senegal",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1430,8 +1430,8 @@
     },
     {
       "utcDate": "2026-07-02T19:00:00Z",
-      "home": null,
-      "away": null,
+      "home": "Spain",
+      "away": "Austria",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1442,8 +1442,8 @@
     },
     {
       "utcDate": "2026-07-02T23:00:00Z",
-      "home": null,
-      "away": null,
+      "home": "Portugal",
+      "away": "Croatia",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1455,7 +1455,7 @@
     {
       "utcDate": "2026-07-03T03:00:00Z",
       "home": "Switzerland",
-      "away": null,
+      "away": "Algeria",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1467,7 +1467,7 @@
     {
       "utcDate": "2026-07-03T18:00:00Z",
       "home": "Australia",
-      "away": null,
+      "away": "Egypt",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1479,7 +1479,7 @@
     {
       "utcDate": "2026-07-03T22:00:00Z",
       "home": "Argentina",
-      "away": null,
+      "away": "Cape Verde Islands",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1490,8 +1490,8 @@
     },
     {
       "utcDate": "2026-07-04T01:30:00Z",
-      "home": null,
-      "away": null,
+      "home": "Colombia",
+      "away": "Ghana",
       "status": "TIMED",
       "hs": null,
       "as": null,
