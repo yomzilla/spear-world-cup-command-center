@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T19:47:21.380Z",
+  "generatedAt": "2026-06-28T20:46:43.997Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -81,7 +81,7 @@
       "l": 1,
       "gf": 8,
       "ga": 3,
-      "yc": 5,
+      "yc": 7,
       "rc": 0
     },
     "Colombia": {
@@ -1312,7 +1312,7 @@
       "utcDate": "2026-06-28T19:00:00Z",
       "home": "South Africa",
       "away": "Canada",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "hs": 0,
       "as": 0,
       "stage": "LAST_32",
