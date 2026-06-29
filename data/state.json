@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T22:43:25.851Z",
+  "generatedAt": "2026-06-29T23:43:55.961Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -177,10 +177,10 @@
     "Germany": {
       "w": 2,
       "d": 0,
-      "l": 1,
-      "gf": 10,
-      "ga": 4,
-      "yc": 1,
+      "l": 2,
+      "gf": 15,
+      "ga": 10,
+      "yc": 5,
       "rc": 0
     },
     "Ghana": {
@@ -301,12 +301,12 @@
       "rc": 0
     },
     "Paraguay": {
-      "w": 1,
+      "w": 2,
       "d": 1,
       "l": 1,
-      "gf": 2,
-      "ga": 4,
-      "yc": 9,
+      "gf": 8,
+      "ga": 9,
+      "yc": 12,
       "rc": 1
     },
     "Portugal": {
@@ -1336,13 +1336,13 @@
       "utcDate": "2026-06-29T20:30:00Z",
       "home": "Germany",
       "away": "Paraguay",
-      "status": "IN_PLAY",
-      "hs": 1,
-      "as": 1,
+      "status": "FINISHED",
+      "hs": 5,
+      "as": 6,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": "DRAW"
+      "winner": null
     },
     {
       "utcDate": "2026-06-30T01:00:00Z",
@@ -4073,6 +4073,32 @@
           "min": 54,
           "mm": "54'",
           "dist": 5.8
+        }
+      ]
+    },
+    "400021513": {
+      "cards": {
+        "Paraguay": {
+          "y": 4,
+          "r": 0
+        },
+        "Germany": {
+          "y": 4,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Paraguay",
+          "min": 42,
+          "mm": "42'",
+          "dist": 10
+        },
+        {
+          "team": "Germany",
+          "min": 54,
+          "mm": "54'",
+          "dist": 11.2
         }
       ]
     },
