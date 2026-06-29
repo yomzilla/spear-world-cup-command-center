@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T20:22:03.604Z",
+  "generatedAt": "2026-06-29T21:49:24.105Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1336,13 +1336,13 @@
       "utcDate": "2026-06-29T20:30:00Z",
       "home": "Germany",
       "away": "Paraguay",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 1,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-30T01:00:00Z",
