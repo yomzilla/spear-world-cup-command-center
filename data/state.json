@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T18:23:49.698Z",
+  "generatedAt": "2026-06-29T20:22:03.604Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -58,11 +58,11 @@
       "rc": 1
     },
     "Brazil": {
-      "w": 2,
+      "w": 3,
       "d": 1,
       "l": 0,
-      "gf": 7,
-      "ga": 1,
+      "gf": 9,
+      "ga": 2,
       "yc": 7,
       "rc": 0
     },
@@ -222,10 +222,10 @@
     "Japan": {
       "w": 1,
       "d": 2,
-      "l": 0,
-      "gf": 7,
-      "ga": 3,
-      "yc": 3,
+      "l": 1,
+      "gf": 8,
+      "ga": 5,
+      "yc": 4,
       "rc": 0
     },
     "Jordan": {
@@ -1324,13 +1324,13 @@
       "utcDate": "2026-06-29T17:00:00Z",
       "home": "Brazil",
       "away": "Japan",
-      "status": "IN_PLAY",
-      "hs": 1,
+      "status": "FINISHED",
+      "hs": 2,
       "as": 1,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": "DRAW"
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-06-29T20:30:00Z",
@@ -4073,6 +4073,38 @@
           "min": 54,
           "mm": "54'",
           "dist": 5.8
+        }
+      ]
+    },
+    "400021516": {
+      "cards": {
+        "Japan": {
+          "y": 3,
+          "r": 0
+        },
+        "Brazil": {
+          "y": 2,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Japan",
+          "min": 29,
+          "mm": "29'",
+          "dist": 21.6
+        },
+        {
+          "team": "Brazil",
+          "min": 56,
+          "mm": "56'",
+          "dist": 5.5
+        },
+        {
+          "team": "Brazil",
+          "min": 90.05,
+          "mm": "90'+5'",
+          "dist": 11.1
         }
       ]
     },
