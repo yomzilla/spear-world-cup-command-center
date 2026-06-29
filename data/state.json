@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T21:49:24.105Z",
+  "generatedAt": "2026-06-29T22:43:25.851Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -306,7 +306,7 @@
       "l": 1,
       "gf": 2,
       "ga": 4,
-      "yc": 8,
+      "yc": 9,
       "rc": 1
     },
     "Portugal": {
@@ -441,7 +441,7 @@
     "goldenBoot": 1,
     "fastestGoal": 28,
     "furthestGoal": 7,
-    "dirtiestTeam": 39
+    "dirtiestTeam": 33
   },
   "fixtures": [
     {
@@ -1337,12 +1337,12 @@
       "home": "Germany",
       "away": "Paraguay",
       "status": "IN_PLAY",
-      "hs": 0,
+      "hs": 1,
       "as": 1,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": "AWAY_TEAM"
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-30T01:00:00Z",
