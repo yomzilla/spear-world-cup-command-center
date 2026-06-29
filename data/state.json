@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T21:47:20.326Z",
+  "generatedAt": "2026-06-29T07:16:28.676Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1502,7 +1502,7 @@
     },
     {
       "utcDate": "2026-07-04T17:00:00Z",
-      "home": null,
+      "home": "Canada",
       "away": null,
       "status": "TIMED",
       "hs": null,
