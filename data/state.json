@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T07:16:28.676Z",
+  "generatedAt": "2026-06-29T18:23:49.698Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -63,7 +63,7 @@
       "l": 0,
       "gf": 7,
       "ga": 1,
-      "yc": 5,
+      "yc": 7,
       "rc": 0
     },
     "Cabo Verde": {
@@ -225,7 +225,7 @@
       "l": 0,
       "gf": 7,
       "ga": 3,
-      "yc": 1,
+      "yc": 3,
       "rc": 0
     },
     "Jordan": {
@@ -1324,13 +1324,13 @@
       "utcDate": "2026-06-29T17:00:00Z",
       "home": "Brazil",
       "away": "Japan",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 1,
+      "as": 1,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-29T20:30:00Z",
