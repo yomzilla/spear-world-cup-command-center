@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T23:43:55.961Z",
+  "generatedAt": "2026-06-30T01:51:38.516Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -178,8 +178,8 @@
       "w": 2,
       "d": 0,
       "l": 2,
-      "gf": 15,
-      "ga": 10,
+      "gf": 14,
+      "ga": 9,
       "yc": 5,
       "rc": 0
     },
@@ -304,8 +304,8 @@
       "w": 2,
       "d": 1,
       "l": 1,
-      "gf": 8,
-      "ga": 9,
+      "gf": 7,
+      "ga": 8,
       "yc": 12,
       "rc": 1
     },
@@ -1337,8 +1337,8 @@
       "home": "Germany",
       "away": "Paraguay",
       "status": "FINISHED",
-      "hs": 5,
-      "as": 6,
+      "hs": 4,
+      "as": 5,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
@@ -1348,13 +1348,13 @@
       "utcDate": "2026-06-30T01:00:00Z",
       "home": "Netherlands",
       "away": "Morocco",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 0,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-06-30T17:00:00Z",
