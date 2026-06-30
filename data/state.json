@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T22:14:54.437Z",
+  "generatedAt": "2026-06-30T23:39:11.255Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -166,10 +166,10 @@
       "rc": 0
     },
     "France": {
-      "w": 3,
+      "w": 4,
       "d": 0,
       "l": 0,
-      "gf": 10,
+      "gf": 13,
       "ga": 2,
       "yc": 1,
       "rc": 0
@@ -375,9 +375,9 @@
     "Sweden": {
       "w": 1,
       "d": 1,
-      "l": 1,
+      "l": 2,
       "gf": 7,
-      "ga": 7,
+      "ga": 10,
       "yc": 5,
       "rc": 0
     },
@@ -438,7 +438,7 @@
   },
   "manual": {
     "biggestLoss": 13,
-    "goldenBoot": 1,
+    "goldenBoot": 18,
     "fastestGoal": 28,
     "furthestGoal": 7,
     "dirtiestTeam": 33
@@ -1372,8 +1372,8 @@
       "utcDate": "2026-06-30T21:00:00Z",
       "home": "France",
       "away": "Sweden",
-      "status": "IN_PLAY",
-      "hs": 1,
+      "status": "FINISHED",
+      "hs": 3,
       "as": 0,
       "stage": "LAST_32",
       "group": null,
@@ -2044,8 +2044,8 @@
     }
   ],
   "topScorer": {
-    "name": "Lionel Messi",
-    "team": "Argentina",
+    "name": "Kylian Mbappé",
+    "team": "France",
     "goals": 6
   },
   "prizeInfo": {
@@ -4197,6 +4197,29 @@
           "min": 90.01,
           "mm": "90'+1'",
           "dist": 8.3
+        }
+      ]
+    },
+    "400021523": {
+      "cards": {},
+      "goals": [
+        {
+          "team": "France",
+          "min": 45,
+          "mm": "45'",
+          "dist": 11.1
+        },
+        {
+          "team": "France",
+          "min": 53,
+          "mm": "53'",
+          "dist": 13.7
+        },
+        {
+          "team": "France",
+          "min": 74,
+          "mm": "74'",
+          "dist": 13.7
         }
       ]
     }
