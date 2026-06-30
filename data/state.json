@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T20:55:57.043Z",
+  "generatedAt": "2026-06-30T22:14:54.437Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1372,13 +1372,13 @@
       "utcDate": "2026-06-30T21:00:00Z",
       "home": "France",
       "away": "Sweden",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 1,
+      "as": 0,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-07-01T01:00:00Z",
