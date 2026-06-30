@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T06:00:29.353Z",
+  "generatedAt": "2026-06-30T09:56:39.291Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1342,7 +1342,7 @@
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-30T01:00:00Z",
@@ -1354,7 +1354,7 @@
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-30T17:00:00Z",
@@ -1503,7 +1503,7 @@
     {
       "utcDate": "2026-07-04T17:00:00Z",
       "home": "Canada",
-      "away": null,
+      "away": "Morocco",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1514,7 +1514,7 @@
     },
     {
       "utcDate": "2026-07-04T21:00:00Z",
-      "home": null,
+      "home": "Paraguay",
       "away": null,
       "status": "TIMED",
       "hs": null,
@@ -1526,7 +1526,7 @@
     },
     {
       "utcDate": "2026-07-05T20:00:00Z",
-      "home": null,
+      "home": "Brazil",
       "away": null,
       "status": "TIMED",
       "hs": null,
