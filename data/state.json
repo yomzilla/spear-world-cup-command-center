@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:54:47.354Z",
+  "generatedAt": "2026-06-30T20:55:57.043Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -105,9 +105,9 @@
     "Côte d'Ivoire": {
       "w": 2,
       "d": 0,
-      "l": 1,
-      "gf": 4,
-      "ga": 2,
+      "l": 2,
+      "gf": 5,
+      "ga": 4,
       "yc": 4,
       "rc": 0
     },
@@ -283,11 +283,11 @@
       "rc": 0
     },
     "Norway": {
-      "w": 2,
+      "w": 3,
       "d": 0,
       "l": 1,
-      "gf": 8,
-      "ga": 7,
+      "gf": 10,
+      "ga": 8,
       "yc": 2,
       "rc": 0
     },
@@ -1360,7 +1360,7 @@
       "utcDate": "2026-06-30T17:00:00Z",
       "home": "Côte d'Ivoire",
       "away": "Norway",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "hs": 1,
       "as": 2,
       "stage": "LAST_32",
@@ -4099,6 +4099,34 @@
           "min": 54,
           "mm": "54'",
           "dist": 11.2
+        }
+      ]
+    },
+    "400021514": {
+      "cards": {
+        "Norway": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Norway",
+          "min": 39,
+          "mm": "39'",
+          "dist": 18.6
+        },
+        {
+          "team": "Côte d'Ivoire",
+          "min": 74,
+          "mm": "74'",
+          "dist": 7.8
+        },
+        {
+          "team": "Norway",
+          "min": 86,
+          "mm": "86'",
+          "dist": 7
         }
       ]
     },
