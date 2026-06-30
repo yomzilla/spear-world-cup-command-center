@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T09:56:39.291Z",
+  "generatedAt": "2026-06-30T18:54:47.354Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -288,7 +288,7 @@
       "l": 1,
       "gf": 8,
       "ga": 7,
-      "yc": 1,
+      "yc": 2,
       "rc": 0
     },
     "Panama": {
@@ -1360,13 +1360,13 @@
       "utcDate": "2026-06-30T17:00:00Z",
       "home": "Côte d'Ivoire",
       "away": "Norway",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 1,
+      "as": 2,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "utcDate": "2026-06-30T21:00:00Z",
