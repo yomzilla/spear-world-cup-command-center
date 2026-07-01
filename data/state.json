@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T23:39:11.255Z",
+  "generatedAt": "2026-07-01T01:56:07.776Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1384,13 +1384,13 @@
       "utcDate": "2026-07-01T01:00:00Z",
       "home": "Mexico",
       "away": "Ecuador",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 0,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-07-01T16:00:00Z",
