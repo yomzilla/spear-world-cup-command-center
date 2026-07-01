@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T21:46:09.261Z",
+  "generatedAt": "2026-07-01T22:56:20.808Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -40,12 +40,12 @@
       "rc": 0
     },
     "Belgium": {
-      "w": 1,
+      "w": 2,
       "d": 2,
       "l": 0,
-      "gf": 6,
-      "ga": 2,
-      "yc": 4,
+      "gf": 9,
+      "ga": 4,
+      "yc": 5,
       "rc": 1
     },
     "Bosnia and Herzegovina": {
@@ -348,9 +348,9 @@
     "Senegal": {
       "w": 1,
       "d": 0,
-      "l": 2,
-      "gf": 8,
-      "ga": 6,
+      "l": 3,
+      "gf": 10,
+      "ga": 9,
       "yc": 3,
       "rc": 0
     },
@@ -1408,13 +1408,13 @@
       "utcDate": "2026-07-01T20:00:00Z",
       "home": "Belgium",
       "away": "Senegal",
-      "status": "IN_PLAY",
-      "hs": 0,
+      "status": "FINISHED",
+      "hs": 3,
       "as": 2,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": "AWAY_TEAM"
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-07-02T00:00:00Z",
@@ -4274,6 +4274,44 @@
           "min": 74,
           "mm": "74'",
           "dist": 13.7
+        }
+      ]
+    },
+    "400021525": {
+      "cards": {
+        "Belgium": {
+          "y": 2,
+          "r": 0
+        },
+        "Senegal": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Senegal",
+          "min": 24,
+          "mm": "24'",
+          "dist": 5.3
+        },
+        {
+          "team": "Senegal",
+          "min": 51,
+          "mm": "51'",
+          "dist": 11.7
+        },
+        {
+          "team": "Belgium",
+          "min": 86,
+          "mm": "86'",
+          "dist": 7.2
+        },
+        {
+          "team": "Belgium",
+          "min": 89,
+          "mm": "89'",
+          "dist": 7.8
         }
       ]
     }
