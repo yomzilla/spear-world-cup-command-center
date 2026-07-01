@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T13:20:29.434Z",
+  "generatedAt": "2026-07-01T18:05:59.991Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -96,10 +96,10 @@
     "Congo DR": {
       "w": 1,
       "d": 1,
-      "l": 1,
-      "gf": 4,
-      "ga": 3,
-      "yc": 5,
+      "l": 2,
+      "gf": 5,
+      "ga": 5,
+      "yc": 6,
       "rc": 0
     },
     "Côte d'Ivoire": {
@@ -157,12 +157,12 @@
       "rc": 0
     },
     "England": {
-      "w": 2,
+      "w": 3,
       "d": 1,
       "l": 0,
-      "gf": 6,
-      "ga": 2,
-      "yc": 2,
+      "gf": 8,
+      "ga": 3,
+      "yc": 3,
       "rc": 0
     },
     "France": {
@@ -1396,13 +1396,13 @@
       "utcDate": "2026-07-01T16:00:00Z",
       "home": "England",
       "away": "Congo DR",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "FINISHED",
+      "hs": 2,
+      "as": 1,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-07-01T20:00:00Z",
@@ -4073,6 +4073,38 @@
           "min": 54,
           "mm": "54'",
           "dist": 5.8
+        }
+      ]
+    },
+    "400021512": {
+      "cards": {
+        "England": {
+          "y": 1,
+          "r": 0
+        },
+        "Congo DR": {
+          "y": 1,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "Congo DR",
+          "min": 7,
+          "mm": "7'",
+          "dist": 15.6
+        },
+        {
+          "team": "England",
+          "min": 75,
+          "mm": "75'",
+          "dist": 7.7
+        },
+        {
+          "team": "England",
+          "min": 86,
+          "mm": "86'",
+          "dist": 16.9
         }
       ]
     },
