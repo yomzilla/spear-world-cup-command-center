@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T10:33:41.904Z",
+  "generatedAt": "2026-07-01T13:20:29.434Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -438,7 +438,7 @@
   },
   "manual": {
     "biggestLoss": 13,
-    "goldenBoot": 1,
+    "goldenBoot": 18,
     "fastestGoal": 28,
     "furthestGoal": 7,
     "dirtiestTeam": 33
@@ -2044,8 +2044,8 @@
     }
   ],
   "topScorer": {
-    "name": "Lionel Messi",
-    "team": "Argentina",
+    "name": "Kylian Mbappé",
+    "team": "France",
     "goals": 6
   },
   "prizeInfo": {
