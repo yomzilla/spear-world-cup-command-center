@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T18:05:59.991Z",
+  "generatedAt": "2026-07-01T20:08:51.936Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1408,13 +1408,13 @@
       "utcDate": "2026-07-01T20:00:00Z",
       "home": "Belgium",
       "away": "Senegal",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 0,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-07-02T00:00:00Z",
