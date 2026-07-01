@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T01:56:07.776Z",
+  "generatedAt": "2026-07-01T06:28:04.715Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -141,11 +141,11 @@
     "Ecuador": {
       "w": 1,
       "d": 1,
-      "l": 1,
+      "l": 2,
       "gf": 2,
-      "ga": 2,
-      "yc": 5,
-      "rc": 0
+      "ga": 4,
+      "yc": 8,
+      "rc": 1
     },
     "Egypt": {
       "w": 1,
@@ -247,10 +247,10 @@
       "rc": 0
     },
     "Mexico": {
-      "w": 3,
+      "w": 4,
       "d": 0,
       "l": 0,
-      "gf": 6,
+      "gf": 8,
       "ga": 0,
       "yc": 2,
       "rc": 1
@@ -1384,13 +1384,13 @@
       "utcDate": "2026-07-01T01:00:00Z",
       "home": "Mexico",
       "away": "Ecuador",
-      "status": "IN_PLAY",
-      "hs": 0,
+      "status": "FINISHED",
+      "hs": 2,
       "as": 0,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": "DRAW"
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-07-01T16:00:00Z",
@@ -1515,7 +1515,7 @@
     {
       "utcDate": "2026-07-04T21:00:00Z",
       "home": "Paraguay",
-      "away": null,
+      "away": "France",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -1527,7 +1527,7 @@
     {
       "utcDate": "2026-07-05T20:00:00Z",
       "home": "Brazil",
-      "away": null,
+      "away": "Norway",
       "status": "TIMED",
       "hs": null,
       "as": null,
@@ -4175,6 +4175,28 @@
           "min": 90.02,
           "mm": "90'+2'",
           "dist": 18.3
+        }
+      ]
+    },
+    "400021520": {
+      "cards": {
+        "Ecuador": {
+          "y": 3,
+          "r": 1
+        }
+      },
+      "goals": [
+        {
+          "team": "Mexico",
+          "min": 22,
+          "mm": "22'",
+          "dist": 17.3
+        },
+        {
+          "team": "Mexico",
+          "min": 31,
+          "mm": "31'",
+          "dist": 15.3
         }
       ]
     },
