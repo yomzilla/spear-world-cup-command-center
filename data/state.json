@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T07:48:15.660Z",
+  "generatedAt": "2026-07-02T19:55:35.176Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1432,13 +1432,13 @@
       "utcDate": "2026-07-02T19:00:00Z",
       "home": "Spain",
       "away": "Austria",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "PAUSED",
+      "hs": 1,
+      "as": 0,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-07-02T23:00:00Z",
