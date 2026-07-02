@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T22:56:20.808Z",
+  "generatedAt": "2026-07-02T00:08:34.494Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -1420,13 +1420,13 @@
       "utcDate": "2026-07-02T00:00:00Z",
       "home": "United States",
       "away": "Bosnia and Herzegovina",
-      "status": "TIMED",
-      "hs": null,
-      "as": null,
+      "status": "IN_PLAY",
+      "hs": 0,
+      "as": 0,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "utcDate": "2026-07-02T19:00:00Z",
