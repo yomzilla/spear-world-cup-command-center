@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T00:08:34.494Z",
+  "generatedAt": "2026-07-02T04:20:10.615Z",
   "live": true,
   "source": "football-data.org",
   "results": {
@@ -51,10 +51,10 @@
     "Bosnia and Herzegovina": {
       "w": 1,
       "d": 1,
-      "l": 1,
+      "l": 2,
       "gf": 5,
-      "ga": 6,
-      "yc": 6,
+      "ga": 8,
+      "yc": 8,
       "rc": 1
     },
     "Brazil": {
@@ -409,13 +409,13 @@
       "rc": 0
     },
     "United States": {
-      "w": 2,
+      "w": 3,
       "d": 0,
       "l": 1,
-      "gf": 8,
+      "gf": 10,
       "ga": 4,
       "yc": 5,
-      "rc": 0
+      "rc": 1
     },
     "Uruguay": {
       "w": 0,
@@ -1381,7 +1381,7 @@
       "winner": "HOME_TEAM"
     },
     {
-      "utcDate": "2026-07-01T01:00:00Z",
+      "utcDate": "2026-07-01T02:00:00Z",
       "home": "Mexico",
       "away": "Ecuador",
       "status": "FINISHED",
@@ -1420,13 +1420,13 @@
       "utcDate": "2026-07-02T00:00:00Z",
       "home": "United States",
       "away": "Bosnia and Herzegovina",
-      "status": "IN_PLAY",
-      "hs": 0,
+      "status": "FINISHED",
+      "hs": 2,
       "as": 0,
       "stage": "LAST_32",
       "group": null,
       "venue": null,
-      "winner": "DRAW"
+      "winner": "HOME_TEAM"
     },
     {
       "utcDate": "2026-07-02T19:00:00Z",
@@ -4274,6 +4274,32 @@
           "min": 74,
           "mm": "74'",
           "dist": 13.7
+        }
+      ]
+    },
+    "400021524": {
+      "cards": {
+        "United States": {
+          "y": 0,
+          "r": 1
+        },
+        "Bosnia and Herzegovina": {
+          "y": 2,
+          "r": 0
+        }
+      },
+      "goals": [
+        {
+          "team": "United States",
+          "min": 45,
+          "mm": "45'",
+          "dist": 13.9
+        },
+        {
+          "team": "United States",
+          "min": 82,
+          "mm": "82'",
+          "dist": 20.5
         }
       ]
     },
